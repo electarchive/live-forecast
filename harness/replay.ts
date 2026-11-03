@@ -95,10 +95,11 @@ function score(set: string, race: Race, at: string, first: string, share: number
   );
 }
 
-function real(year: number) {
+function real(set: string) {
   const data: Record<
     string,
     {
+      year?: number;
       st?: string;
       seat?: string;
       base: Array<Row>;
@@ -106,11 +107,12 @@ function real(year: number) {
       snaps: Array<{ at: string; counties: Record<string, Votes> }>;
       truth: { margin: number; total: number };
     }
-  > = JSON.parse(readFileSync(resolve(root, `frames/${year}.json`), "utf8"));
+  > = JSON.parse(readFileSync(resolve(root, `frames/${set}.json`), "utf8"));
   let index = 0;
   for (const [key, s] of Object.entries(data)) {
     index += 1;
     if (index % parts !== part) continue;
+    const year = s.year ?? Number(set);
     const st = s.st ?? key;
     const counts: Array<Count> = [];
     const frames: Array<Frame> = [];
@@ -130,7 +132,7 @@ function real(year: number) {
       frames.push({ at: snap.at, totals, reporting: null, expected: null });
     }
     const race: Race = {
-      id: `real${year % 100}/${key}`,
+      id: set === "holdout" ? `holdout/${key}` : `real${year % 100}/${key}`,
       slug: `us/${st}/${year}/${s.seat ?? "president"}`,
       title: key,
       office: "other",
@@ -160,7 +162,7 @@ function real(year: number) {
       const counted = frame.totals[0]! + frame.totals[1]! + frame.totals[2]!;
       const share = counted / s.truth.total;
       if (share < 0.05) continue;
-      score(String(year), race, frame.at, frames[0]!.at, share, s.truth.margin, s.truth.total);
+      score(set, race, frame.at, frames[0]!.at, share, s.truth.margin, s.truth.total);
     }
   }
 }
@@ -433,9 +435,8 @@ function simulated() {
 }
 
 for (const set of sets) {
-  if (set === "2020") real(2020);
-  if (set === "2022") real(2022);
   if (set === "simulated") simulated();
+  else real(set);
 }
 mkdirSync(out, { recursive: true });
 writeFileSync(resolve(out, parts > 1 ? `${name}.${part}.jsonl` : `${name}.jsonl`), rows.length > 0 ? `${rows.join("\n")}\n` : "");

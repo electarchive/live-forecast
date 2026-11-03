@@ -21,6 +21,10 @@ GROUPS = {
     "presidential": lambda row: row["set"] == "presidential",
     "simulated": lambda row: row["set"] in ("midterm", "presidential"),
     "close": lambda row: row["set"] in ("midterm", "presidential") and abs(row["truth"]) < 0.1,
+    "holdout": lambda row: row["set"] == "holdout",
+    "holdout2020": lambda row: row["race"].startswith("holdout/2020-"),
+    "holdout2022": lambda row: row["race"].startswith("holdout/2022-"),
+    "holdout2024": lambda row: row["race"].startswith("holdout/2024-"),
 }
 
 

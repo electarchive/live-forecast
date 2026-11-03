@@ -5,3 +5,4 @@ inputs/counties.json
 outputs/*.*.jsonl
 __pycache__/
 inputs/sources/
+frames/holdout.json
