@@ -6,7 +6,18 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from score import DRAWS, GROUPS, ROOT, SEED, calls, metrics, reliability, terms
+from score import (
+    CHANCE,
+    COUNTED,
+    DRAWS,
+    GROUPS,
+    ROOT,
+    SEED,
+    calls,
+    metrics,
+    reliability,
+    terms,
+)
 
 KEYS = ("brier", "log", "wis", "cover80", "mae", "turnout")
 STRICT = (0.995, 0.999, 0.9999, 0.99999, 0.999999, 0.9999999)
@@ -52,6 +63,32 @@ def summary(rows: list[dict]) -> dict:
     return metrics(rows) | calls(rows) | {"ece": sum(count * abs(p - o) for p, o, count in table) / max(n, 1)}
 
 
+def first(rows: list[dict]) -> dict[str, tuple[float, bool]]:
+    races: dict[str, list[dict]] = defaultdict(list)
+    for row in rows:
+        races[row["race"]].append(row)
+    out = {}
+    for race, found in races.items():
+        for row in sorted(found, key=lambda row: (row["share"], row["at"])):
+            p = row["pD"]
+            if min(row["sin"], 1) >= COUNTED and max(p, 1 - p) >= CHANCE:
+                out[race] = (row["share"], (p >= 0.5) == (row["truth"] > 0))
+                break
+    return out
+
+
+def speed(model: list[dict], baseline: list[dict]) -> dict:
+    ours, theirs = first(model), first(baseline)
+    both = [race for race in ours if race in theirs and ours[race][1] and theirs[race][1]]
+    return {
+        "races": len(both),
+        "model": sum(ours[race][0] for race in both) / len(both) if both else None,
+        "baseline": sum(theirs[race][0] for race in both) / len(both) if both else None,
+        "modelFirst": sum(1 for race in both if ours[race][0] < theirs[race][0]),
+        "baselineFirst": sum(1 for race in both if theirs[race][0] < ours[race][0]),
+    }
+
+
 def strict(rows: list[dict]) -> dict[str, dict]:
     return {str(chance): calls(rows, chance) for chance in STRICT}
 
@@ -69,6 +106,7 @@ def compare(model: dict[tuple[str, str, float], dict], path: Path) -> dict:
                 "baseline": summary(theirs),
                 "gap": paired(ours, theirs),
                 "strict": strict(theirs),
+                "speed": speed(ours, theirs),
             }
     return results
 

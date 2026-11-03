@@ -1298,5 +1298,5143 @@
     ]
    ]
   }
+ },
+ "holdout": {
+  "2020-al-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/alabama/president.json",
+   "year": 2020,
+   "state": "al",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105085954",
+     "d9b81d6f8b674c5a1d34a31a758dec3262b6da94ea922d42ed9fa16205cf07f9"
+    ],
+    [
+     "20201105141800",
+     "219ce4e9d5f5d946312bc9328c359a61a7a381057d0eeb55ff92ad73c8e8a76a"
+    ],
+    [
+     "20201106001201",
+     "dc2cddac0f50e0e73098aa1d7e5f467dd5bbbea840c79a570ea1640b5d597b20"
+    ],
+    [
+     "20201106011809",
+     "1e5a943fe61aec1997aadaa81de2f95c3329e5e0eead36437c669b6a947ab8e3"
+    ],
+    [
+     "20201106021040",
+     "1234a567fba7917f345cd9891fe25c61052eecb9482680b6f8c9b4cecde8a089"
+    ],
+    [
+     "20201106101855",
+     "ea36732656f211b98379a743fc182ee8311e14c9bd813df4e4f5723255897533"
+    ],
+    [
+     "20201107114249",
+     "1a77ffbb8fedbb599f12d91c2eb87ef850cd10e885282de607c0d4c72ec22b46"
+    ],
+    [
+     "20201108020343",
+     "9694e29f5790d5b24589a4dba38a51253638e4af9849daf92195de201d27ce91"
+    ],
+    [
+     "20201108115658",
+     "e441e2e510789bd95cae8001471314c49c36c2f28a2bf4a10bcef049203d5da0"
+    ],
+    [
+     "20201109051416",
+     "11b9f977a0a5d2586a1588530ab3e054ea80f3c5b93b71195412e0b22b484022"
+    ],
+    [
+     "20201113201410",
+     "4b1f57ad2516cc3905981047c5ee7ee645b8e4cb156edcdece10e909eb5a89a0"
+    ],
+    [
+     "20201114234152",
+     "88ddc483292f7349472f70daebdd6496610fa05c4f6c72e3197776bca5b21854"
+    ],
+    [
+     "20201116001041",
+     "182c1b9438d0be013d3a505c6d1d50b00a1258cd81442aac295c64515dc37a0b"
+    ],
+    [
+     "20201116211405",
+     "90d2541203241b01cb23d648c6b6300b985771ee26fae6dfd2880c901be0c892"
+    ],
+    [
+     "20201117203036",
+     "de334a651d3c7ef85169255f591b604b86d674c5f98cb11474d89174a7309cfb"
+    ]
+   ]
+  },
+  "2020-ar-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/arkansas/president.json",
+   "year": 2020,
+   "state": "ar",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105024646",
+     "6311219017e9fe50b39a09101fc36497d4d485af28c2dfbd6d8afb013dc90d5e"
+    ],
+    [
+     "20201105141727",
+     "cd6b6c4332679fa75bfed894630467b464e0e00eadcf061c182d48caa3109efd"
+    ],
+    [
+     "20201105154720",
+     "f4a78d657805e09a8748fbcef4c0645c069dafee96fad7011e255ebfef4b0d65"
+    ],
+    [
+     "20201105173908",
+     "40762be2ed519d7d23af6955dc2dad28a8dcc6164ce398a75f005f7f6258c95a"
+    ],
+    [
+     "20201106001214",
+     "fd4aef676f6c98ddbf32594d21123e6f4d95ea8288a4b2a5ccda37bc844a7684"
+    ],
+    [
+     "20201106021026",
+     "2c330091f897e59f6b775cd4bca658f2dae534f6d7ab460b6a7286154e533721"
+    ],
+    [
+     "20201106101846",
+     "b7a107e80c1e819bb5e0f38d7e9b31c73f816c24cf11d33a49895e79b6897ed7"
+    ],
+    [
+     "20201107114218",
+     "36a9acf93b54fdefe39e38d72a5433b6e11957e3cd6b05912c136594e18bdf51"
+    ],
+    [
+     "20201108115605",
+     "a6821894434d286ec620504d5a5254977d17137a2b40238aff9db5d7cfc33e5f"
+    ],
+    [
+     "20201109051737",
+     "777bc9d99d2bf45585d01fcfbc947e6dfe9e8f3a6743123af062a631c56e6c2c"
+    ],
+    [
+     "20201113201721",
+     "0b87f52cf0a7f8118f54f38051813ae9050f3b05f9d286d9b3d19f33f8983685"
+    ],
+    [
+     "20201114234736",
+     "fa09b4fdcec0e7d8e5430b1068ffafa70dcfe0cf1ae4a05a1a5c3bb870bc0eb5"
+    ],
+    [
+     "20201116211733",
+     "2ec1623e6429378527c72f766504c8bafb61ac098500eed9932e3d9aa97c8c23"
+    ],
+    [
+     "20201117203318",
+     "38af7257a62d2a17bba9fa898aa416137baaf98cf9d82c28309ea1eeb44824b3"
+    ]
+   ]
+  },
+  "2020-az-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/arizona/president.json",
+   "year": 2020,
+   "state": "az",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104131441",
+     "275d536022c992837c866b719394eb11d8423f40d1566e83e6c987e349405226"
+    ],
+    [
+     "20201104143540",
+     "9c83bdfb674b619085daff63e2cf23147769663981dd358a0f9d46c8bb01b153"
+    ],
+    [
+     "20201104193111",
+     "d9747569743e49b05e5ae60a88a173b576871576419b8475e853f7e1a08f81f6"
+    ],
+    [
+     "20201104224847",
+     "07b3d0f508305548cafc8fc62fd8e271e5e5ce691da5d9501d1de0d405350ec5"
+    ],
+    [
+     "20201105023715",
+     "f1788658e0080c277e7e7404b6e80bdfd08ad4febd66338673a5324c0647f238"
+    ],
+    [
+     "20201105070710",
+     "2ce5de1c217022ed77c22eefd9f19f33f33c6b139c69999367ee640869c88058"
+    ],
+    [
+     "20201105082026",
+     "d3f2710186f1827b6f1cba22836c1c9dc073fa132919da77743db717401afa8d"
+    ],
+    [
+     "20201105085638",
+     "4aa0b01b4b5fc2996ffaa48100b1655a567aba58caa4a3182f890b725270c3cf"
+    ],
+    [
+     "20201105104103",
+     "79911e3de1c4e1c4c9cdf691b0c666863886563fefe1e55a388fe4c94560f528"
+    ],
+    [
+     "20201105141856",
+     "471ef78866c7baa60445c4a434d32bc5d8e6db61bb443b1a1b4370faa3f146a4"
+    ],
+    [
+     "20201105150516",
+     "ab0ceeea321f0fe36af8144970bdef30458a68249224ffd78286f97b5ea17d37"
+    ],
+    [
+     "20201105172540",
+     "09cf8abf78ec72f0e4b0c62af4f1a1a55420edc9b8775c2cb21be307ed00c676"
+    ],
+    [
+     "20201105210507",
+     "5d06f361ae6ed7068386a6d5eb402dad6aabb088f262eddb4c9ec1b546b70510"
+    ],
+    [
+     "20201106001305",
+     "c1f6c3942ce41d0a9ca6cd6ce63f070179802ea1c8fe5750b5038e65e01baa85"
+    ],
+    [
+     "20201106011904",
+     "5f98aab4778daaa90ca96a86cc101138a117167f58cc41dea7023b7030753211"
+    ],
+    [
+     "20201106021007",
+     "fa8cff64eb9fa489a71c49e6cbfd2da776d4e9912a986b7862d9bdf003dadf77"
+    ],
+    [
+     "20201106102013",
+     "8cf0eab15934f43f03d33df18843ac4271d09ff1d4c3de9c8e53f4069d9d2ef7"
+    ],
+    [
+     "20201106162538",
+     "0a0d5898b9ef7c38f0020a154f72925e54628375f3ed4e3c8464926cd15d1519"
+    ],
+    [
+     "20201106190633",
+     "dd4d8c050914cff3d0cb53a38fb66c9bb4495cd652b476a4c64baa807ccd30e4"
+    ],
+    [
+     "20201106222655",
+     "bb3673af9a4193ee8d8a5058098cd7b0c9e72e30083e8c2a26da5aa926a1c2ad"
+    ],
+    [
+     "20201107114343",
+     "f27dd14f04dffa66e7e04f35d3fa27c5d7dd559b62219e97051b07a9507c16e2"
+    ],
+    [
+     "20201107170126",
+     "dfa71f1d034ddd9f31efa4168fa6dd984520184925a571bc2eacb999735f8a7d"
+    ],
+    [
+     "20201108115714",
+     "fd5d61f8db2e5b7792e9bd884dad605d2414dbfc79b7a715ff82f784108298a9"
+    ],
+    [
+     "20201109043524",
+     "904e60a55d992bc9c0a421170573e379482834315a45fbaf4b65d7f285dad2d6"
+    ],
+    [
+     "20201109052058",
+     "6e131bfb6532aa527393a1ed7aad40d6586a363e3cdf0fc02c8d2124c110a45e"
+    ],
+    [
+     "20201110031052",
+     "050ab0021a5f211635a59a08a2cc65df07091e16da44bce6751d48fba9823b3f"
+    ],
+    [
+     "20201110055224",
+     "734ba221e127641c10f2eb73af98f9f75096016b846dde4d29ecd459f14592b4"
+    ],
+    [
+     "20201111053322",
+     "b99d7861ca74150b6630be0d072e84277cc96d907e80751b70267b2dc142a4fa"
+    ],
+    [
+     "20201111205207",
+     "47e3bebcfd576b5df42acd5fd59e3080693c0b7edee40e066d857fb4dc89ddf6"
+    ],
+    [
+     "20201111232123",
+     "2f90b80d476170c584fb3530506b97186f81a679ceafa1462392cc64c8c6662f"
+    ],
+    [
+     "20201113121341",
+     "70de1baa34f69b2c6f0b9875d6b263ab5e2b46812127032628840dba48b8bed1"
+    ],
+    [
+     "20201113154035",
+     "0637a99e76c221ebfffed6af30ad5cfabcd7f415a690c7f7ebde42160d70fa05"
+    ],
+    [
+     "20201113182504",
+     "307e96ce354022fb0fe3fe80a9acd43b071c81f3ed3a4cd01bc394f6b6e9cad8"
+    ],
+    [
+     "20201114004404",
+     "335ed189ac9b89074e2b1dd7092890abd06b060333a307675ae988b05a0d0bda"
+    ],
+    [
+     "20201114200615",
+     "b99f5d33145ab2a05598a62ac6395456fe80e4c0a9357d85e3e9575083dfc12f"
+    ],
+    [
+     "20201115191341",
+     "54fb52ec62822b73cd7684a87239fbcfa1a613f9a3a73d2b1344fc535fe968a3"
+    ],
+    [
+     "20201116183602",
+     "ff35dc09816138e742501eda01ac91ad665fde7f3544b525298f04648786a684"
+    ],
+    [
+     "20201116231332",
+     "b4563b6003aac59e8067b6d13e076f69dc5b68a588d0de4e1e600c444435944a"
+    ],
+    [
+     "20201117172246",
+     "bf2dfe7514b8e006c7a2f8e17e7c16884ea9ecc7a78338318303b058a0eaa6a5"
+    ],
+    [
+     "20201117182033",
+     "f420a2b1c1db55e538df0c3119f52d6b754ac5e5ea05a3376bc470e9e20af808"
+    ]
+   ]
+  },
+  "2020-az-senate-special": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/arizona/senate/0/special.json",
+   "year": 2020,
+   "state": "az",
+   "seat": "senate-special",
+   "captures": [
+    [
+     "20201104040201",
+     "46f1f9c1426d1d4839b737ab950ebeafbaf0533b5dd7fe5a6aae4c2e9b0b1009"
+    ],
+    [
+     "20201105031315",
+     "479dfc632f0a5c6fe7fe8c057ae9bc24600d9c4b5b7104a95e0258dd3fa3f271"
+    ],
+    [
+     "20201106014914",
+     "3aaec1181a2c170bb4d5ea0e050b01e0073a6caaa897df32afae0d226f933f29"
+    ],
+    [
+     "20201106142136",
+     "56be62967bca72e78a24dcd861ef23e55fd5285ee2ba148304011da07d36108b"
+    ],
+    [
+     "20201107213733",
+     "7a502d855e5b0f70f3914e8f1b6b60b1e0223b6709eeb0aaf0e2a829d347f102"
+    ]
+   ]
+  },
+  "2020-ca-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/california/president.json",
+   "year": 2020,
+   "state": "ca",
+   "seat": "president",
+   "captures": [
+    [
+     "20201103220549",
+     "306c7cd443c709c178491d6a5639450bc1a7dfdbfb203e2f6791db14f3638c37"
+    ],
+    [
+     "20201105085941",
+     "07024b475a59214992a949ac33dd69f461d3e4895fa96a044b7be518bab7e77a"
+    ],
+    [
+     "20201105141726",
+     "42d9c34dc6cdbfe5139d98237670d8f459aec187b0249403ba0e91eb45759809"
+    ],
+    [
+     "20201105154654",
+     "eec784b3b67a5cc77ac638cca4947f6b336bb343df4a8edbb505098f33ac1405"
+    ],
+    [
+     "20201106001144",
+     "d50001a9f3ba7d7ceaaf1002797371301dff0b940372fca02f8c10e65ac043da"
+    ],
+    [
+     "20201106021100",
+     "75f1546948bfc067bd681839853dcd0f1083815ee3d336b355c76a807d5c344d"
+    ],
+    [
+     "20201106101838",
+     "cbbac7bb7077f92d09842010a54c80182b063d77df98835d65065eab19646109"
+    ],
+    [
+     "20201107114213",
+     "4c089631656f82be552bf4cfb7db28c8dd4db7ac9c52cc9e8ed948622ee8773f"
+    ],
+    [
+     "20201108020349",
+     "04a0acdce31b42aee4d94d15bb3c384f69be651f7636d114b476c69ae3ffae4e"
+    ],
+    [
+     "20201108115601",
+     "e878fbb2530070e117e1f837438d8f47971f7cf8e916393c4c2484ad6e92919f"
+    ],
+    [
+     "20201109052435",
+     "5ca4ca3cad345aca8e6a69021997164c426e7a8821979d0d361236932e2826e6"
+    ],
+    [
+     "20201113105018",
+     "e75f7fb84caef8eed4fd6dc2422099a1a9c91c5ea5eab0634bb7cbbf3adfced2"
+    ],
+    [
+     "20201114175714",
+     "4115a8d7ba53cf453acdc6588e720f61b91a3516b541524626b6d7ec8a34f54b"
+    ],
+    [
+     "20201115145604",
+     "e1621989fa8eccbd07969e74470cfb2d9706c0b04652e3b349a08a61b3688f31"
+    ],
+    [
+     "20201116155612",
+     "6f104dedc97acc1f0a2a41e735eff348c1eb7050fdd0ec6c085cea9bd215d339"
+    ],
+    [
+     "20201116221754",
+     "7a54eaecc299cec23f4ac1a4d97a523fcc20574a1d8053f2a76001d88c3cc02b"
+    ],
+    [
+     "20201117132732",
+     "a9e9356a4b17e2b7c568ddb6c9e70649044195a822b231b2252d85c11217d438"
+    ]
+   ]
+  },
+  "2020-co-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/colorado/president.json",
+   "year": 2020,
+   "state": "co",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105085936",
+     "211e36472e8324e3ad5dd8cda762d5154286c573cfeb1ec0bc1f5c0dc58cc287"
+    ],
+    [
+     "20201105141709",
+     "4d857c988954f9979791491c652bf91a538ffaa08546e161902ecd66a4aa8dfe"
+    ],
+    [
+     "20201105173906",
+     "ed9c669f9e4691bbdc1435ee3289db97e1c63bccf47ffb42fb93b024eacc6e46"
+    ],
+    [
+     "20201106001150",
+     "665fef84a32107a72abac38bc1b117d14888ace2ef6ac29df0d50dc59635240a"
+    ],
+    [
+     "20201106021033",
+     "aabc8ad97bd30ca49800ab976e424cd92f2930279661a46335a9b123c01a69b6"
+    ],
+    [
+     "20201106101831",
+     "16425108640fab82f579043295b59294af7c881d69703b310d30236818560f2b"
+    ],
+    [
+     "20201107114248",
+     "619729edbc318f639b844123e8c0e4645f760d06ecec16d6c8b6193567ae65de"
+    ],
+    [
+     "20201108020417",
+     "38dd4fc3e1ad3d617e2f45b9ffea1789b1feed375c591458bab22b0146c3a9d5"
+    ],
+    [
+     "20201108115600",
+     "d7b2fe8d928a573adda61b3968c2a1442bfdde75390b3dd6d3496abf59e82e53"
+    ],
+    [
+     "20201109052759",
+     "0271ecb0813b7f51117b2ad75056f6ae4c3254270ead0bcb91fd3d11ad02075a"
+    ],
+    [
+     "20201113182923",
+     "8179db2e76630966d320888ee01f682502cc645566b3adbb20993148303ffec6"
+    ],
+    [
+     "20201114202248",
+     "e297753a1817b60de4943b353e2077c3bd900e015471f43e33432b4bf2f7da2a"
+    ],
+    [
+     "20201115193119",
+     "ff1aa0f6b88385c1517c8902dd3868dce7455628bd61143484af5b86ca986e52"
+    ],
+    [
+     "20201116184520",
+     "4465a663e4312e69c39a58892ffcbbb3bdd47d7f114a01913f092cb953ff21a1"
+    ],
+    [
+     "20201117182621",
+     "863bfae48a4e62d4e74c42780f2b8652cef81ec8299777dca26865e74bb568d2"
+    ]
+   ]
+  },
+  "2020-co-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/colorado/senate.json",
+   "year": 2020,
+   "state": "co",
+   "seat": "senate",
+   "captures": [
+    [
+     "20201104022236",
+     "a56ab34a427a90507223dc38a043906b70b5f0cdd296057740f1665ec6e7c2ce"
+    ],
+    [
+     "20201104032159",
+     "efad213df38777b9a3ce887f7911b3a175d4938ab739c510bce21db8e7e3fa25"
+    ],
+    [
+     "20201105031610",
+     "22da2e0009d5e3f3aa6a02f70c88264e206c59cc71c7de60a74a17b538b6a128"
+    ],
+    [
+     "20201106014824",
+     "da5f94f254d60afb910ed0f9d2fa24a181878a9abfd8002a1f149c3ff1623347"
+    ]
+   ]
+  },
+  "2020-ct-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/connecticut/president.json",
+   "year": 2020,
+   "state": "ct",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105024717",
+     "be8826d12ae436168ed23496a5717d6aa2517ece6231ea070482522144026438"
+    ],
+    [
+     "20201105085936",
+     "18301364eb46183bbba9f3c5660c5a4e05f9efc41879a541981a3e7ada80e112"
+    ],
+    [
+     "20201105141705",
+     "0bb6a4d88f254eb9cb111dfeb1fae7ee46a09107d470d41d36e92a2ca48d941d"
+    ],
+    [
+     "20201106001144",
+     "42b9a198aa05d597463e0345e210d2928ed8820f7fc58b456f46ba8a2a8b9246"
+    ],
+    [
+     "20201106011929",
+     "b9fb6ffb60452a6eb6858bc2b40a88cda03f80e04e650c22b952e5ee00ba67fe"
+    ],
+    [
+     "20201106021019",
+     "83950b81ee02f81c764a63959745e47a7900963e4ef152389b1221d9d4f05bc1"
+    ],
+    [
+     "20201106101825",
+     "f3c467f273b6a439e702669e7d6348b00d2c780196b8601233e15ff069ad7dc2"
+    ],
+    [
+     "20201107114200",
+     "38275b3e9966a59462b2f37dd112295cfa8bf39b76529d37b6752a9f21d3efcf"
+    ],
+    [
+     "20201108115631",
+     "3fa5a3e11f7c138ae1131254a818a1fb448e0ea618139b2c05f20b3a9d4f17c7"
+    ],
+    [
+     "20201109053053",
+     "20cae68bb9247ba07ba9261f5fa2e5ddf536c9699c020238222f376596d40b70"
+    ],
+    [
+     "20201113105938",
+     "22cb366943ea75ee92c9b916b8b8e90b52ef4c88c4f71a28f7faa56323690bd6"
+    ],
+    [
+     "20201114180224",
+     "7f584c8b3dd39d67d3109943bd51514757632667424562b67078ba6043863b2c"
+    ],
+    [
+     "20201115151914",
+     "0cf89de087c885a35a194057a2a2b66fa53163cba0057e869bf179b38414d8ab"
+    ],
+    [
+     "20201116160105",
+     "810e7697bccf87de7225c0f5c7890fce80b04b0d22f0cdc60cf5c456a2b2be61"
+    ],
+    [
+     "20201116222730",
+     "f0997da0a6e24ddb593e272ee66a6d89450902ef0210da100833a6e61f890d6c"
+    ],
+    [
+     "20201117133822",
+     "4be60fa0a67711242ceeeb2606fd79bedf3359e6707b4375decb498a8de1ee6b"
+    ]
+   ]
+  },
+  "2020-de-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/delaware/president.json",
+   "year": 2020,
+   "state": "de",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105024706",
+     "8e22e5f46a927cd2d50321a4bee94376f2f1dd75a514e36ac59f109230527a7f"
+    ],
+    [
+     "20201105085928",
+     "2e74954e0048299631670b2c02ac090f369c90e5e3acdad73d4da9f6d63b0cee"
+    ],
+    [
+     "20201105141811",
+     "1d41ea79dbeda0379dd66c506579b88be4daecafe651317f6b93c7cfe2947b6a"
+    ],
+    [
+     "20201106001137",
+     "61a1f7c618260cf6821bc89f2b002513328835e945e36982d53cd37591895da4"
+    ],
+    [
+     "20201106012126",
+     "fd374ef483ad050bbb93e0087440ab68a4fbfd3d848737d5c248ce375d8bb6f3"
+    ],
+    [
+     "20201106021007",
+     "aaa7782270afdd355611e5a3ee23c5b91506bf6ad28e2642602537b442e2215d"
+    ],
+    [
+     "20201106101824",
+     "f8301a949e4f1141f2dbd464af8fcefc47e60ea857ee3cc438fe5ae403332d80"
+    ],
+    [
+     "20201107114233",
+     "a4683c639b30bcf4f9eb832a69be11b1630f58b10e485fdb7f6392f4477be5a0"
+    ],
+    [
+     "20201108115543",
+     "5149ef268114b392190c88212b7817abc524015123f930384795a8c8bb5408b1"
+    ],
+    [
+     "20201109053104",
+     "334a926df446ac064e25d470fbd5c31d63478b2620f643fb8a44942977d82550"
+    ],
+    [
+     "20201113115608",
+     "94fc9b49f664ea01fe3e4bdf0dff1362c044294c7f4349b76e1849c63a1a115a"
+    ],
+    [
+     "20201114181225",
+     "5889399219e0c32139ce02d257eb0ca237a6bb30df2424517d89343fdb2555d1"
+    ],
+    [
+     "20201115155003",
+     "f30a1f3181134e424980b19ffe0981336d9757d014d111532100e5f16a731f62"
+    ],
+    [
+     "20201116160532",
+     "37656e5564fc4f63b80045cc60392a3a3b6114e40964282d0a47474c40806138"
+    ],
+    [
+     "20201117150144",
+     "a2bc72270d58c64f18b08f63cecebcba924f94626cafaa302c2172d42a73f56c"
+    ]
+   ]
+  },
+  "2020-ga-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/georgia/senate.json",
+   "year": 2020,
+   "state": "ga",
+   "seat": "senate",
+   "captures": [
+    [
+     "20201105144101",
+     "3ef3a30d989ffedb89bb2a74a42646ab9c074d770391be89e5b23cc0d1888d01"
+    ],
+    [
+     "20201106014820",
+     "ad9c118914e312ae9e4345c8caf596d89d3f4dbeef001a499dc0d6b36f6fbd57"
+    ],
+    [
+     "20201107033249",
+     "f587c180a220e821f26cfcb3ffafb3a02556a51dc7528f8ecb6bf27b37c11076"
+    ],
+    [
+     "20201107053208",
+     "0d4b9386742bb880d8842838bbd7984ee56980f7d577db5382fbb986c0ead809"
+    ],
+    [
+     "20201107113132",
+     "90a94e01404382bd764ccc3963980f2680892ca690887fab4d3a4c01802184f5"
+    ]
+   ]
+  },
+  "2020-ga-senate-special": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/georgia/senate/0/special.json",
+   "year": 2020,
+   "state": "ga",
+   "seat": "senate-special",
+   "captures": [
+    [
+     "20201104043618",
+     "6e5b026c6f049b9241ff17cf4b0d289c265a0f7bb8f946736a63b2c678435eee"
+    ],
+    [
+     "20201104212513",
+     "af5d5350549100a60167dd008b27c303c65316aa50a26d8cab4cced00a6f18e2"
+    ],
+    [
+     "20201106014825",
+     "32e42526daad50e98228e73df340905a9a6fda00a2f4e983dd3b0a5de6d49b8f"
+    ]
+   ]
+  },
+  "2020-hi-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/hawaii/president.json",
+   "year": 2020,
+   "state": "hi",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104233443",
+     "8c872f23a8901fc117b1cdd6d8ca9bed6e08a24de1a8311adef757e903fe42d6"
+    ],
+    [
+     "20201105085927",
+     "f34d687f4dae38c02432c4c4af41e4af99a78d0a41b1c0ac2eff4556c8f6946c"
+    ],
+    [
+     "20201105141643",
+     "732f72d7b7377b8dc789d3c4e532b1d8ecefaed33371861ac3ff060aaf559362"
+    ],
+    [
+     "20201106001127",
+     "e8ea44781a6fa26a8431935be28071fa47744b3d7a8991e0ce3ade03ef0317cf"
+    ],
+    [
+     "20201106011804",
+     "024c197519d9d200c4575b7cbf024ef1bd88cd04a1143befcf79d26b6ba15962"
+    ],
+    [
+     "20201106020947",
+     "9e916e9aeec42011b28b8ee644a7d77755a78fedac0197108592d2daa112be65"
+    ],
+    [
+     "20201107114152",
+     "0e70d701ff49e262110facdf6ef08cd76524ffc8fa3232f96502a341c87ad623"
+    ],
+    [
+     "20201108020335",
+     "b13f7a58abf6c3d5598a83264fdc0d71fbf8c41aac572b368bff6bb975ad1b9d"
+    ],
+    [
+     "20201108115539",
+     "3e01a82d9656630aa1998725df81e25e9d87669cea2fc166f8110e2bee648e85"
+    ],
+    [
+     "20201109053138",
+     "09915d31995f6324d4eb1ed3aa3693c37d537def80220d473f3a336e3c25cb5e"
+    ],
+    [
+     "20201113123223",
+     "80b2ab0f300d9833fc925a438f1c845df0be9b67c68f3bb95a28d26e895e392b"
+    ],
+    [
+     "20201114182859",
+     "dae8e4f38b008634c6cd1afa29e63a65b12aa44f01c7459b4e66d759aa7bf84f"
+    ],
+    [
+     "20201115164935",
+     "2919f8480e34bdc32c71ec0b17531534a59d660f3dd305f9afb8f8882ed691e5"
+    ],
+    [
+     "20201116162800",
+     "509c99fd78f729cc9ea39306e747c562a901e171cf8aa10d7a27e3fb2700b43d"
+    ],
+    [
+     "20201116224238",
+     "c09494702ffafb81e655a6bb40e70b3ef43a3b92319d84cdc137961d7463392b"
+    ],
+    [
+     "20201117171223",
+     "0e4790321065ad0fd01b38f0de12cd2fc65ee4955546b99e901b23806808118a"
+    ]
+   ]
+  },
+  "2020-ia-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/iowa/president.json",
+   "year": 2020,
+   "state": "ia",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105024830",
+     "2a07fcc9309a34091d374f495a9bb09da90272957c9f25c2481ce9a5da0d1279"
+    ],
+    [
+     "20201105090048",
+     "8937f50beb315b17e837e58f6ae6bf6733ccdec2a1451a284d9aeb9dc7591ef5"
+    ],
+    [
+     "20201105113654",
+     "70b5794249c9dc28a2e8660a3df78bd4b4329a816fdca05cce3d737dc2f98f1f"
+    ],
+    [
+     "20201105141845",
+     "651426f10d482fc0a90e643694f3c777e98e01429b83e14c825c6347d768ccb6"
+    ],
+    [
+     "20201106001319",
+     "cda86572ad90c64b456324d96ce9bb87288bf3e3c5972d92eebc76ac8c287592"
+    ],
+    [
+     "20201106011853",
+     "b3a415fd0bf99035245c1494a88f5cb5ade714e253644b29f9ed2449197052da"
+    ],
+    [
+     "20201106021006",
+     "1f1c02264cd6bb16de199efc2cae110600e7cf1ba64211e6d156beaf14982bfa"
+    ],
+    [
+     "20201106101957",
+     "bae524969bee0ec5f503160d843334c3473dd802da11de422a2a31934e1e6033"
+    ],
+    [
+     "20201106222640",
+     "d77d2d2de2498c465550f84532acb423cde1300cc89663d78dd2eb8102b2befd"
+    ],
+    [
+     "20201107114436",
+     "b0a14acc9f76b12e73eaf129265cabcec2d0bd00f271175ab5ae5427cc4f6180"
+    ],
+    [
+     "20201108115709",
+     "a5c4e61b130cd77f46e04ee844e4286872469067681fbf965f1295bf1541e603"
+    ],
+    [
+     "20201109053150",
+     "7accdaea1f85be52c0cf3a085068bf4003e4e64e4ca9065b8755984c6d369a1b"
+    ],
+    [
+     "20201113192154",
+     "79b49b9a954165fcc1262abc67a8cb1cfc9727c26c8907e2272e4901c9c89e2e"
+    ],
+    [
+     "20201114215725",
+     "d40263bbad03641e1d3964da7c5a6b23418d1525e1e79598f81b41eceb62efc0"
+    ],
+    [
+     "20201115212540",
+     "59d7fe1010db520df1198b6e9d5eb7e31f6cc283a3b6769f215571c49d4c17c1"
+    ],
+    [
+     "20201116195852",
+     "7fea2e4777aa59d76e95df375d0346df7387290b425f982bdb4370c17a0ad79d"
+    ],
+    [
+     "20201116233253",
+     "bffbc0ea1a6649b1fbff99f72eb28dfb9c4ccf9897b22380e570957257b8dc1f"
+    ],
+    [
+     "20201117191647",
+     "f9ac54516a963e0f35709f90b04647875b6e79418116ebbab88e7e2c112b646a"
+    ]
+   ]
+  },
+  "2020-id-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/idaho/president.json",
+   "year": 2020,
+   "state": "id",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105085922",
+     "45c1b43c27f912ccf5384669909177b566644e08c5bb5335d6d9d8bbbce10c49"
+    ],
+    [
+     "20201105141735",
+     "33af0a9463a46fa5d820d36a5454647380336fbe521dfa552a369b9cfafea51f"
+    ],
+    [
+     "20201105154724",
+     "27d9d788966163cc8310b23c1c6db9e657a8e3882b896f743c51ef8815fd5cfe"
+    ],
+    [
+     "20201106001123",
+     "c82df547fb0d5a44000ea7cc5268aec30e92b18a917dad97f1bf51575921112e"
+    ],
+    [
+     "20201106020924",
+     "3ee4caed8eed53cb99cffb81321231d52171f81556aae2a9b944b789a6f34ee7"
+    ],
+    [
+     "20201107114146",
+     "e37863baf4b667412f3b4931c7853cc1deeae43a70cc9df2157a02df7ecb6331"
+    ],
+    [
+     "20201108115609",
+     "301747a421a6e338f333eccd39d5d8b4e793e958e539229d2790c0d1e9d45b2d"
+    ],
+    [
+     "20201109053202",
+     "5ebe5a307372601dc70ecd12bb235ec44c8a0385f3c66e4529d05bdb13a6faf7"
+    ],
+    [
+     "20201113234957",
+     "9e333151a44ce0faa44c6236943ee3ac046643217e11e6e56d04c4389889b83f"
+    ],
+    [
+     "20201114235312",
+     "c97883a4d468d96a768b3252a12ff765a93d15e84e6a8522eed43e7eaa2446a9"
+    ],
+    [
+     "20201116010245",
+     "7240b215e6c82a53453e0a72437cb260556fb2aa1094f5d77f07e72d6bbcf3ff"
+    ],
+    [
+     "20201116212033",
+     "16358d5af55af9d8e8190bec6a09fb53095ddeef3e987f653b3c4561bae63468"
+    ],
+    [
+     "20201117203910",
+     "c1a609bba39a56870917ebb466a312eba7be1d49ed9b001944a0be3e01c26669"
+    ]
+   ]
+  },
+  "2020-il-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/illinois/president.json",
+   "year": 2020,
+   "state": "il",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105085918",
+     "aa6c80f68ec7fa2f02aa2dba3ad4dc9a09e6f4c96f2ece00c606f275d619b9be"
+    ],
+    [
+     "20201105141631",
+     "aa58fa538e08894d248d65748cd15050541f1c93ad315a945266af246ae72dc0"
+    ],
+    [
+     "20201105154708",
+     "4c33707e1d869881bf7c5bcfb9356fa7db61d1a8a88722707a32d2f83635595a"
+    ],
+    [
+     "20201106001154",
+     "4552d0795e83a06e84745d4581b3001923bed0f312851b725036978879ad8600"
+    ],
+    [
+     "20201106020921",
+     "23ee036ba2caf0a01d0eb3d1fd8a75f3ffc62fd044710f3e688ac7620a81f74d"
+    ],
+    [
+     "20201107114142",
+     "5fc8b406b6aa871afd39379913243f0d39d6456381a664da1bef6bb79b0898ba"
+    ],
+    [
+     "20201108115530",
+     "5f43f93401f268c18c6c6ff042c8e9030b7e423d879d560dce6d392abc2bf6d3"
+    ],
+    [
+     "20201109053214",
+     "ecf40b91d7870993ffce8de7416b904c90f7c38e2dd0c674d5527b422d86815a"
+    ],
+    [
+     "20201113134419",
+     "ec23797f15443dfa41607aea5c29b2b0be12f1ec1ca3a64361c1164d84077c78"
+    ],
+    [
+     "20201114183233",
+     "9e945cd6e1da259256b704cf06df9319cd7418dc0fec906f2c19c9468da3377f"
+    ],
+    [
+     "20201115171448",
+     "a9763e29bd653eeb7d75fcf672ae90bd6c719efc5711199ca601236bc98884af"
+    ],
+    [
+     "20201116224659",
+     "4674bc9fd3667f535bee70e608820e15471f943e4c8a8a7766f73bc751ac67c9"
+    ],
+    [
+     "20201117173247",
+     "91be16f52a4cb4218e5f879a44fdba0d1927bc7004b21121de16c28d263ebded"
+    ]
+   ]
+  },
+  "2020-in-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/indiana/president.json",
+   "year": 2020,
+   "state": "in",
+   "seat": "president",
+   "captures": [
+    [
+     "20201103232236",
+     "0340892dab4658f2a30e15e63f98bb86edf092739bb7185a5237300b619cdb25"
+    ],
+    [
+     "20201104072038",
+     "83168f211633044d6ff3bd058c40521a40250ab6e78ef5ff8836baf515256b6b"
+    ],
+    [
+     "20201105024800",
+     "7476e82c1b761e7a30b8378f4058b0d5fd0404733f0c6f131f281e2f8324d94b"
+    ],
+    [
+     "20201105085903",
+     "88330b1d41d3c633aac662d3c97eb9746c383c770be900c1c2e2cb35eb5bff95"
+    ],
+    [
+     "20201105141646",
+     "ffd6ddf64b31265d812a4410b0dec793b2a5dca0623c881314b061489b0ef3c3"
+    ],
+    [
+     "20201105154545",
+     "5ea188aca623df0406b073c65140da053a2a8f6f17326f48b55146530905b799"
+    ],
+    [
+     "20201105173936",
+     "4bc6bcd9863f1342aeabc30593f7e7dc914d247d935f0bcde1e1dcb38acd68d2"
+    ],
+    [
+     "20201106001107",
+     "55357b30bc652b5009dbcd7fafe6a4c210007c009e344e2b11f597173d4ec216"
+    ],
+    [
+     "20201106020906",
+     "c7554e5aada06a60059d5962b25fcc29c11c8a066cca7e3dd8ef437203c52d8a"
+    ],
+    [
+     "20201107114138",
+     "081686392ad0013d1df04940b44f6f1874f5e995ad14cbb0cbf346fd7b326928"
+    ],
+    [
+     "20201108115522",
+     "d15ff71fbf6ea81c001c4778b902c6304a84ff129a2b9c5be9e2631e428cbfee"
+    ],
+    [
+     "20201109053225",
+     "95d011aca3fc7c6fb76c06f079bc02101dee0d53cf0a80e4f3176604350662f4"
+    ],
+    [
+     "20201113195304",
+     "a78c202c3c87830cef4ca511cee38f94656a83690ebd07bea65b48e3f806306f"
+    ],
+    [
+     "20201114225904",
+     "c47117acc28e06610001173f78e426741fe8278604b46d65a7e8286b996d52d4"
+    ],
+    [
+     "20201115225008",
+     "da0a3a0bd3777109f8c845b62d372387138878dff5974be41f2a3067fd530aa7"
+    ],
+    [
+     "20201116203752",
+     "bbc02ed3f7594693534ff28a9f595d4b6fa1aad2eeb849d603a276496940084d"
+    ],
+    [
+     "20201116234806",
+     "1e5a17f0f159031b74704fba65466d374dad3858b338cf09f6e37b507b1c30a7"
+    ],
+    [
+     "20201117194117",
+     "f520fba302673d0d88fdbf9414b61d014d17c55e5c09047af9ccbc7cdc994312"
+    ]
+   ]
+  },
+  "2020-ks-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/kansas/president.json",
+   "year": 2020,
+   "state": "ks",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105024701",
+     "678d91e5cd4637e171c4a0a8a99da6cd6b5edac76bee167c1f13db29c41ac625"
+    ],
+    [
+     "20201105085903",
+     "9c0b78b8bdefa64036c7d47aa5d58810fe347aed289ea9dfaae6dae474378b50"
+    ],
+    [
+     "20201105141623",
+     "7d2e26fea2bb1e5ea78ae7ffe187f483430eb61540471ab8134be90f92a3c8c8"
+    ],
+    [
+     "20201105154706",
+     "aa5a341bf97c676accc73bc4be2bfeef0d47138a0fc67af1414161fd6321971e"
+    ],
+    [
+     "20201106001059",
+     "15478d95204ff918b1b6cb89a60d7d94d32c29bb983bffb54e3c9d7acb119cc9"
+    ],
+    [
+     "20201106020903",
+     "230f17c8970d4d18e5a712ea68c9dda86209fa9770df9f3dc8d1cf13ec963924"
+    ],
+    [
+     "20201107114159",
+     "749d4d05ab7acb9d5e090ac9120c436fe4663ce96e5904145d189f286eebf758"
+    ],
+    [
+     "20201108115519",
+     "68f6f5b822461c40044b96fd3b129afd3e59ed63744b341d9b368ff3f45c0587"
+    ],
+    [
+     "20201109053237",
+     "6c676b08c6947554ff992462b621960559e9f97753792885a4aec212bc75cda9"
+    ],
+    [
+     "20201113195659",
+     "da78a8dc0fdcae52f6d9a6fee265603098f4eed28a7e01da1cc1fa8e53549755"
+    ],
+    [
+     "20201114230356",
+     "01de679c5433526a22916d3a31fe2145cfe8c4e2e51ea38a6c437c3f97ce9eac"
+    ],
+    [
+     "20201115225502",
+     "bd4df97d92073cf203e5da70f5e97febc155ca29e5f9900c483c5a8ea545aaa6"
+    ],
+    [
+     "20201116204128",
+     "a336a0aee3e3d30542810029d8e8ff47a03a604233579fade51625ddacc9b107"
+    ],
+    [
+     "20201117194416",
+     "97d1771f034477fc29b69b7b99afa850080709774f61a39c6b0b0fb666565526"
+    ]
+   ]
+  },
+  "2020-ky-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/kentucky/president.json",
+   "year": 2020,
+   "state": "ky",
+   "seat": "president",
+   "captures": [
+    [
+     "20201103234449",
+     "5fbcd61cddb8163da817bd1425ee33fb7f5a35fd29f4fd0d08cc22035c82c1f9"
+    ],
+    [
+     "20201104003449",
+     "99c137c5a64222bcabe63b0d545e4902855145fed385b3a16dc0a009445e7a3a"
+    ],
+    [
+     "20201105024853",
+     "a40c24a66ac0f54ef17b9feba5b1967210286427aa31dba6af06bfefd903369a"
+    ],
+    [
+     "20201105085854",
+     "a306ab2f9b6efd183247f0b7ba2c95b139563dfb1e57d1211660621992c6e049"
+    ],
+    [
+     "20201105141610",
+     "f74307e3e30d2cf4f9d98d87d9e8249239dbfdd510216d4bf61557aa001883c7"
+    ],
+    [
+     "20201105154712",
+     "80fa24fc96c5c4d52e2f70d0c0356475ce07a9d7f92a56f6634117d53c9d0ed3"
+    ],
+    [
+     "20201105173804",
+     "8e3d689e64e6169ca45d3f83e4e02cf7c4e81976b678654241c627bec53f6b3e"
+    ],
+    [
+     "20201106001108",
+     "65efee3e7e5830397103c0740417762583110a4a1f4d52eab255cdb1cc4fcf0c"
+    ],
+    [
+     "20201106020936",
+     "559789072becb2dfa62bea1987af0558fdc26fc35380ca535b974c47d4a20748"
+    ],
+    [
+     "20201106234223",
+     "af625872fa30eee0eecb93191b1904e3e74bc52f1ffdf94b8b4b031aa784ff5e"
+    ],
+    [
+     "20201107114137",
+     "d205c1b8d5feed8dea12f955d79493f49883cdc587bcf740522a2e9c54ea4802"
+    ],
+    [
+     "20201108115509",
+     "c4d413a2bb7624316ce5f3144d2a8fa57c0e4782223e7b1fd5452511812ba56d"
+    ],
+    [
+     "20201109053248",
+     "453cb412b1164875fab3fc6e4374f2889b98a0eace45f379e51fb6d4af5f1fa2"
+    ],
+    [
+     "20201114000009",
+     "021e66fafc630b32e3568a395887a48e8d16a7047e69f4acc83e865ae2d8f239"
+    ],
+    [
+     "20201114235615",
+     "a4965d2b6df8f6805fe596080afa08456238d8d45c674255ea48bf679bed81fa"
+    ],
+    [
+     "20201116010912",
+     "3cc712b22b20c559e85c721ca45df45448d1d3e2196948f044d0cdf117ddca81"
+    ],
+    [
+     "20201116212339",
+     "2c1a1b8c08e496186fed24048fdb081017624f9bc8defd286ae0af7347e0f00d"
+    ],
+    [
+     "20201117204304",
+     "2466a4c5fed782e47e881a16c0211d8edce8e3816d7c65a753627f2542a402ed"
+    ]
+   ]
+  },
+  "2020-ky-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/kentucky/senate.json",
+   "year": 2020,
+   "state": "ky",
+   "seat": "senate",
+   "captures": [
+    [
+     "20201104011339",
+     "fb8b79ad3008c72cff25de5f00009087c6af752bdae82a970f134f25bc2d98f0"
+    ],
+    [
+     "20201104022833",
+     "83a6ada090ffb73e2de1c7771c018472247ef8a46aa587907fbdcc5f4f58337e"
+    ],
+    [
+     "20201105031729",
+     "e4905e896566d0dcefd8b324b92ab6a7fc0c81d149b1b2877c8fb942085c2f91"
+    ],
+    [
+     "20201106014709",
+     "d78b89879f32ab787f28b4d0fae31a81305b1b6980f0a8bb0d69bb61c131e569"
+    ]
+   ]
+  },
+  "2020-la-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/louisiana/president.json",
+   "year": 2020,
+   "state": "la",
+   "seat": "president",
+   "captures": [
+    [
+     "20201105085845",
+     "7134b63830187fb7b4bcabb92e76565085f57dbaad1e80ebb0fd71a0278f8142"
+    ],
+    [
+     "20201105141636",
+     "66325ef204255257bbb79f14c75fddffc317d5dda80e9723abc29bd61503e8f1"
+    ],
+    [
+     "20201105173918",
+     "50d4d51b5b600f36b09cbe709c8e486afbfb07559a2a4e5ca89d813dc266550d"
+    ],
+    [
+     "20201106001049",
+     "1fd9c29db3d00ed2839eca4535b6ad849f96fd38ee9c788fb70e001607de45cc"
+    ],
+    [
+     "20201106011910",
+     "48a74941b70e4160c735207727bf01616ba4d85f85f214c4d53fccbe64075e41"
+    ],
+    [
+     "20201106020920",
+     "73528d1698c00aec2c5b83bb737592f6deeec63fab2bd68cce025af080ea40d8"
+    ],
+    [
+     "20201107114133",
+     "0b50e068fe1978e8cc11a525ab513a9d10f0af10803513f811bfffb8c8a5c154"
+    ],
+    [
+     "20201108115505",
+     "de09e2da1bb833ab84d2b63eb4e49c0ffe0bde20c6803056473bdbf1cabeb405"
+    ],
+    [
+     "20201109053300",
+     "a6bc1960a9b37847da3ea3f41b41c55b427cc81d712c91fe84dad7f981932051"
+    ],
+    [
+     "20201114000558",
+     "ae4d83af60f7c2de904dcbf1534ad458c20b16dacfd7d03b626d296142918cc3"
+    ],
+    [
+     "20201115000216",
+     "f00498da0a3f265326344a7abd1e7e8d7ddf5cf9ad9696c7551d8625e9655c28"
+    ],
+    [
+     "20201116011213",
+     "70f365d6f73daa2a5d2c7660e6addd8687c081824f4d474a9cb1e398fdb218d6"
+    ],
+    [
+     "20201116212603",
+     "8126da549cad8c3ca68b83117150db1505646c3526aaa8d3e67a7f36715bffe3"
+    ],
+    [
+     "20201117205114",
+     "f435329975a10268d0457cd557435083f272115784173676d2ef6682ae7c605f"
+    ]
+   ]
+  },
+  "2020-ma-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/massachusetts/president.json",
+   "year": 2020,
+   "state": "ma",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104052450",
+     "76485c4dcc46452acf9e9079d5919e8a09185a81b54866532406ed3fc70fe374"
+    ],
+    [
+     "20201105081740",
+     "c1705dca02a2e4a6d8a4f67724b7f0acd153579aba9001b007977249f1eac818"
+    ],
+    [
+     "20201105090151",
+     "a20c00f90aa0da6de2b5e6f4ea2d70c10db665a1d61e3656ebbace207a2f3262"
+    ],
+    [
+     "20201105141542",
+     "c5fb40def6d51a783707cff548cbce9dc487bddbe6b601497703e1c4d4388577"
+    ],
+    [
+     "20201106001031",
+     "7499390978a7a99b1f02efe4fd291b06445e0f16e1af103ec479788a68194383"
+    ],
+    [
+     "20201106012109",
+     "aa49eba1f5c5d0b8afbf6e4f5eeec1f441912c7ac3d6957a6d7af6b9c8c98986"
+    ],
+    [
+     "20201106020835",
+     "67105fbaac205d3e9a2335f8605adf17e538209d0090e922adfd80eb7708168f"
+    ],
+    [
+     "20201106234219",
+     "dd11557eb02f57ad8ad47ab1192543a65f6ec302bcd5350897e47e960a1477ca"
+    ],
+    [
+     "20201107114115",
+     "b7f39c99952476c77e909379a26035a6bebd72c7e8cc592b32c9d461935a0a37"
+    ],
+    [
+     "20201108115514",
+     "d960289f1ea4a830b110ec966e758ea1167f9c5501cde619ce91363e747dcc46"
+    ],
+    [
+     "20201109053311",
+     "192608a94d98435430997f304a4985d3becf3b9c768b3a28655795b419ae1ace"
+    ],
+    [
+     "20201113170055",
+     "b4ee0052c60f512a4ee0e1f4d6edb4443495c0ab41be40e2a573dc6c243fa8cc"
+    ],
+    [
+     "20201114184536",
+     "c4d3fb9205f45b7b32ead3b102e5844181447174d7bd254d84645409011ce0e8"
+    ],
+    [
+     "20201115173038",
+     "0adcee2fe09cc9182cea9a49f0c52bd1d71986a0102255b1ec205ef626ba10f0"
+    ],
+    [
+     "20201116170934",
+     "f7ef223d3b6e68e03fa9aee17de2099c1e438e12c03c779053c630dec6f70d83"
+    ],
+    [
+     "20201117173950",
+     "dacf6b23e8bbf3d53c795a5344735afa66d73a5f377ab781905a5d9e150b4da8"
+    ]
+   ]
+  },
+  "2020-md-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/maryland/president.json",
+   "year": 2020,
+   "state": "md",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053653",
+     "6fff5b436cde82d99d3f1dea19e6e323a0d8d638b573b65fc7df830843fd06f3"
+    ],
+    [
+     "20201105081723",
+     "67d1ab746ce256b45238d6a9e93f15c84542c4e8ecf9fb0d40ca5ec005848002"
+    ],
+    [
+     "20201105090140",
+     "d56a9f1ce46734f2a4f044efaff68623739da9082eb92637c1df41c63d6f4302"
+    ],
+    [
+     "20201105141550",
+     "915206eff767c93129d706fba10e8677d1ffa672131077df39d194a1c62eb51c"
+    ],
+    [
+     "20201105154750",
+     "c1297b59b44c453189e1c9a8cda6dbc3ddf4464c7bfe9babd37e3026beae0f1e"
+    ],
+    [
+     "20201106001112",
+     "a6725693721073d848bc6406037566f4a1e3ad272199547b8fad8a7337a524c2"
+    ],
+    [
+     "20201106020923",
+     "40c270fe87cc7090f339b78977dd262f947e1daab716df6a0902a9b02685ce7e"
+    ],
+    [
+     "20201106234219",
+     "742a2dc33e2e9e2299c27ada3cd78a22e5fcedbc2140d18f67743cc47200c613"
+    ],
+    [
+     "20201107114119",
+     "1203c67fb3249eff93d5928cffbadca3a02ec00986448617a5ca31e6f765bdf0"
+    ],
+    [
+     "20201108020259",
+     "425b40802940a7e4e13e0abf629acd66a049ac6f7a18028f1f7a27cf6d56ff9c"
+    ],
+    [
+     "20201108115504",
+     "3539afb78c92b6797a7ddc34e600a92c9b83e33ae7ff6c6df7215090a9511357"
+    ],
+    [
+     "20201109053323",
+     "cc8a758f33a0239946e4185d62c0f980a988655d1113bd2612826e894cf409db"
+    ],
+    [
+     "20201113135608",
+     "a65b5f9cc5d8b7660c794b0ea040a7338bd69b258c9af313db7896a2d98fa02d"
+    ],
+    [
+     "20201113160154",
+     "3493cd7fb6634a74081a8b219cdbb451535ff78a39035f82a3b3b982baa88d9e"
+    ],
+    [
+     "20201114183716",
+     "aef2a2f03680aae1138c758693f48233bb67e3137c821d345fab3f5c14859c02"
+    ],
+    [
+     "20201115172422",
+     "b6793770ae30b0ac66d81a93aad897bf64c7261ceffcbd86e807862a2a8871eb"
+    ],
+    [
+     "20201116170037",
+     "6b3ac57a8f704087225f74405c0001c12794aae3abee5fb6400f173892fa03a1"
+    ],
+    [
+     "20201116224954",
+     "8a9903dc2b4ba1e7f8dcfbbaed29f5bce42eff78d8377e665d64a9b8db71f6b1"
+    ],
+    [
+     "20201117173643",
+     "9a980c288792311bbc80e18758922712a8813514190a9b33237d2f94edc3f7f3"
+    ]
+   ]
+  },
+  "2020-me-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/maine/president.json",
+   "year": 2020,
+   "state": "me",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053727",
+     "2543e649e8f2ad9eb8ac90a0d91d07401f7a1a7696d6811dad6be83d6e52c5d2"
+    ],
+    [
+     "20201104082247",
+     "e6da155fcf0a771b8e848d61d1197e3a2c24efe5c1237ea77cceb8d4c6247f17"
+    ],
+    [
+     "20201104092253",
+     "0bdc93bd2e6585c82e1599454a74c5a3760079a77947b246701e1a995150cdde"
+    ],
+    [
+     "20201104105435",
+     "75ff5ed9d1f00f7f7ebefda34c23e8c25d06a1a7f6a4a6f10147b554a0030d42"
+    ],
+    [
+     "20201104142024",
+     "ce533c8e567e61eef4aa78f17e5a13cd38ab0a9ffd0cb724c63aea46cb04d14b"
+    ],
+    [
+     "20201104184632",
+     "6e6ac062072035070a458c387007794225b31c5525b92203b63ee953fa57dda8"
+    ],
+    [
+     "20201104214210",
+     "30140e4e980163f9945956c50a400d4284cd41c99fb88fb066aebd0d42cfa60c"
+    ],
+    [
+     "20201104224813",
+     "a6bd1133256a50b730be74126bc06db4d2b7d4ba6083830443e96d3c62a93272"
+    ],
+    [
+     "20201105031835",
+     "9ac7e1b706edc771dc798e76867445df7d5dc08351f2eb754501191d92d9487a"
+    ],
+    [
+     "20201105085915",
+     "3303e54db9974343c55235ef9a993e2b817541bb9ed4429854f3bf773aa5668d"
+    ],
+    [
+     "20201105141601",
+     "5120337fdb848af1404d891600f1245802769265be2d9de949ea25b32680afac"
+    ],
+    [
+     "20201106012216",
+     "761292f41e104ca91ddbc9528fab8d5ba3065ea95e615073494a8e9d6fcdd15d"
+    ],
+    [
+     "20201106020845",
+     "7396e1d52c218e97d6f6e57d92ec601ddf00e23db0f9c07be2b3b4c0066c1e33"
+    ],
+    [
+     "20201107114128",
+     "6569e53844298189af8f83ac9e373c23170bc53c275d38cf0ab4b7f0007de441"
+    ],
+    [
+     "20201108115507",
+     "a999acd8733bc035779e124fa9b7fde41384694062e94daf5cd928285e892389"
+    ],
+    [
+     "20201109053334",
+     "f96f8cc27960c4d84b167b67b0978b94c6a62c5af73c811742c05991b8bd659a"
+    ],
+    [
+     "20201113183140",
+     "063df99b89ba35df1a407acba96a169debce993ca5012c796e419dc72e0c9c17"
+    ],
+    [
+     "20201114203144",
+     "f146265b4d273fe309201bf03aa17c4210a22ead2c2c4025132d9315dc7342ce"
+    ],
+    [
+     "20201115193548",
+     "5d8dd7e60c8a64e4d410e6094721406a5a21ca46712187d83e461a8a14bd92aa"
+    ],
+    [
+     "20201116184706",
+     "fb4a6cd5aea9afd8d479eea2864f22833ead0723b9b02fc1dc28eae6234a6a0d"
+    ],
+    [
+     "20201117183232",
+     "7b537a01535565baef505ff9e4cbd0cafe53d8eb1db8541171942f87182a8a9a"
+    ]
+   ]
+  },
+  "2020-me-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/maine/senate.json",
+   "year": 2020,
+   "state": "me",
+   "seat": "senate",
+   "captures": [
+    [
+     "20201104200253",
+     "0b034756ab3cee89d49adfb8a1b12eeab23c6b1079942dbec048604bc9aa2cda"
+    ],
+    [
+     "20201104225231",
+     "d04f1b863f60802264f19a54088fd2fd3edc54ca06b71a434610e772873a2dd7"
+    ],
+    [
+     "20201106014802",
+     "098bb57acd33d8458c22d4d589d1982e36ca3f3f17b05f3108230e1fa5a44425"
+    ]
+   ]
+  },
+  "2020-mi-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/michigan/president.json",
+   "year": 2020,
+   "state": "mi",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104061517",
+     "cd889dcdbdcdc04866c01e2b4d3fe01b79b7bd68194da8ce95f91f5185d4c20e"
+    ],
+    [
+     "20201104065740",
+     "09b4e106572dd39fdaa0d06aca1ba8d6f22707fb901140c227821f3059c5a696"
+    ],
+    [
+     "20201104130527",
+     "4eed896f87a92bd62919374f6ea59f64b33f4d7d55420913d7bf79949f6a9dba"
+    ],
+    [
+     "20201104140054",
+     "59a01cb0bb8ff1e1e65baf3210af42ce79d9c306675381ee9d3c37aeb30e2f38"
+    ],
+    [
+     "20201104143741",
+     "88175804a0357d7cd25ab97a8fd084a0d821a035c6e6400866adf56b1469d064"
+    ],
+    [
+     "20201104152726",
+     "c0472f4e163c2f5fe979e2e2e3ff91f54c4c6b16464c458a3121206343a36755"
+    ],
+    [
+     "20201104160750",
+     "6681b2fe98629d2d0c1e27f094a787e1334fc5b41077cbbee4a7cf51a2fe3e55"
+    ],
+    [
+     "20201104180207",
+     "004d793d45c37ce2ff6165be039c17a6061dda4ff2499e0b4c0ca5fdbee40921"
+    ],
+    [
+     "20201104202847",
+     "fc16a360aab4f4da89cad22de1c563a4e55239bcb3d27f348fa9486ddcd1281f"
+    ],
+    [
+     "20201104224837",
+     "f3ed3d518a29ce51bccc11ae03ba97d11dc8626c313bbccff73dcb0c57acac20"
+    ],
+    [
+     "20201105024910",
+     "bafc0e6995e579807a8814637ec22daacec3c2f3a4980644416dc80677d367af"
+    ],
+    [
+     "20201105031959",
+     "95797fd975ca1c3a3257a502813fa1cf56c22c2992d22cb83cb705dd6fea5fd9"
+    ],
+    [
+     "20201105085639",
+     "2c4bd39b8bdab2f9ee6fbeab573daf833cd6d0004f69079eb2bc6847daedd6cd"
+    ],
+    [
+     "20201105112824",
+     "d1c9b2f445640e5407d29b5d347c2c4667f126dd02815a482dce88ccdf0219ef"
+    ],
+    [
+     "20201105141830",
+     "0f9c02c925b61dbfa01471ab5db3c35e88be98ac7051e4abbd5898dac23787f3"
+    ],
+    [
+     "20201105154554",
+     "988f4cca4a902f053e6020d78e9feca13179ff08cf3d6bb44001eb3b07f8979a"
+    ],
+    [
+     "20201105164127",
+     "104a99610b63813734d5e94c06bb1a4d28aaa3ea643801a2fdda2ebbf2dce0e0"
+    ],
+    [
+     "20201105173846",
+     "dbb92fb100b916aea15cb45e339f005cf8ce0fa542556062d5d668f13cae009c"
+    ],
+    [
+     "20201105183037",
+     "c57e3d994f1263272dbe380ec6ab65103d2bea0ab1855f96b87b7cd1cb1cb1ac"
+    ],
+    [
+     "20201105210225",
+     "f07e8ed266a059a23da70528ff652933ae4f0a6a0e8ccd130e18e3b196ad3681"
+    ],
+    [
+     "20201106001257",
+     "3ad9a91aa6b1b9129fa77277c0a01306bb71efdf3bfadc0a2c38b15e2b85fd3c"
+    ],
+    [
+     "20201106011853",
+     "245abb7e50bd79015cf761ba07fe9ef60b5c30b05c78994575668dcd34e74892"
+    ],
+    [
+     "20201106020958",
+     "30353d9f3bc7d0b71b203166b9cd2ba99247dbcd366cc560b084db93bfb1c7cc"
+    ],
+    [
+     "20201106024941",
+     "99c8ef623041046843832a5b69d2a8fad9c01660dd9f6438bfdb066b270409bd"
+    ],
+    [
+     "20201106045350",
+     "e72bb2062285cb02e8f0752b6262fdc72e85b2bdb01ecd2b3fd7821de4287904"
+    ],
+    [
+     "20201106055756",
+     "d476daa83cc3499fb12d26de97c0250fc39e2c23cea7bcf54b18ebcc5bc0b55d"
+    ],
+    [
+     "20201106101950",
+     "0bfa38f88f24da91a8e3bfcd59885ce1ff3225c7f20095fa1bd1977b0a217ce3"
+    ],
+    [
+     "20201106222611",
+     "d8f0824dfbe4a712c14e9b5a2f19207244193c741a9f9a8406d2473a146ea92d"
+    ],
+    [
+     "20201107114325",
+     "dfb1b9a1a9919741d5083ea8b4e72da81f349b98417d6fd67605f3118dc180dc"
+    ],
+    [
+     "20201108115656",
+     "cf4d1d8e3ad8905134f10279cbf3e0d4cd1b679db1e08f183abed00593030854"
+    ],
+    [
+     "20201109053345",
+     "4d074e613539a6c2b654d21f8bded564ce85827da37f636e151a7c3351b43ff3"
+    ],
+    [
+     "20201110201950",
+     "3e9bc620df94b28ba2c2ed225d37b2b8817eadeaa1c781bc48eea8a2d7cdda72"
+    ],
+    [
+     "20201110224826",
+     "3bda4670ac8ec4df2da2309f8392cb6f62e01c4ae76f91d4b78384bc08e0ccba"
+    ],
+    [
+     "20201111000145",
+     "805f6cdc08c4d80a7f9c7877d19133822b93812304a31de78ad8e36c9c25f327"
+    ],
+    [
+     "20201111091524",
+     "d4c7993237876387bcc0574d7bcc07f5c5de87a622ca7233db624707bfce2222"
+    ],
+    [
+     "20201111110432",
+     "f33baef8044c36c49eb98e2d8ec5dbf536f97b4647295728eca58605f9af8320"
+    ],
+    [
+     "20201112074916",
+     "1fbd5eecb1e8083f125c0cc7bba2d334b396e448319ca98248192a90fc98b2db"
+    ],
+    [
+     "20201112150857",
+     "a78696e3a63884cafaa2cf5c71539b822f89d7bbf54b4c088e93e4f6e9f87daa"
+    ],
+    [
+     "20201112210843",
+     "2f4678cf9507be64bd964fc8fdf78d6b3005806e59ade474cd15c851f1b5c53e"
+    ],
+    [
+     "20201112235723",
+     "45f49d23744ec915035d208b5fa0ce432427c251d27add13bce1e9a068ce063a"
+    ],
+    [
+     "20201113002653",
+     "94481c31f9775a717a13949fb5ede980e7ba59215de260ffd3ef524b9723ca32"
+    ],
+    [
+     "20201113135227",
+     "8db30eb2d739dc720474f4f047e9618084d30b37f8fe60db7fa09c7fa4879930"
+    ],
+    [
+     "20201113183702",
+     "8166806a5b660b9d893d627853e32376bcc14a4ec78dc560d77048f5353b0247"
+    ],
+    [
+     "20201114110319",
+     "d5dd41c1ede820193061c43ccfdac2e75fa1667d904432c16d5050d53b54eb6a"
+    ],
+    [
+     "20201114204253",
+     "02c3faf38b38460f0d965b01654226f03dfd02a63d2087cd6681afcdf8c7d157"
+    ],
+    [
+     "20201114221608",
+     "6f82f981baa71ca8b06f85f44ab9ad5eea9c9fb643842601252c1ae903a93897"
+    ],
+    [
+     "20201115185215",
+     "f20913ddb5f876e239e7b57ec5864c3e278d05f06fef1ebea9feef4a1eef5134"
+    ],
+    [
+     "20201115201759",
+     "7251c93f63a96c2fbe31ce32d575e96af8808b2e3a123bff53f1f977b13eb383"
+    ],
+    [
+     "20201116120342",
+     "f05445baace25dd220ac8430f023f80df31c38255a51c42d13e67bd8d4eec343"
+    ],
+    [
+     "20201116184950",
+     "c008cd52a4adc2a1ecf0224f56e2ce1fdf98841fd3efdf1edd5a167dcc147211"
+    ],
+    [
+     "20201116231739",
+     "8fcc796c2dff5f9fe4c136df497bd830f7bddc37d517ddc8424a3e8db4c6c29a"
+    ],
+    [
+     "20201117124113",
+     "86e6227c1b1c1aa9574baa5d5cf81ee9f4770b4771a38875e2c5f9752926364f"
+    ]
+   ]
+  },
+  "2020-mi-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/michigan/senate.json",
+   "year": 2020,
+   "state": "mi",
+   "seat": "senate",
+   "captures": [
+    [
+     "20201104160549",
+     "062a81b64d385456aed0ab874d183d2a715de6f5665b8d49d3ca54ff1c061f33"
+    ],
+    [
+     "20201104202044",
+     "88b8e75a117f88701a6009872e1fba616e082cacecec7ecc452cf9b71049d8f5"
+    ],
+    [
+     "20201105024533",
+     "14d0a1e40f059fb3fd298b8703471a28e2dab93ea33dce2ba29ba8acf62d03fb"
+    ],
+    [
+     "20201105085649",
+     "412ed21118219bdd90ef702a294a5278340683b1e2ef217e10665d4639341559"
+    ],
+    [
+     "20201105141919",
+     "5af9a48cb8dc5527ed6f39aef5132d6faf0b92c84b26a0a3ffbf6e97523b4906"
+    ],
+    [
+     "20201105150544",
+     "f04b02ed547e57b11e7a0fa3a64b3e432a259fdfe5968819d13b12f21664ce60"
+    ],
+    [
+     "20201105154512",
+     "6f79993e804e99643619ad055e07673166aca9e5585224028006b0a10589c6a3"
+    ],
+    [
+     "20201105164225",
+     "814ef723bd8e865e238bb836f2018858e4f019b367ab4796ee4580cb16c0f86c"
+    ],
+    [
+     "20201105210528",
+     "ced109a7dc6b94b5ded1fd49ca41841d98c5e7139fa1b8a82767fcdddb7b5e73"
+    ],
+    [
+     "20201106001334",
+     "312175e89f06d1fdc81f0ac05af081d3f08b135b21f7f7985b8849a3c975723d"
+    ],
+    [
+     "20201106011924",
+     "02dba3dda7506913cb2ab55a36cbc9a05d943b6fb10a3ba6998f39adf0587293"
+    ],
+    [
+     "20201106021132",
+     "5591f03b7bbd682d73ed01d3bc61ad395837462b5a4699272aec1ef7d207d3e7"
+    ],
+    [
+     "20201106024642",
+     "446cb66ead84ccb67413ee06efbd8d98135836ecc753ec3df1f98a0cdc26d8a0"
+    ],
+    [
+     "20201106045339",
+     "b0b7a38618719e8972e66d602006046a8e4cfaa626d554bd653792ad19c8e818"
+    ],
+    [
+     "20201106102123",
+     "4f94b60cf079da5863e5d47dceb2f76ca571e9c9fefe3ce7dcf157ef7c797cc6"
+    ],
+    [
+     "20201106190645",
+     "8eb521df4363e673f43b342a0249c983dbfc59ab077e4120206614cbdb935d97"
+    ],
+    [
+     "20201106222727",
+     "7d8da13ccedd58d3e7131c4879636dccdae7e48be072cf832b548503784fc5ff"
+    ],
+    [
+     "20201107053155",
+     "6420a4a4aad57da958fce07f98335225132bf9f2c9fcfe742f0b3197accc59fa"
+    ],
+    [
+     "20201107054548",
+     "a78c67f10f9b412e803f7dc1767348fd1b6e61dec8d539b42aad40a0ff54cd3e"
+    ],
+    [
+     "20201107113210",
+     "f8942435d7fcbc3d2d0bb9e587a81dbbc832a446798a4c239349adda4d9c42fc"
+    ]
+   ]
+  },
+  "2020-mn-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/minnesota/president.json",
+   "year": 2020,
+   "state": "mn",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104031707",
+     "8b90b00574fb2fc1c89d67a0272b64bf59a4f7bc6636e8ecb8cbcca31b6c8d16"
+    ],
+    [
+     "20201104061117",
+     "fedc79d6efa8a62c3e08b70084624a8a2025edb5ea96ff5e4e8681027fee1e7d"
+    ],
+    [
+     "20201104224801",
+     "596684968fa0295c9ce4f0a9772a0ca4ee37946f7e19094ce4e6a6743d715a07"
+    ],
+    [
+     "20201105024544",
+     "57c8a0de75bfa2433492ebd5face870fceacc0565177e9342d2702b4d063fe10"
+    ],
+    [
+     "20201105032121",
+     "8938688158d69315ace13f34c3ad9bf7ba12228514be154b80af9f8ef7367892"
+    ],
+    [
+     "20201105090023",
+     "5afe56d8ca2ffbf308ba80085da68031cc9f11ccf384583ebe9d58d9ed8d59cf"
+    ],
+    [
+     "20201105112624",
+     "061ff93a6cc1f20f861910c3506f8a533d844729ef8783786ae74bf664237f28"
+    ],
+    [
+     "20201105141901",
+     "974347d26400fb3b8cfac0ccf85e5fc7261347d4fe57a7e79eaf9b472786b290"
+    ],
+    [
+     "20201105154809",
+     "dd501f0ca3228f39881c4e4bda9d2657314e9863a15879fc01adabd358c63b87"
+    ],
+    [
+     "20201105173740",
+     "64b97b34580cd0898d6346344803364065804e040657253833bc9c4dd0f33a2f"
+    ],
+    [
+     "20201106001238",
+     "69e43b882b177759c33c0c3ff57586f4e691024dc4dce298e4958e230488ddb5"
+    ],
+    [
+     "20201106011842",
+     "2fc08abcdff03e877646f2776a8652af6cd4ebd92a4212373e90a96cb158f188"
+    ],
+    [
+     "20201106020949",
+     "db4d92761ab193ef260749658ade8bb623df7b53c474b2349ae883e0ef0f7c19"
+    ],
+    [
+     "20201106102026",
+     "f806b2a1b828f8b6f3c3115dcd42d598a06d47a9ed339b55fb7a77f3048c32dd"
+    ],
+    [
+     "20201106222554",
+     "554b1a6586b2bb6cbe4c0fd3998d747badbfbf63ac7d0c8c5669a1d890ee6bf4"
+    ],
+    [
+     "20201107114316",
+     "90be9bf5174a80c98f4cb9aff18eb87f1929c5600b6db7355236e978cac1a340"
+    ],
+    [
+     "20201108020244",
+     "df7ca675def4f16e34dcfc0933738a46a9dd89ad7d6bb9b3465bf50d63151a09"
+    ],
+    [
+     "20201108115656",
+     "91b1a4dad50842ca416a4038ea77d10883a02ba654d177409325f4bade304e21"
+    ],
+    [
+     "20201109053357",
+     "dd0c6428e87d01e4857e6ea27e6f0ce22debe4fd373698770147fbb766c0d946"
+    ],
+    [
+     "20201113073605",
+     "4e4ecea9f353a402a94236d68ce33c6d9838bae85cdb3692e6ccd9c8d6b6808f"
+    ],
+    [
+     "20201113184146",
+     "c1928fbd7181f302694502e89dc41193c4c8e7fd05dd2210724daaa4ed918c8f"
+    ],
+    [
+     "20201114205733",
+     "4a5eedabc302073c4bbb335d607d491e7f77f9d389975f17afed4149d87b22c2"
+    ],
+    [
+     "20201115204440",
+     "7c57287ebba39baed1e17eb4fdb1ecbbb7f921b2ddab62ecf508bc45e77b2f28"
+    ],
+    [
+     "20201116185451",
+     "0f7d374140c125637adba8e444dbf5ed532d63a6d54043230cf6ace9c14a83b2"
+    ],
+    [
+     "20201117183824",
+     "af8f80bd255a0b1915efdf51c2626591bf130c280470f9f233ddc1e96c8407e5"
+    ]
+   ]
+  },
+  "2020-mo-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/missouri/president.json",
+   "year": 2020,
+   "state": "mo",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053638",
+     "8276b65c6e7cccfe719d6f4e0449dd6a0546a17df8423905d33323f679f38f65"
+    ],
+    [
+     "20201105024917",
+     "5d82b290918cc7a3d38d415165193b0609aeafd3ba149f68a195f056ac4ade07"
+    ],
+    [
+     "20201105081732",
+     "b5966bbf014c3a4843ab992564b040091cebd231bc685bd498195d8a5831e616"
+    ],
+    [
+     "20201105090123",
+     "e0c2f57d55a4bc8a8df53c532abc4efb5b4664fa88951e59e81a3a79ec4d038e"
+    ],
+    [
+     "20201105141634",
+     "a926c1c1c8188e98a2aa68726bad37a551ece1c79a19a4576011ae13acfd4da8"
+    ],
+    [
+     "20201105154608",
+     "09f8da4f7517d54b5733110716d0bcdfc0c30bf33b266e471dfd778000db4e8f"
+    ],
+    [
+     "20201106001104",
+     "e74c717aabd180234ab397565bc4a29cb8642a92f36aa4a37981b4dda8b5d2f1"
+    ],
+    [
+     "20201106020817",
+     "de68b1569cd5fd7de5409b0c9534d4e018ad080287c86523b8373aef79cb46b3"
+    ],
+    [
+     "20201107114101",
+     "7650e43dd191caf860226705ddf281e57f40f17ab801b0acbe15815572fc0923"
+    ],
+    [
+     "20201108115442",
+     "23a1893aed718c82efc2ce3715d4ca4eabd3c5b3b77340538596a48630373db3"
+    ],
+    [
+     "20201109053409",
+     "6b4be5fede3eb3ce1b522260b4f8d5aff04d29b71e69aa79d64a61a7bfcc638b"
+    ],
+    [
+     "20201113200013",
+     "0cd38d9607ef94a42ceaf0f3f3014e8e0300d6e300e3334b264a53dedacfe400"
+    ],
+    [
+     "20201114231139",
+     "fd7a7883a95d7f4c7d6a4b1df229690022645a932b27c90411286ae2803072de"
+    ],
+    [
+     "20201115230850",
+     "b061885af24bb2042295ea53c983f00d1698c95864a6c1240ba3581e8aa142da"
+    ],
+    [
+     "20201116204243",
+     "786ac764fb935b35c72d77afdb24b8a24dec7ec1e8923ce7048743d73e4f7574"
+    ],
+    [
+     "20201117201352",
+     "31c36a5b1c32576e628b286c2f842fa2ea8e591b42728959883718ab4cbaf39e"
+    ]
+   ]
+  },
+  "2020-ms-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/mississippi/president.json",
+   "year": 2020,
+   "state": "ms",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053644",
+     "cec1cd1135e22971a215291d0b4fc0dc9171ab577fc752fc021ee6ee06bd55d2"
+    ],
+    [
+     "20201105081735",
+     "a49fd464b1a0676840845f26cb4e6619c9e0c8021d38e231d2332a614be7f33f"
+    ],
+    [
+     "20201105090136",
+     "aab624a8d5851463f104a37b90c2267a9c0d0f93a5ab841e608e98410f5b6a3b"
+    ],
+    [
+     "20201105141546",
+     "13990899795dbbb2ba3e3c784eb8605cc3af4f5889b781bf46fa2fda62ff3951"
+    ],
+    [
+     "20201105154559",
+     "d673b952dee0cd70cbfe16c70226932ee0716ef9417a63454e3402a5da5dd8d0"
+    ],
+    [
+     "20201106001110",
+     "05860468630486eb297f9dfc0a826ce1c199c210ecab543bc9eadda0e3f7c913"
+    ],
+    [
+     "20201106012038",
+     "ff0925e0b1cd784fcb0c9dfe87dd02bb8fd383681ea6f55d7a995a6bda12a8b0"
+    ],
+    [
+     "20201106234222",
+     "e3bc5b18bd28365542b94877b7767739a6999faa4b9b0b948719638e64ea0e62"
+    ],
+    [
+     "20201107114109",
+     "a7d10936a70e62854d1d2e5ab54c9086753603dc04179fd731bdcc248f4477eb"
+    ],
+    [
+     "20201108115457",
+     "c0ea1983a5f8494581e5b9e4bab0b3686aad3744b47eacdf0be9a3c1c65b9331"
+    ],
+    [
+     "20201109053422",
+     "a36f5eb383a7799b1f89abccf585f6b00aa869479a71aedd68f2ca7b33d13b88"
+    ],
+    [
+     "20201114001000",
+     "45ecace273b4b7fa75ec129fe8a7ab80df40b55366847aaddcc8e53c49b56f0e"
+    ],
+    [
+     "20201115000626",
+     "71d6354a7c0349b2686073c9bba0b65da307c0b7445c31d59450941055ac2f89"
+    ],
+    [
+     "20201116011537",
+     "fd30d1bc285e028bffffa22e8e8a45ac7ab25dff46d02b14115f5d07e9581ade"
+    ],
+    [
+     "20201116213609",
+     "29d5f77fd9a14a65fc31d941a33592242415dfac57b65ef48420fa2b105037e9"
+    ],
+    [
+     "20201117205512",
+     "a2f21aa1631092cf4a76bf82bd1eeeba0a509f16d528e6bc1591fec394bae320"
+    ]
+   ]
+  },
+  "2020-mt-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/montana/president.json",
+   "year": 2020,
+   "state": "mt",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053629",
+     "9cd8636815ccbc34315e66c4d4fe04bee2789c3bb980f643982844c581aebcf8"
+    ],
+    [
+     "20201105081723",
+     "13b968a96eedf7df0119364d2152afc134ff311a01b0189b74544a4adb55954e"
+    ],
+    [
+     "20201105090204",
+     "998e5fcfce7fe487451f740fdcce7cd4f2f459271614bcceb49e7163a30facf4"
+    ],
+    [
+     "20201105141518",
+     "a00e759b622f5a0c9e9641e19dc7518c79f1b7432407c3041bc8f9339d01ac4e"
+    ],
+    [
+     "20201105173851",
+     "f1d5dfe202efe3645f4d28c03c4b9b74ca9c71c64f4bc83224b511001efa8a34"
+    ],
+    [
+     "20201106001020",
+     "f72926155a1ebf91c31e64000e24c9072e2970af9d4aa111c51b94dc79e560bc"
+    ],
+    [
+     "20201106020847",
+     "a80c80f998b0238ffc99de05574dfd5d899e7a98ecfced122fad8b17e92f0275"
+    ],
+    [
+     "20201107114056",
+     "8016f63e69538ff2e2eea23fdd0df008d362cd1fc57a6992287964a4744ead9e"
+    ],
+    [
+     "20201108020350",
+     "6cec54110724eb2b359661af100c0328cdc574e9ab0e9f3529e3a897d590a8bd"
+    ],
+    [
+     "20201108115432",
+     "fd26b4a7cfe3e44a2886754178c2335a02896e97c863ecd3e2f9ebeb1196718a"
+    ],
+    [
+     "20201109053433",
+     "1b76aca5d78451f41824809ac7452cae3531a87577cfb9eb4ae7a86a93c64be8"
+    ],
+    [
+     "20201113200530",
+     "1306f1457ce2df95cdefcec5d55e8516d039a629b81d98e17e8f00b920e037a8"
+    ],
+    [
+     "20201114232319",
+     "921e26ea5973634f10e0b15d77dc396a0b978e6b74443546407131966c4510ac"
+    ],
+    [
+     "20201115231306",
+     "47c3ec3f0449cf1e5ab3d63bf3bef0178cb5f65f6bb18fe9e84c82581325ed21"
+    ],
+    [
+     "20201116205012",
+     "3f37e3af3d10d861ce5a0b96427fa4dcc586f5281a418658dbdb1c8dfc5b60ae"
+    ],
+    [
+     "20201117201647",
+     "ccc2e2bd0b540470b1209ee64f9fd221fee0c38bebeceaaf700cf92b91e6ef20"
+    ]
+   ]
+  },
+  "2020-nc-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/north-carolina/senate.json",
+   "year": 2020,
+   "state": "nc",
+   "seat": "senate",
+   "captures": [
+    [
+     "20201105153641",
+     "dbd1e179683acd2bf4d7a93f80fc6c5b1d4aae1ff07282471dc06b397f276b2c"
+    ],
+    [
+     "20201106014755",
+     "713191a068041e156e845a418bc5f352b8c4100840c42928b5d4fa9c0a4d4851"
+    ],
+    [
+     "20201112053020",
+     "889aef0cc9e6157a768655d48239549a6bbfb40b7edce0782885d7a9d96dddaa"
+    ],
+    [
+     "20201113154545",
+     "2d0198dc688d267c25726ef2dab09c869d572a2e7829aeb9a04e8fc64565e355"
+    ],
+    [
+     "20201114004557",
+     "7f91e09b3357decb995dc7978a54a28e21929406d8c211eeed347561d3ae24e8"
+    ]
+   ]
+  },
+  "2020-nd-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/north-dakota/president.json",
+   "year": 2020,
+   "state": "nd",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053638",
+     "dc889f5bd81ec03433dd2f9de587ceba24682ece9a19f2907b6ce2b1ceb22d20"
+    ],
+    [
+     "20201105024631",
+     "49b49edcc5489ca38728419c83ef9c46bdc283cb50acb947024bef35d0fe3fd9"
+    ],
+    [
+     "20201105085847",
+     "dd89cb99573e20a122c6942bb73b3de691a6af3c6f9331aa9bba17915b5ef5b1"
+    ],
+    [
+     "20201105154458",
+     "ef3e36d766c8cf3a5e1538296e5208cb861dcc03b0c3bd0d311e345ea3003f0b"
+    ],
+    [
+     "20201106001038",
+     "49b3e1490cf0e0d16867e90e9c49aa664af5224c104aff33801de0840531afe4"
+    ],
+    [
+     "20201106020829",
+     "722e1d08882fe92511b90f71b6ebb5f811338be2c1c336cda05ad7034d43105b"
+    ],
+    [
+     "20201106234204",
+     "0e3fad9595277371ff658b241c604f5286f2e882a72b35652e79d6f2041836d1"
+    ],
+    [
+     "20201107114020",
+     "3f6c2f34aca5d6e4ac728e19f412555dccf4686cda46521e9d180a48614156ae"
+    ],
+    [
+     "20201108115424",
+     "0a099313e114557d9eb32b307a2301cd0bbc018fd45703ef6436586348ef3df3"
+    ],
+    [
+     "20201109053458",
+     "9de14e4f4c5c1a03b7ba087292826799a16fcfe1a4edc618f7b253ed7ef4d3a9"
+    ],
+    [
+     "20201114002255",
+     "281d3f6e1bc2c842b884696ba6303d034c23de8125691530f6f692b61d5db798"
+    ],
+    [
+     "20201115002624",
+     "c1d1b544ca720bc9e98a645016f1a4617e17cf2aa929642b9c74d130f0c96570"
+    ],
+    [
+     "20201116012115",
+     "da299f7bb67bbfa438506b3a019d481f924c72fe48d1047fd8ed1c62dde3f91e"
+    ],
+    [
+     "20201117210128",
+     "f9fb9d130c68ac0195fff247f1211e994b7ab522582cc82174421d9c56c570a2"
+    ]
+   ]
+  },
+  "2020-ne-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/nebraska/president.json",
+   "year": 2020,
+   "state": "ne",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053626",
+     "5f4c0cf465dfa813cb239b17a22ef2ec4c8ec77bebba404968992118d9e39a74"
+    ],
+    [
+     "20201104122739",
+     "8583d02edd5d484f42ac54f40834453bc60528b277e0b610025dee427e9b5011"
+    ],
+    [
+     "20201105024742",
+     "bac28f441da187fed0afbf668e6e09a1fcd73cfcb13e37c7bcea27f6345e19a2"
+    ],
+    [
+     "20201105081732",
+     "be7279f24de6d23c8debccb265afb85d07a5594e62a2b4f8ce17c066904228de"
+    ],
+    [
+     "20201105090101",
+     "b5fc2ab150866c6523f743903cf124ea6165dd43a849647ea37d3c551218aa1f"
+    ],
+    [
+     "20201105141531",
+     "8c408e975d3c90664ffda4c7fd4605c2871e92615bc55514261ed7450c02bcaa"
+    ],
+    [
+     "20201105173844",
+     "4aebd4e7d68f110ba568a9c908a218b0fe59394fdd3db45fd42b543f3794fc40"
+    ],
+    [
+     "20201106001011",
+     "ba925077210204c8a60cc22ebd965934cfc5f2c8b9ffc66a741d66c958498f58"
+    ],
+    [
+     "20201106020811",
+     "306d0be65ea65aabcecd7eec7b76c1c7773f965f73ae0809132dda5f7e18cde2"
+    ],
+    [
+     "20201107114114",
+     "d5c1ea41f064f363d91b41045967816074e9eb0b147c0c49a6c7b90863d92b7e"
+    ],
+    [
+     "20201108115438",
+     "9b25bdacf269c91b64052e7249fb5a6e6bca06e7225bcb0d033a90c8d205226a"
+    ],
+    [
+     "20201109053518",
+     "ef8cca3ada84f4594ec8ee00b7bba42923d33239c07cee911f6e78f87d491bc5"
+    ],
+    [
+     "20201114001245",
+     "5cad3e4978a322d241d3013c776a37e3678efaee1766cc3410c2d36af912ab42"
+    ],
+    [
+     "20201115001705",
+     "5c1298ae479d8214a30493b2db3ba5d5d312fb00bd72e51ca80f0c54be328f4b"
+    ],
+    [
+     "20201116011852",
+     "824f17c13860bd8fb20ac169ba4bb9a4239c465c08f64bb316fcb6758e77036f"
+    ],
+    [
+     "20201116214001",
+     "572fb5b284ef81121e2619e76cffbbe90b678337662a98a75cc3dd327ae2191c"
+    ],
+    [
+     "20201117205811",
+     "310da720510cccfc6d168c4d99a47d3cb5223aba06018c49259b3e17ddba619c"
+    ]
+   ]
+  },
+  "2020-nh-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/new-hampshire/president.json",
+   "year": 2020,
+   "state": "nh",
+   "seat": "president",
+   "captures": [
+    [
+     "20201103230135",
+     "30d9218a67a5773b2a0b0cc542be3ee18f2411b78f92d7f3a005c42ea674cc49"
+    ],
+    [
+     "20201105024510",
+     "b41820c72df971dd68650ca70c8b26354d4ec5f551f842b5eb4616255a65156f"
+    ],
+    [
+     "20201105090032",
+     "92c2d43a9e7ae34a951aeae31fb38e836bbd4d77aa9d0337167a8fe97e1220f3"
+    ],
+    [
+     "20201105141825",
+     "7864ce6208664efa759378d3bc479089a4cade25341dddbb8085b4a7d42d49b8"
+    ],
+    [
+     "20201105154448",
+     "4e9d9cff55589c112b3fc12661f89653e09a947de1c6db487bdccec79ad7a824"
+    ],
+    [
+     "20201105173724",
+     "7956229cc7d8c9ce20d0012b8d68bee58dc0533ec7594d88eaa4de75ba77ab69"
+    ],
+    [
+     "20201106001233",
+     "203c44ff666d2ccf298a6203648c2ebe7e1cbf611717fbb7c7834bf11e4cab2e"
+    ],
+    [
+     "20201106011844",
+     "063ee01381d5d7351cff9fb9a1dd8b8bfbb8b6b4075639c410f6883db4a639e9"
+    ],
+    [
+     "20201106020925",
+     "1369a35f72606eb200a93bad8162b8f450951347b1a64c4b0819d2b8e96a2497"
+    ],
+    [
+     "20201106101926",
+     "7c53f0d57deb6c147d7da5dd65913dc854ef12d8fea14bdf6146c36a6faa346c"
+    ],
+    [
+     "20201106222619",
+     "a8308f7c1d4017cf25181baa8fbc3aff60c94a5846f4d8fe7fc9f0f7847ad34b"
+    ],
+    [
+     "20201107114308",
+     "b873df5a7630744143b3e938c59ec6f80ee76a38c6a87ce2511915986459d67c"
+    ],
+    [
+     "20201108020233",
+     "83ffcd0ba282cd826dfcbefe8e09d00b6332cf6f28ab46116e7beeecf312442a"
+    ],
+    [
+     "20201108115638",
+     "e66d96b8df9518bbed2f9c2e933b9cbb06c01ab4aa4439f7201b9703ef179131"
+    ],
+    [
+     "20201109053529",
+     "4aebd30c874c43e421fcdf7c6485817f62b325d145dc03b73966b1850cb00b90"
+    ],
+    [
+     "20201113185539",
+     "5f1d3368f507a6900cf16fe4241d8d509bf5ba4dd3ffdbc22448cc11f92c1f9b"
+    ],
+    [
+     "20201114211025",
+     "7bd22a0bcfd87d67750d3995952529b1d7c72eb44b80992e7cbc9d9a5efd43b9"
+    ],
+    [
+     "20201115205518",
+     "5190146f2c1221b10c15026933f3a78ea966b0fdd02703bd7eab1a0fcc0793b2"
+    ],
+    [
+     "20201116190018",
+     "33283155a3a2099f307578fdb4c000c762af3d575c7c331cc91841dd58d76bd5"
+    ],
+    [
+     "20201117184501",
+     "57408e178991ed0beb30ef395cb1453dc5f2dbdb943d783d9fd3069bc6ffd592"
+    ]
+   ]
+  },
+  "2020-nj-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/new-jersey/president.json",
+   "year": 2020,
+   "state": "nj",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053658",
+     "9ffa06c1d09e0bba0019fb7ecbcdb60a10f013ff3845348a308d5dcb0b3702db"
+    ],
+    [
+     "20201105024524",
+     "425df0ca68261657977860f20ac4c8f0ef54ed1832a45147c72bc75f9523ae99"
+    ],
+    [
+     "20201105081702",
+     "4018a125d2848430f423dabd8206c32027e37e6723335e7302f5f88029d865ae"
+    ],
+    [
+     "20201105090051",
+     "6aff2e3fa2450da311ae9f93a3e67b61c0c6884dc071b9e8932f52db88e4a55c"
+    ],
+    [
+     "20201105141507",
+     "2f4457d45286af0f6c6afb04cae16162623b6d417e4e8828e00b7b7a2eadcdf7"
+    ],
+    [
+     "20201105154433",
+     "ecda7fa80ff973557b5a861767d298b83e08d439c15e93c49ecdf823b94d09d8"
+    ],
+    [
+     "20201105173753",
+     "ea73c8927b80c1b96635ee3e176d0436b9aafcc5740ee994a51addd31178c95a"
+    ],
+    [
+     "20201106000952",
+     "cc699b024bd2f9110950a37477dce78d54dfbe953b8cfb17271094b6e4fb7102"
+    ],
+    [
+     "20201106011846",
+     "d235c42f19444bcdec5b252045454e515a91e50c1ddde33bfcc3aefa7cb0c487"
+    ],
+    [
+     "20201106020758",
+     "b5db28bae7187ade1b33384a0bba208e3f14a8397dc1f7da4ccb0f01801a3201"
+    ],
+    [
+     "20201106234207",
+     "4dab54d1a23224c2c5c34581803153e0cfced1e493abdc4d291bc8f41ce7abd3"
+    ],
+    [
+     "20201107114111",
+     "3feadc38a80fd9212e7ef1926b4bb8722a557905ac28600166f06af8e12435e0"
+    ],
+    [
+     "20201108020222",
+     "55e3f2dcf723a806e986edda89910dc6771d53cdb4944cd2aa1f944c731f01b6"
+    ],
+    [
+     "20201108115446",
+     "35c901846f34357e5b80154cc67ae36152d00df160e8595bf32b939669cd923c"
+    ],
+    [
+     "20201109053611",
+     "c4152782e6345be2b35f9e889aa2af6d6bd134adb25d9285d6f6ee99a7073c47"
+    ],
+    [
+     "20201113172028",
+     "9b023695a374c4ae18639c7918b77f7a78af943ce862e0cf04f75af058d067f2"
+    ],
+    [
+     "20201114185004",
+     "d00d1386c1c3ff8e3e57054014362ef1d3f7841858459eee599dfb2142572c7c"
+    ],
+    [
+     "20201115173518",
+     "86e8318e3907497b30e06209c301d4eb10b97f8acdbeef3e20398841eced3f79"
+    ],
+    [
+     "20201116172317",
+     "f8a08d2da3ca38620e67562d5c70a703b85bc31e0278c243ba8d84d59c7f6bea"
+    ],
+    [
+     "20201116225415",
+     "95320a5b9e0b63ca0daa91e7796a786ecb31dacede3446082639f1e8e8668028"
+    ],
+    [
+     "20201117174402",
+     "47eba59561723c8c0aead5225a3d353bd4e559e52cc3df70eb4d104627458e87"
+    ]
+   ]
+  },
+  "2020-nm-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/new-mexico/president.json",
+   "year": 2020,
+   "state": "nm",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053650",
+     "212e148b99bde42181d5bfd1fe227fe67886b0b1a897c9a7649ac59ba84da67a"
+    ],
+    [
+     "20201105024556",
+     "fa5909f5e2319a305451c8c9cb57b734cdde7a5116c460e1fcf98aae987df590"
+    ],
+    [
+     "20201105081658",
+     "e591063b91dfb76e6752239cb11c38cd90dc128f093ffd2d799c8266e0f0933b"
+    ],
+    [
+     "20201105085825",
+     "1f85e2cbcbb89e31f45abcf007cfd13e3a4d66080dfa9997dfbb29b15ba1530d"
+    ],
+    [
+     "20201105141547",
+     "ed9823452333f0e224005c4d362945752e21afd489667a46990bb6a248c29e69"
+    ],
+    [
+     "20201105154435",
+     "c6f8057c3a3d1c9315b18574f9076bc7b711dc0f11db24f59429b7b39c301b79"
+    ],
+    [
+     "20201105173645",
+     "cd712b5269f6a02d0fc212698ad595f3f0bc47ed9cea56af07cfb14555768b95"
+    ],
+    [
+     "20201106000947",
+     "93d40f426ab9a6e99fc41a783fdb6f7de90496ed291212d49c454157d66ecde7"
+    ],
+    [
+     "20201106011854",
+     "1f07f3e21f7151835a51d238f9979a5148ceef54aebbe70572b851398335dcbc"
+    ],
+    [
+     "20201106020858",
+     "c1601ff6a958ecac893e8e382fa67f5c422aca81e99c1e3b37228a5352e542f5"
+    ],
+    [
+     "20201107114042",
+     "8cb120b85505cf4df6f287d919099901ac4e7cee21b1b893f44a673433ad0819"
+    ],
+    [
+     "20201108020231",
+     "d83d69dc372ff82db25b29a36944ef46a24f0a2eaa0091e43fcea823e911e15a"
+    ],
+    [
+     "20201108115409",
+     "cfedfaa698e2da4c52a899ce3245606afad9f1518a5947b12e9692b26db86691"
+    ],
+    [
+     "20201109053708",
+     "6b16e9a12d4247b0b6cf8f605d31b1f121a60edb9009e9bff6d1ddcab5933e96"
+    ],
+    [
+     "20201113174432",
+     "228ada7d19b56a556d1f95be6c7fc72731209013c42b43774c3e94ebcbc36bd9"
+    ],
+    [
+     "20201114185505",
+     "76b9a24158525d9f326b0ae34b26775db7d99100b2d679d7a09f537f05c8064f"
+    ],
+    [
+     "20201115174819",
+     "9b610eb18679fe8fbb8028b0e7d75074823c2e93e6258e391acbcd2440243594"
+    ],
+    [
+     "20201116172418",
+     "e6b99360925dd52d5c897e1bab5d9f1b9c4d2a38d1b4f85e0b8c44c9c7cd2be5"
+    ],
+    [
+     "20201117174918",
+     "eec04a4ce0737770eb5346e0b5a7af4a1f49dc4df42457c8911b103e497e8ab6"
+    ]
+   ]
+  },
+  "2020-nv-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/nevada/president.json",
+   "year": 2020,
+   "state": "nv",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104120258",
+     "3aa0f64ab5dc974193f06e2648cdc8c9930ac2423b3a8b4212e139a2df3d2fec"
+    ],
+    [
+     "20201104161237",
+     "4b219ddf6b769bb87946cd976815e270919aa6c7f7a18b0e9855da057cb0ae1b"
+    ],
+    [
+     "20201104212325",
+     "48e82b8ce223130f4b9102766fdda620c4073a221194df2564051df3be83c96a"
+    ],
+    [
+     "20201104224851",
+     "cf6b254067851dd862ff8bbc5555a59753019f2d2e06b02113e6ed8beebb4e53"
+    ],
+    [
+     "20201104235324",
+     "38b26e56b694c0c99dc5b7e173a1d630ee1409c7d32226d84faa716adb75170f"
+    ],
+    [
+     "20201105011536",
+     "91f7e3e2488fa620f3ed8dd1b9253be115e58b912df1703e9a6632f4765eef48"
+    ],
+    [
+     "20201105022813",
+     "cac782f964e444e6fba9ab88da62f5c51bcbb056f2442a61ffff0492a15a843f"
+    ],
+    [
+     "20201105032321",
+     "d2c128d5e840eba74c45d4fc13ac2da3fef0ad591709acbd855eefecbaf80c99"
+    ],
+    [
+     "20201105044532",
+     "a45132e87cf76a345f0fedc9c8e60f93516faa96c2231dc6c64c54e8f384b558"
+    ],
+    [
+     "20201105064908",
+     "0698b22e05b4ed21942f6da937b68abb4e9182fce5e08ede1ca5fb0748b2b832"
+    ],
+    [
+     "20201105090026",
+     "0a7c6b1a4e2073b8e70a5c80f260cd2e72fd3750b0acbc49a13b3cfa92a71b27"
+    ],
+    [
+     "20201105101006",
+     "aa60a540963f4a8d099fcc8fe9a021071d54c1b33eccf4d0cc4ff34dfc52526e"
+    ],
+    [
+     "20201105105133",
+     "105071103e79d5f99d9b04caf33152d26ccba70629b1dad200ac89fc04aafa4d"
+    ],
+    [
+     "20201105141857",
+     "2f4b096185b79882737d29b4190b612537a81976d45be40b35c381412a66cf71"
+    ],
+    [
+     "20201105173920",
+     "0467a759d83d7d03860f21be4aead1f4c4bd86b29f687490f100722f5dd87479"
+    ],
+    [
+     "20201106000516",
+     "dffadbbb067d0f7f6fbce5a72b6fb8c44b4496d9c16d7acf414f64c63d2d06e3"
+    ],
+    [
+     "20201106001233",
+     "2cc12a27912bede9ffb4fe3b2f70dba975de66ad56e6cff77807f2ce1612b08a"
+    ],
+    [
+     "20201106011836",
+     "8477021a01f9a01e166050ffac1258875e4b51e42784645fcac252510299a31f"
+    ],
+    [
+     "20201106020939",
+     "c28fdc152f4eec6bdc9e939ee84203ffb98d5f99988cc6f2dac7a9c2528fde61"
+    ],
+    [
+     "20201106101928",
+     "a2995fc95ea2806899f14f839762c0a07f6ccb25b186e795111bceb50d9bf625"
+    ],
+    [
+     "20201106170633",
+     "36e264fae60541bba717a364f00677be8cab7a6da15b2e57c6731ab87272cbe9"
+    ],
+    [
+     "20201106190554",
+     "5eda7f3c106a7dc593f7f438d81afea1ec77687511980502967a33816535fcbe"
+    ],
+    [
+     "20201106222548",
+     "0eb4566fe7eed12bf9a7e2460e46139a2e4f54336a3a870a5117ca5d7caa871b"
+    ],
+    [
+     "20201107005817",
+     "7702f223411b33bb44d9dc874e8cb4917fb183a00122cf5d4b19726d4c78f542"
+    ],
+    [
+     "20201107114336",
+     "d193622317f23dcd240a8dd594c014eec250847261acd01f7bfa687afe8b05d9"
+    ],
+    [
+     "20201107221504",
+     "51b3c68da38432a1a6a5622d870298e9660b2aabd13a5c3e3012a2bb4dc4ab6b"
+    ],
+    [
+     "20201108012506",
+     "f4c7bbdee5ee469ee4a715f9f7bd6e70a5c00680ebcd58ddda9fdd06df04ba9a"
+    ],
+    [
+     "20201108064713",
+     "af4e6a5026bd5bfc8210c47e5a1661b8fd0f75f4e7fbc14d4020becf50a1ee1a"
+    ],
+    [
+     "20201108120018",
+     "eeb3fcbbef59d5deead494a953b472f20ada25c9e72db13dced3e70e563664e5"
+    ],
+    [
+     "20201109053746",
+     "d42a3c5bec2d8f2df72a40f41aa06521a1df5263011b528996c39caabaa04ec4"
+    ],
+    [
+     "20201113185040",
+     "ece984b20dc033f5c1981c9e73169da9fc4dfec09110515d5c5752a3f446061f"
+    ],
+    [
+     "20201114210648",
+     "19e1c6704e7fb0062a68ef02f2e61dac8d9f632009fdac4a13dc2044279cf35b"
+    ],
+    [
+     "20201115204916",
+     "3ad7fcce0672ef40a1c5d07fac3ef6078d778edbb9a437b41e795f082f2c2878"
+    ],
+    [
+     "20201116185612",
+     "9c4bfbba6eb21cca40885a441e5152fb7ece304df5b2d460c2035388bd8f85f3"
+    ],
+    [
+     "20201117172321",
+     "3c8d21ac98512e899ec07c93569d7532c2ff7db67df63c16e5b90e65d9aff863"
+    ],
+    [
+     "20201117184109",
+     "fd912239ffc64f9119c0f5f1ece29976f21bd76ebb178eaa889aab2c9c07da41"
+    ]
+   ]
+  },
+  "2020-ny-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/new-york/president.json",
+   "year": 2020,
+   "state": "ny",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053606",
+     "d16222dc28a57f5dea0740f54a962c792a96ccd36bd09740b418f2829071a674"
+    ],
+    [
+     "20201105024555",
+     "8486644fb86e00d4424740cdf4c3073a40aec14496cd7cd551c4cab71005b37f"
+    ],
+    [
+     "20201105081639",
+     "2f637f960699132a2aa272f7883e6875d041a89190ba4f4fc6bd8354a876f9e3"
+    ],
+    [
+     "20201105085823",
+     "b1b8986df0b004f9a09568d078f74ffbd373dfcb7c2c0dd66fba29e3765c1dca"
+    ],
+    [
+     "20201105141456",
+     "18b32f722b2b345fd9dc043af633709251e7856fca753b7ee03c2fb2dc64b802"
+    ],
+    [
+     "20201105154450",
+     "6cd8e85db90d9f20fca1995f9dc5ee570f7cebed369c802c8b5cc489ad575835"
+    ],
+    [
+     "20201105173652",
+     "7ca22e5de345a4038bca64965413ef864a1259f7fea107834fa6903151a76066"
+    ],
+    [
+     "20201106001007",
+     "9ecc53fde2f5ca7712a0d6627ed183100e9df4977dfa75848ea57d82ca41c8e1"
+    ],
+    [
+     "20201106011855",
+     "4d8767dfec68b151df237ad105fddaf25ed91b4d64628d4a894da111ebceecea"
+    ],
+    [
+     "20201106020817",
+     "4837f8f19768a4498072093ca41b0fbece00927bed650c9b1bdb6945bc4271db"
+    ],
+    [
+     "20201107114108",
+     "da953882bb6a4dd5e4cb90fcb2ca4766cd4b480dbeb960d5b950c0895f9703dc"
+    ],
+    [
+     "20201108020227",
+     "3ee552c0bf861477585a74bd5d0e8412cd94d304751ffbff3b2172a1720640b9"
+    ],
+    [
+     "20201108115435",
+     "a56e2d7345976141d373f1594a598297b1d53aa30cbd0ffc29478560f4856109"
+    ],
+    [
+     "20201109053756",
+     "661413f9c1031f47fcb9f8d2815626d3cfd2d2211b2ae8a857b828acc2f81651"
+    ],
+    [
+     "20201111234838",
+     "3e92e3cb52153e3b92d7b7bb5e266224931e2833a8909a9b9e68cd9902f33175"
+    ],
+    [
+     "20201113174828",
+     "f5109eb53aa99d027709d33e0876d2cc7239e53268eb0ed9c3bf6ef9ad1e1e25"
+    ],
+    [
+     "20201114191342",
+     "70fd2dce3baf10ef181f7fbf254ff062dbabf97f7a8d4e3e36b21b423a0c3f6d"
+    ],
+    [
+     "20201115175844",
+     "15ff87b4496f9f75532a593c73f2263a5bb71859584416147cd27d597cc80794"
+    ],
+    [
+     "20201116173258",
+     "9e293c4902aacccf4a7bfb1b55a60dec54415e1a16d0c923b8be18dd61bb22cb"
+    ],
+    [
+     "20201116225905",
+     "ea0a8e9c8a9d68729b684923c801d6dedeb3cecaa05437f32f13fe5967e33433"
+    ],
+    [
+     "20201117175358",
+     "a3eb454518db0defc11ca0ddb86770293306947d7f96cd75b4a39f769adcef9c"
+    ]
+   ]
+  },
+  "2020-oh-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/ohio/president.json",
+   "year": 2020,
+   "state": "oh",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104023901",
+     "0a5c2ed3f589edb978ca6ece6e9e6227bd81a9286b7b13bfb245dea222594c71"
+    ],
+    [
+     "20201104062114",
+     "7559f4bb26d403e5f840329f9d47509a4a9e2d0015550124d45a57daede675f5"
+    ],
+    [
+     "20201104224822",
+     "00c6fcda4b55043ce05ab27915dd6f23b4e24d107ac9a8d0bee436696f8a11e7"
+    ],
+    [
+     "20201105032538",
+     "9d4766c0cd33b4a153d9b2ebc1a9639a95a444642dd9c0b13606092e19add7ad"
+    ],
+    [
+     "20201105090032",
+     "d3da806158514fbd27ff77c682461f48d7147bcb6fa650126c601f5779e75491"
+    ],
+    [
+     "20201105110447",
+     "cc7e8c6b72be54c338502a66b95ec7ac4e6ecc6d1b2df5b5be046399745aea40"
+    ],
+    [
+     "20201105141803",
+     "18a8df18716179ff2e1b479ba6dc08c4c257c656204f0f46335364955b10f476"
+    ],
+    [
+     "20201105173909",
+     "4105c99b31fee84ef898534458ccb50dcafd805494aa24cc7ccd710efa5416ae"
+    ],
+    [
+     "20201106001227",
+     "8d45c99173f739b6395b10ff1f61ec3a4666991a74b2fc027e3d41184e6a7469"
+    ],
+    [
+     "20201106011841",
+     "16c8dbc6c625550ad6df982c1ca064a0b41b707de310c9f1c9b4d6e2141f03b0"
+    ],
+    [
+     "20201106021107",
+     "29214bd81e882dce5be46e49819ef35ebdfeab53509eba3d4fd60bb8f52edc32"
+    ],
+    [
+     "20201106101921",
+     "34d113f38712672c2bb6e497c54105b3750baaa58796aa1c7facf7ea86775167"
+    ],
+    [
+     "20201106222547",
+     "a90afcf55005a7f4b5f944b665f7e7379d6b25fe03b32fd1501e60d58d1bd4f8"
+    ],
+    [
+     "20201107114250",
+     "e8c95fee41e32fd9ad7d3eb489b843686dd5a1bd83e0042609b1633e9d0c5e5d"
+    ],
+    [
+     "20201108115626",
+     "dea468cfe63ad917511ac193078bb3e2ec2d9c9ee0b3db65c3614dd03ee24819"
+    ],
+    [
+     "20201109053823",
+     "9449954538ad998cc8e6ae441949a1bd2df4de464948b34c249d713768417962"
+    ],
+    [
+     "20201114222245",
+     "23381c4247fa64a7f4dd37a81bb8e5194bc0d9a6f6ae65f22eaa92b4b231d39a"
+    ],
+    [
+     "20201115213624",
+     "29750c528f8d68b725c16ebade9f3a3329e7dc802483f5261b01c77861356720"
+    ],
+    [
+     "20201116201907",
+     "e5f1346939e8bec4526583b27390afad9b041f01c4429462a3ba0594995151ee"
+    ],
+    [
+     "20201117192408",
+     "b43be623762d4f3661f772aa68f9b3dac80298aceafbc5fabc1da019cd9ca184"
+    ]
+   ]
+  },
+  "2020-ok-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/oklahoma/president.json",
+   "year": 2020,
+   "state": "ok",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053602",
+     "8db741efe80d06f5d72f48f28b02ed07aa7722e89f4ca754062e423051a79858"
+    ],
+    [
+     "20201105081635",
+     "8ae9bce60df93d4eb7f8795e25acecefaea4e5225c5bdd9e14528e0cb1e5177c"
+    ],
+    [
+     "20201105085736",
+     "c5847a8a6e1246e56bc00d9c4ed18e4f52406831d14647002114b0b13185a397"
+    ],
+    [
+     "20201105141532",
+     "39685e7af7bd36a7ef0d4ae3db2a9e3d9761d59c33351e055d8a5946c077e4ce"
+    ],
+    [
+     "20201105154657",
+     "613305025df5508fa64a29c3360733e9ebec356013048155cab2a528c4ab492e"
+    ],
+    [
+     "20201106000949",
+     "4d679691d65d135a1ea66d2d6bb3cfbf78d4c5b9a67e8a4826235c69e9662819"
+    ],
+    [
+     "20201106020740",
+     "94fe0dbac0acd338aac1360a17d24e337530f7ac41d1e7cbde955d5607b255d6"
+    ],
+    [
+     "20201106234200",
+     "4b33dba4a40de64572f726d183235c0c2390b5b5c692859d9f6ef30ac2b529ea"
+    ],
+    [
+     "20201107114035",
+     "cbac8ae21531272c1d08724a7d024f3f38da2114b2f08fee9f816edac8d8c237"
+    ],
+    [
+     "20201108115353",
+     "b6aafa8924d7270aec30464f5cded080dc025376f8ac52080c2a70cd10e892b1"
+    ],
+    [
+     "20201109053834",
+     "063916aef367cc4f19d763a8e5d3e98973ac8dc42cdd7226d0a95953a7b4a70a"
+    ],
+    [
+     "20201114002439",
+     "829dcad35930125b636199f41dafffad278f96838f0f0d1ca210083575530c2b"
+    ],
+    [
+     "20201115003911",
+     "4fb42a999c0eb10f115ad3deffac949404885c638e6e1f47fd06ac9829bc5d9d"
+    ],
+    [
+     "20201116012420",
+     "875d1e5a7a080f296ab816eaf1a65ca543f05cb27a7e2d93e5faf33889f9fb71"
+    ],
+    [
+     "20201117210359",
+     "1d9d3ada69ed725de8ea7b3fc6a2538fcea6c29a44a41dce4a8722628742efc7"
+    ]
+   ]
+  },
+  "2020-or-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/oregon/president.json",
+   "year": 2020,
+   "state": "or",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053619",
+     "0bec6ef51b6ec69a14c177a9c54fbebf0d218810c69576ad3dcbb2134473854e"
+    ],
+    [
+     "20201105024844",
+     "5fcff3b941f1c903fddb01aec98c5ee536afec035451698bc977731e30f6b233"
+    ],
+    [
+     "20201105085734",
+     "865ea30212e72ecd339f78f4dbd235f7a847ff2eafa148c4bcb45575d5f9a196"
+    ],
+    [
+     "20201105141503",
+     "955620008c4a70cdcc8135db15941d8d2be03e9c0d4208ec8d6e57bf3694756c"
+    ],
+    [
+     "20201106000931",
+     "3a8ea2bb68b9b342de7e29b428f19a1da40bbc3f703448ce6d7c078df4a5c921"
+    ],
+    [
+     "20201106020735",
+     "f381679f9c503c901dd3b6dc93bf964f4e62b4ee6afa87d06f2e05c8cac08faf"
+    ],
+    [
+     "20201106234155",
+     "5f063aef7bd66beca5337f3906186ad61a4377865c45d4f4dce0a94e7e2646be"
+    ],
+    [
+     "20201107114037",
+     "23b9d346a02c020839314cf123b29506473b22aa7d6de99c8bea22f6cede9c5f"
+    ],
+    [
+     "20201108115350",
+     "2f3b86058f0a885b7048bfaa0c7968d171b6d47ea5b45f91aaa21b55d64e696f"
+    ],
+    [
+     "20201109050915",
+     "961fe4fc7fa55de587847fd161ea7289b60525112d64bba61e2c930652b6ed39"
+    ],
+    [
+     "20201113175129",
+     "6ef565bb313974925d0c210e0622a22b01127ddb3d802cb0b581ad8ab5fddfb4"
+    ],
+    [
+     "20201114192234",
+     "309f853b2b1dd03033f94578226a351ff99f796747682b5b5e9c3164f1273111"
+    ],
+    [
+     "20201115180427",
+     "b29163c88b7f19bb36f5d3d8d3d86d334144ad2b78bdfe6b4b7fd62d20bd7a53"
+    ],
+    [
+     "20201116173609",
+     "d603e9e7e6a7d661031a4fd1c2ac2a57e9a2226776998910b3c866a0d1aa54f5"
+    ],
+    [
+     "20201117175915",
+     "622dc56af7fdff9a3732342c3361c3bdebc63ee6b6436ea2525c021197a36851"
+    ]
+   ]
+  },
+  "2020-ri-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/rhode-island/president.json",
+   "year": 2020,
+   "state": "ri",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053550",
+     "9cd3f0758811383dcddd66c843a99a964f03ce6d63f6282c492c85f6b53a5767"
+    ],
+    [
+     "20201105024810",
+     "f34a7542cca035a854757d23c88d9eff65d0acdfaf4e8bb1d4bc75aedde7270d"
+    ],
+    [
+     "20201105081707",
+     "071cf2c94098a1ed5472c4d04e3051b5a6ca686314b5ab2acb15224fda2cf9d2"
+    ],
+    [
+     "20201105085844",
+     "da417457c228635b19d48a8cd53158faa1e09c76511200812e2ee22d455f91a0"
+    ],
+    [
+     "20201105141433",
+     "e2a0ecac328243d9f837761f97532a8b668c5095f5c66947bb8b163880d5f6ff"
+    ],
+    [
+     "20201105154509",
+     "6f64eefc0b98bf49bb1ae6f84f7f368f36d1cc3551427a9959ed8e98009a18a7"
+    ],
+    [
+     "20201105173722",
+     "dd23084020ea32df31538f40c559451c0b15ace3fc143019c9940f6d12307db9"
+    ],
+    [
+     "20201106001019",
+     "de35629c539fde53d32578044a2bb6af4ba49dc6a044996341b00495ca36a7d3"
+    ],
+    [
+     "20201106012200",
+     "3c51a528dc64025b6d57ad2b367ef7a33b2a63cf81e5b015a1a1455b11ea0ede"
+    ],
+    [
+     "20201106020725",
+     "37d0e1c57ec0b1c2ab9c432230d66d623a50793f22f23d18370f1b8e580391ad"
+    ],
+    [
+     "20201106234152",
+     "4d1d88e2ea9cb2928276bea47baf3a06c7ed9aae186055a00b31040d732f0a22"
+    ],
+    [
+     "20201107113953",
+     "8375ce8bed925fbd8fa8961bbe7afbfee0fda9e622909ee58e08c1eae829d7e6"
+    ],
+    [
+     "20201108020543",
+     "be0be0e5529603eaa5615451805bef62f459f2826b18988bb91b0a2a11de7d02"
+    ],
+    [
+     "20201108115348",
+     "fc4fa409f7efb8b7bb030fe256162f951764737e7cee52fe373f453c6e4d5065"
+    ],
+    [
+     "20201109053916",
+     "50164aaec00f2b2dfd54cb7b918a03861251652ed7fd5c97f7fbe6917d6e8f9d"
+    ],
+    [
+     "20201113175706",
+     "c82fbb3cfbd869c84144283afc85d2099456de71dcf6d4f7eea27ef5d0b73974"
+    ],
+    [
+     "20201114192909",
+     "f4bfaa0ffcf35dc4acf193f55dcc77a4b47a2d04da640cda3c2f8a5bda7cf951"
+    ],
+    [
+     "20201115182020",
+     "4d9bfb0f70b70f50b12be13f264ffe8c3bc2460e82b349a93032502ba209df9a"
+    ],
+    [
+     "20201116175528",
+     "1f92ad2db4ad92aa7d607d60af14d3211421fd89db23338e4a65da0476a6fdae"
+    ],
+    [
+     "20201117180718",
+     "5a2d31f2742c971bfef07bf5926882f54f041402b25229b3bbf117d0b9605a06"
+    ]
+   ]
+  },
+  "2020-sc-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/south-carolina/president.json",
+   "year": 2020,
+   "state": "sc",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104010101",
+     "e80c86408db5fc77ed611969e1bb63fb29722eb8e2446db508c263b0cf7f6e9c"
+    ],
+    [
+     "20201104025511",
+     "b3de800702f01865a6b96dcc2f84deff6539e8321d4be740c5fddd2c3d16425e"
+    ],
+    [
+     "20201104053547",
+     "72a0446a2aa3a7b2cedcadf0ae9996912325082375db4963e0c6aa8cf0d465b2"
+    ],
+    [
+     "20201105081622",
+     "7ae6290bbd73e75fbcd3cc5639dd5db142b8f741c1b93d583e67d0e9fbdfb3b2"
+    ],
+    [
+     "20201105085902",
+     "5aba8f951551bb99a24cab77279d30fe81aa989cd1a14ea266712b641867269c"
+    ],
+    [
+     "20201105141429",
+     "993c7edff1884612266c08fed7bd4e7f3d889cb1ad782feb7bbf7df947b714d6"
+    ],
+    [
+     "20201105154806",
+     "79aa20355bc71106b451e5018b53a686cf5d8e4ec5ed82e557268c2228e20b77"
+    ],
+    [
+     "20201106000912",
+     "3db9b40bd309090d07120df79ec6a2600fa3794398a6c7629993bc8636df5027"
+    ],
+    [
+     "20201106011938",
+     "0f54a6aee738c09b6596df4bb447fad3ff0044d5a8fb1426c907591d907042ec"
+    ],
+    [
+     "20201106020721",
+     "b16c9b8952fe06ba45dd93ae5e0cf8bc48c2fd8cbfe8292afff4331f0c46ab0d"
+    ],
+    [
+     "20201106234145",
+     "c2be46bfe057923ceff4cdb9de25b2cd8be15e9e825cd9e640320722692583bf"
+    ],
+    [
+     "20201107114022",
+     "f0e8fe4792daf3aac25d54bc0b5b260a68077f5d011d869d5befb7b91117fd6b"
+    ],
+    [
+     "20201109053926",
+     "c5a2434a4ae061b909d0850993d380552ce9929bcf00546c3ef36b72234e39b1"
+    ],
+    [
+     "20201113200846",
+     "fd2d297c0b1fc30136f81b2673b7f4666e3e1609919223f95de5e2dd7d7f8444"
+    ],
+    [
+     "20201114233020",
+     "54bb77d53b09877224dfe28653e62334002dc0e8851ba2e50f61ae7227e8e686"
+    ],
+    [
+     "20201115234919",
+     "567056a6aa6d5da04570d359f89ed71e749618b0b18139713ced7f0c0ac45e3f"
+    ],
+    [
+     "20201117202227",
+     "149f8d2ba8eb4d1fb6f5e687b264081a0ce5d94be6b7750bb5ab9b0101763528"
+    ]
+   ]
+  },
+  "2020-sc-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/south-carolina/senate.json",
+   "year": 2020,
+   "state": "sc",
+   "seat": "senate",
+   "captures": [
+    [
+     "20201104030243",
+     "6332e08679d6f7260d19b191e65db63797435920862d136614b4d6fb5c3d9024"
+    ],
+    [
+     "20201105032912",
+     "ccf3f66a3d5ea16dcb85efc8c60fce8846e8d9b8f7a8fc20c21e1596b13d2feb"
+    ],
+    [
+     "20201106014803",
+     "742ee98c72dacc6730d01493e3b7d4205a0f3ec6e99a381666d16fcb06bab235"
+    ]
+   ]
+  },
+  "2020-sd-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/south-dakota/president.json",
+   "year": 2020,
+   "state": "sd",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053545",
+     "41007388fdf4f2dd68c3051ff9d068277df54f3c6da058da925b7b57affa31f6"
+    ],
+    [
+     "20201105081609",
+     "8f7aea6d5c7862b24cbdabba9ad105fea76b748efc6f0a2721b0973230124663"
+    ],
+    [
+     "20201105085818",
+     "c0b6a16ad279e3ee39dd847a52cce3da820dfce3c78dc100ce9b81d29c8672f0"
+    ],
+    [
+     "20201105141444",
+     "050b84240a3ae6842959f296acfd9f4dd77c8517afd009bb60ac38c71d2adc4d"
+    ],
+    [
+     "20201105154527",
+     "d76afd0e8dd4c7b053f9e45a4babc2f0dd0783670ff4b060f40e0a3a7c12eb4f"
+    ],
+    [
+     "20201105173835",
+     "1251c13630ea9eab25085ac1a8afebcf15f3855fbabc728cccac17cba2fe1a18"
+    ],
+    [
+     "20201106000928",
+     "68319ca488b77830d682ba9542600c1120f4d9bb462c554f794132556ad5454a"
+    ],
+    [
+     "20201106012019",
+     "bc50464fa3783bfb440d4f91661b34a5c7df4fee80351773f1b5c5096c9aa610"
+    ],
+    [
+     "20201106020752",
+     "2c8b49b3f59133369882c1bc30400d5c49e0eec0b9d4a863060a7b0387275559"
+    ],
+    [
+     "20201106234131",
+     "e3765c38d1dd90ddd19b3fd3ca3767c0cedb44a8067207840fb08d716aad2de3"
+    ],
+    [
+     "20201107114043",
+     "47aec9c7ca7d0d4e7f114b65b59238739ce86fb8f54f078600a8594839d9dd2b"
+    ],
+    [
+     "20201108115335",
+     "aa91f69f8265637389d9abe33a78072affbef4e08671e2371c28faf21541cbad"
+    ],
+    [
+     "20201109053938",
+     "8436fd1a8d559f74796775e4fdbe8a05e5e939e84026bde02300d76f1fdbf971"
+    ],
+    [
+     "20201114002815",
+     "ad9ad29f31ec248f298f974d4c0540a94167375e5a755a7ec1bcc2129dc19cdf"
+    ],
+    [
+     "20201115004339",
+     "c03e57de4879af4dbde308c5ff77fa04f5eec373eb86562f0fa2561a3f06d480"
+    ],
+    [
+     "20201116013012",
+     "0c772f4a28d22293c5f6a20162f4c37724fefb6a7332e577940bd74547b9a040"
+    ],
+    [
+     "20201116214652",
+     "1c8254fce6f87019e6eaf46987a5489d940683894bfb4b8e456941cb2491be33"
+    ],
+    [
+     "20201117210756",
+     "667ff5757b189b26028fb33c1d38de1af79b70f2393f208d457609213220e674"
+    ]
+   ]
+  },
+  "2020-tn-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/tennessee/president.json",
+   "year": 2020,
+   "state": "tn",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053609",
+     "bbe5ab1ab333bb84e17f1ae1cf59934941a35d5efcc0d4c3f68de13a7fbb95ac"
+    ],
+    [
+     "20201105081610",
+     "b33419a8103a3b783d54835b56c2549fe371127c8655af09a6a1e97b3c324714"
+    ],
+    [
+     "20201105085814",
+     "49bdde63df07de71d39ebe3322064b52bcaa114ca2957f16a91c378e7b82d92c"
+    ],
+    [
+     "20201105141426",
+     "6b73ef7b55e44db425b607a41b16a9d571120e778a387576b2943ee49fdd0310"
+    ],
+    [
+     "20201105154638",
+     "a400d2e5fca9f5e4d9d49ebc8191b11740e08875a490e18fbdb0b2ca95c4e539"
+    ],
+    [
+     "20201106000916",
+     "9842fffecdfde21b0005f78271af00ca09d72b8969dab625ffb4e65375c8acbc"
+    ],
+    [
+     "20201106012214",
+     "eeba6501b962963e476dab9226785cd17a2047474a233d169dc65ad4038279b1"
+    ],
+    [
+     "20201106020748",
+     "30878a62e3b7671463c9fa412939cbe283427c6ad74b81e26b79bc66224bf979"
+    ],
+    [
+     "20201106234208",
+     "cbf80f5b463edb9ab5b729eddc7034f82f46156b7b890aa4006baec12fd148ad"
+    ],
+    [
+     "20201107113953",
+     "91ea499af1e80642c7ac614095780aa19ae27626c520112cd9ea5f455915fc26"
+    ],
+    [
+     "20201108115347",
+     "0a26a7bbe54e0d1f3754db674ac56fd3195ddee889f9b720c4de0e92df175618"
+    ],
+    [
+     "20201109053948",
+     "aa37b6fbaa00b6954f7477c46b38858453480baca05693bf4c9dfb6722d43546"
+    ],
+    [
+     "20201114003524",
+     "581fbb552a71b213f423359397598f4c7240dfa394073bc9ba67c9a6597860c6"
+    ],
+    [
+     "20201115004712",
+     "3a95f7d6374b2fc9a0010bbb8a9920758b7bb0aa34ff6f285b7a988e4d8ddfe7"
+    ],
+    [
+     "20201116013535",
+     "a7c11ee9cd2677d0d7b944d3671f2efe6b6c87590d21066ad5a701c7a9b3f6bc"
+    ],
+    [
+     "20201116215106",
+     "4e6bf783c9ee9f7784bb26f437fe0b7e06143e66d1734359ec5cfab20f3e0bae"
+    ],
+    [
+     "20201117211129",
+     "cfa3cd84f0d0a8962854af24511e980800c6f49cc86c4ea27a9a66450fce7fbf"
+    ]
+   ]
+  },
+  "2020-tx-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/texas/president.json",
+   "year": 2020,
+   "state": "tx",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104042228",
+     "26fcc99b057d7982d1302446bde872dd6a69ea2a21d3736995be510de6b2484b"
+    ],
+    [
+     "20201104105236",
+     "0f31f1c3855a899b38a612c06b5fe14af1686fcac3921fc8ab6304ed6f1c8383"
+    ],
+    [
+     "20201104224827",
+     "2d2bcd86d6ee038857750de4768ff8d16bc210bda67d7822f4a3ff50063c93d9"
+    ],
+    [
+     "20201105024611",
+     "4f81d60342750d29c0866409337fc66f84c4ee2b0eb39109c95a9252472ca775"
+    ],
+    [
+     "20201105033031",
+     "7c6222dae71be5efd0606a14c180551b355e6972d0ec5cc32a0c6b48ff023732"
+    ],
+    [
+     "20201105090000",
+     "ca204cd509461383f6de1f8faf592dc0e1ef5b16343d5a5351e3a01ac1a892f6"
+    ],
+    [
+     "20201105141804",
+     "f1ca611939a25dc99b1aa7487a1490b328211fabf06b4bcf337b6988b5b5c941"
+    ],
+    [
+     "20201105173706",
+     "2ece0ca7783693d9cf49fd15cfd94cd36a67a4dd05ec664c4b9e30a3e6ac0c66"
+    ],
+    [
+     "20201106001246",
+     "acc96883b1a6e28bbe206fe79eec269b714793fa11d66d52d040fa740f6f09a9"
+    ],
+    [
+     "20201106011837",
+     "a3fe9f6de6dd0f096ee5955eb53d78924f78f3eb8e6ffc374785ba5c27508962"
+    ],
+    [
+     "20201106021056",
+     "252dded9b5c286b4271077b6347d9d0b8676b1578dee2aa7f7a11c26ef653fdd"
+    ],
+    [
+     "20201106101906",
+     "98cd20cc8b765dfec31bfa65e0260d7780bdc229f7e08022365367dc20db9785"
+    ],
+    [
+     "20201107114236",
+     "c0f5e6012f2cb9081e00423566b6819f3eb3871eff8ff5825f8bc1b9127e90af"
+    ],
+    [
+     "20201108115641",
+     "2952fc6a430220613c8144ef59a870d4a6916c7048e0db18d9d3a0c4382a2aa2"
+    ],
+    [
+     "20201109054000",
+     "75780f701f635420a215f87871af17793c0c88ff49aa9e1864d3bd0438c52130"
+    ],
+    [
+     "20201110224743",
+     "d3f4cabde25b466819f9b96f0df8abacfa6a469227a944a27fb1166d3533bf24"
+    ],
+    [
+     "20201113194707",
+     "16384e7f7fc7d007424cbe2be98651d27165d982beffb74cad3d4738823518b6"
+    ],
+    [
+     "20201114223547",
+     "3d15582c931a390fdddde9437a2a69b79b6787abe5f6c386305ad03e99dfeb74"
+    ],
+    [
+     "20201115221759",
+     "b641a080ec7c8066d6d96955f9f530eccb1aaa4f0c2c5608f7a451774fa9318a"
+    ],
+    [
+     "20201116203142",
+     "9cc9f39f05e6b7fb1f81f9536f7057e262e8b5f6d027c4fb08118e53144438d8"
+    ],
+    [
+     "20201116234431",
+     "bd1edd4a4d49a8da8c009ad4f1c141404e8019582ac379b47ae1d76bba3d7565"
+    ],
+    [
+     "20201117193512",
+     "39742a67f32690648e9f06e1e407ae542cb955462eb4caa9dfc155398f8cd81d"
+    ]
+   ]
+  },
+  "2020-tx-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/texas/senate.json",
+   "year": 2020,
+   "state": "tx",
+   "seat": "senate",
+   "captures": [
+    [
+     "20201104032256",
+     "4f1130890947d9f04f504a78324582b16b96aaaf5c95255a091dced0e702080f"
+    ],
+    [
+     "20201104042258",
+     "3b591a9a8a8039493a78417a3d80ec7cf2240e1e337a9219ae9878182ec2d0db"
+    ],
+    [
+     "20201104063733",
+     "85217016a71ff77dbfe5fbb05166d3f75eeddd882be0556e467330f37539cd29"
+    ],
+    [
+     "20201105033100",
+     "74ae7e1d45d09084ab664a30a662f730010e18639be3dcf9ee6c02624e8eb8c9"
+    ],
+    [
+     "20201106014735",
+     "99cf4c9bee89afcfc9107ac8c4ac4e28bc091fd8799943eaba581a455e9e6cc5"
+    ]
+   ]
+  },
+  "2020-ut-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/utah/president.json",
+   "year": 2020,
+   "state": "ut",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053538",
+     "0d085e684d8f4a2ace018d906713db53355b674d7793e2d01b89375aff2dca55"
+    ],
+    [
+     "20201105081607",
+     "d383ef6935a4321f1f53b01d51cc6a15095ac92ac36c74b5a1c9b790942d463b"
+    ],
+    [
+     "20201105085759",
+     "296bf8a922e717da53c3ade21908c59e1d49b955bfb3b0dd93543b3e3ed7079c"
+    ],
+    [
+     "20201105141441",
+     "c0c3dc56e320c6f136535e20693a82f1c9c6f83813dbdf9e5dc00fea3c1bd8a3"
+    ],
+    [
+     "20201105154508",
+     "b1747dd994b7654462b72b9e68d8764d4b658d97623c5aefad8a9d5ac540f432"
+    ],
+    [
+     "20201105173925",
+     "2a872342ef41083fd81b59b59e7add86718c8a4f3425b38e10985aa829f0c4d3"
+    ],
+    [
+     "20201106000853",
+     "75bb784c5bf2805e33a0fb462d2bec9a0a25f1b623c95d99cd73c34412a7af8c"
+    ],
+    [
+     "20201106011932",
+     "376683bb36313347e6104516ebcb596f811be88c07dafa984737703070408914"
+    ],
+    [
+     "20201106020652",
+     "3f083a1df5e026d918c64b9d20e267db14cf590698fd44cdcae604ec196cd9f7"
+    ],
+    [
+     "20201106234120",
+     "b8159f2bdcdb40ba3cb4b2f50bd5f20dbe4d7d6cdecee41b1fb1537cbebf2433"
+    ],
+    [
+     "20201107113934",
+     "43b2626fe7548557158224d5b3ca3314eaaea6e5a140182e6c27cc7697c72a45"
+    ],
+    [
+     "20201108020423",
+     "e347a43ac39cc63b2f1202aeb8248993d0e14e0c2bb40b91edf58d8606e76fa0"
+    ],
+    [
+     "20201108115355",
+     "04e06bdc12ad147f78ad1f06d4d3c8d0647ce0c5bda085694a755dae01032860"
+    ],
+    [
+     "20201109054011",
+     "0c59f453837b597325d167eef01640621a8b1935c8cbcfa34318283d20475a21"
+    ],
+    [
+     "20201113201134",
+     "d6965ee6e1953417026758853e683c5a244f5950b76c707c7a53d6d7a62a2b39"
+    ],
+    [
+     "20201114233619",
+     "01e4f66eeac69a66440e5aea7744a214bc44cd9e253b97e3e22e3442b8a495c6"
+    ],
+    [
+     "20201116000100",
+     "342e8f02025007c76db8cc842d352cabd6efab2748bfcc26013ee802f148820c"
+    ],
+    [
+     "20201116211121",
+     "41930a0347cb2aeb206c52a12fc4a9636239bb15f039d7b7c8c37b88d7e6b182"
+    ],
+    [
+     "20201117202748",
+     "278e8654a3eba5bc178713b7a617b02ccdaf27ba4bdd8e7561f76221a71af8ce"
+    ]
+   ]
+  },
+  "2020-va-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/virginia/president.json",
+   "year": 2020,
+   "state": "va",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104040739",
+     "0c8be2e77d9fb027aaa4854f405a478bffbb48c5d1958a2fdd367bf284bbe927"
+    ],
+    [
+     "20201104053526",
+     "a78132bd06a79edeb9383fd1411bcd3b4bc021d6861accc1e4e35b4e4275d615"
+    ],
+    [
+     "20201105024557",
+     "496b2fd4b7fc2cb33a68ab113cf0e6a002dd2b6cee1443c6d1c48c9dc7ae41f4"
+    ],
+    [
+     "20201105081604",
+     "509347b38b363c19fe5d47f3c3173d6e4e86c9bcbfa71833fbdff0806823f6ca"
+    ],
+    [
+     "20201105085800",
+     "3e0499e433d0cf2e7c1db7783f3c226a558da902dfcf521071c17cf6b902dad0"
+    ],
+    [
+     "20201105141408",
+     "8f55b07166d417c162077f18f45a8d6f88bc1bde4ea06f789652c6208c9c0959"
+    ],
+    [
+     "20201105154550",
+     "f0c5fed53cb02f5f3ca7cf526c43fdde19181714b79684ca1e75c82f92980c97"
+    ],
+    [
+     "20201106000903",
+     "846b1e5464e24f7c8e3cbe09c570564933b6c0f2ad8402bfc27008ce96a82be4"
+    ],
+    [
+     "20201106020651",
+     "a61f8e53f5f3a7bb902f3b1b65c1eab8d2d1f8c48418f1d759d4e5f3ed970ae2"
+    ],
+    [
+     "20201106234112",
+     "00abf0aa065c4de6b26fd903ee19b336c0ac5e29da21255d43eb124985263470"
+    ],
+    [
+     "20201107113928",
+     "35b176864ffe65cef26d10e228b543754dbbaaf3087bf63f458c2656269842a8"
+    ],
+    [
+     "20201108020305",
+     "25e9af18a2e7024dd9dc575de661b6ef837fe440374c82d0679299a239a1cc8a"
+    ],
+    [
+     "20201108115311",
+     "a82a3e9bd939fefbd93949c74c02af4806eaa83c9bfc68ba0e8428720b87ab79"
+    ],
+    [
+     "20201109054022",
+     "5f8e69edb0e1c31be49ae8cc6511e520bc9dcf4f252ca76a2f2226edce9440fe"
+    ],
+    [
+     "20201113190608",
+     "e23c904f7060f0bfcac8165a484c01d31fd202baba2505bf00cdb1de5c58929a"
+    ],
+    [
+     "20201114212231",
+     "77df45e3bce72572cba122b50c44d8ab27fd2b83a5e73e98aa347f0da3b6b0a7"
+    ],
+    [
+     "20201115210534",
+     "4465424265b07da0de9027d0199d044699241a5d64654d71a78b8b77ed5dadb8"
+    ],
+    [
+     "20201116232629",
+     "0ce0fb84cb93c2eb32f3dda361e05cfb3d5a17a2063296d716bc0cf321525822"
+    ],
+    [
+     "20201117185556",
+     "198848744d953e9b775adb6b8bb978273592facfe8ea40c078fceb2baedda2a9"
+    ]
+   ]
+  },
+  "2020-vt-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/vermont/president.json",
+   "year": 2020,
+   "state": "vt",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104000209",
+     "45fda6a7f2fef20746cba680ff144fd2e231a35cc5c46b01b809548fe22a8914"
+    ],
+    [
+     "20201104003531",
+     "fe9d3c17a9be6085ca92e7336b56ece1ac118e4eaafdefc738f07c295eb99a65"
+    ],
+    [
+     "20201104053527",
+     "cc69d961aecf5f71e19590e35fc190750de5a595d48f26608192260628718f07"
+    ],
+    [
+     "20201105024835",
+     "9411cff34538d3c94b561e87678033efd14113e93afa3ff0a3f8fa5bb8e7be8c"
+    ],
+    [
+     "20201105081612",
+     "77e00d4338c39f5e1db9cd256cf9ed420a50519d3a1dfc9a52abdb2eb5546f36"
+    ],
+    [
+     "20201105085759",
+     "220046145cbaad2c0d3beb598276a2e6dda8d61b6c44710723ef90ba4c70deaf"
+    ],
+    [
+     "20201105141412",
+     "59d7bf7cf2a7d534dd8f722e4380aba98375dfc67d13eaac49c49211ef5e4ee2"
+    ],
+    [
+     "20201105173712",
+     "448ea64ed4a85569f3f98ceccc8817076a0c38bb9d45b0d1a05cf37f1a5441bb"
+    ],
+    [
+     "20201106000846",
+     "9722991b9d281d5fb43119ad97669f0e3b63a883ca6bb94848884da9662b4c8c"
+    ],
+    [
+     "20201106020654",
+     "81c569528058bd47bf6c94a7ab3af8ab3a45ec33785144858cb72e33b0edad5b"
+    ],
+    [
+     "20201107113926",
+     "7fac554210a1d92277d0bba3f852bf20005da6c08bd27176fd8278fe707a4e7f"
+    ],
+    [
+     "20201108020430",
+     "707f6651fb16afaff0e3c9d8ac33bc5d27590f95285c2a6bdefff61c787a53f4"
+    ],
+    [
+     "20201108115329",
+     "1226cc2a59892c81e252a607b40cdd50469696d948d5832b9b8cf1c3c2556346"
+    ],
+    [
+     "20201109054034",
+     "d9d175ea365089ca74bb4ffd0dfc19b99215d22a8b7a96df88d769c99332fc57"
+    ],
+    [
+     "20201113181156",
+     "db3d455704e07b0140d93a44ccbfb6aa1bc23af379abeb6229a90b7b3598fd05"
+    ],
+    [
+     "20201114193516",
+     "30376a35c8262c9b8032128ed09adcdf84bf12c6c82532906857fd01bd6a2d08"
+    ],
+    [
+     "20201115190528",
+     "cfecd74af7bf3a6cfe54b25e6a4b2eb19851056597dbc2c5673f69f459edee67"
+    ],
+    [
+     "20201116181156",
+     "cdd660b220b313f924760d3a3af80c64882a7f669a9ac7383d2c85f53d5e6018"
+    ],
+    [
+     "20201116231048",
+     "eff102602ab3db0dd9ef7b883bdb53d5cde785bb0fa1f46af81d52ca63ebf9b9"
+    ],
+    [
+     "20201117181158",
+     "d8a784ed43191d77b63a28a2eb2b0248e437c3a8639f029dd42eb7afa14c98c0"
+    ]
+   ]
+  },
+  "2020-wa-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/washington/president.json",
+   "year": 2020,
+   "state": "wa",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053521",
+     "89a69ae768dd02eb1f8a72579ebbfcb460c967468210912431cf248b6049c9ae"
+    ],
+    [
+     "20201105024856",
+     "2ac8446321efe469744eac25f16f5a511b54aa0e91afb81b0d114568341f44aa"
+    ],
+    [
+     "20201105081636",
+     "b9955622bf62deac8ca7efe37c1c83c747295c4409f56a2f911a63080b78865f"
+    ],
+    [
+     "20201105085742",
+     "679c9a8ae81baffcdcfdcdf66b275d77c06560ed54820ab1e7e2b60c7826378f"
+    ],
+    [
+     "20201105141404",
+     "6387c0d7f7abcf680be9664769ac3cd70b8e0e2f3f9057a3a34f27227fdc44a9"
+    ],
+    [
+     "20201105154624",
+     "e827c52bceafbb56f21d877e91c3c6431b4bf48128a3c8ac3c391addff5b9f6c"
+    ],
+    [
+     "20201106000840",
+     "d9beee28210039e5c4e313c8cc61be687bb6fb3367988c799176cc42bfb6167f"
+    ],
+    [
+     "20201106011940",
+     "155b6c7bed7263a5e67ed947e9d892795950845892aff4939eaacbe962d6ea77"
+    ],
+    [
+     "20201106020647",
+     "1333d4bf9db9f5aa49d39ce1f7e2d1ddec98e470f23eac3d8e6f73506f6773b9"
+    ],
+    [
+     "20201106234138",
+     "b90c17679814e66fba7a836d65071f5c5a0623d603301b5fbab6554c253a0a01"
+    ],
+    [
+     "20201107113921",
+     "547a19faaa5af37714d70a5cbcfe7761bdb0024d8bed184fb184063d4aa3cc75"
+    ],
+    [
+     "20201108020333",
+     "9bc896b7d2066a84a7f0774d59d24b7bb61bc09c61fe5651bd37b3babc61e4d2"
+    ],
+    [
+     "20201108115311",
+     "6974a1ed6036ad8811b56b3f6d0ab6fe1154812ed78eafb7df66d67ee19311c2"
+    ],
+    [
+     "20201109054047",
+     "8cda16900dfb755cd561ec409bed15edcb2ec329a35958a8d30882b66d173e95"
+    ],
+    [
+     "20201113181757",
+     "f410bbf6f94fac8c272b6bdf8b6264fe13224ce5e315a1f4be4e24b59c5caae6"
+    ],
+    [
+     "20201114193816",
+     "1f4e539f6a5f0c58292b1a79f8fc7a4635f28628b10e7ae7a356bea00c39bc3d"
+    ],
+    [
+     "20201115190914",
+     "1a7b2c90ba43700f3818eb0a9ce24919255916cb114614c9cc4b12a615c7afa1"
+    ],
+    [
+     "20201116181456",
+     "3130bf2f160896b9ff82834c6daf0e2a215f12e47ee8e58fc2ca7d63e0c4d6df"
+    ],
+    [
+     "20201116231202",
+     "4051a925d5ae40738961ad196dfbe2d9299da991329137f1ddaeaa955e32d736"
+    ],
+    [
+     "20201117181537",
+     "31355e38e8a90deb97fcf75a765fe7a24eafbaad8f989c46b0d1f1369da1d7fc"
+    ]
+   ]
+  },
+  "2020-wi-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/wisconsin/president.json",
+   "year": 2020,
+   "state": "wi",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104055723",
+     "ddce766562380b0ffe092856432f378e4cd6352c1710e78a8d2a84c8738969c0"
+    ],
+    [
+     "20201104132159",
+     "b0471134559cac1645608d0bcbf7bc917f4046a7267b6da55fe749e96c106dab"
+    ],
+    [
+     "20201104143821",
+     "e18e86f49f4b65779bd361df492edc92cc1724aad0de7b00159d69c2b38cc177"
+    ],
+    [
+     "20201104165359",
+     "185a65348dd4fa76a338f0c5d225fdfcea7f8e6d200e78e14d263579fdbdc4f1"
+    ],
+    [
+     "20201104175120",
+     "fa8e8f3c6f88b39a5e99f0b94291ee85b32d404555a0ccf919275821f939b2d5"
+    ],
+    [
+     "20201104193421",
+     "4fd9db0db1a2768f24c716d119f04b8a005a5c204b43aed29ffede12d99aa905"
+    ],
+    [
+     "20201104200901",
+     "dd3c8c71826cb1d3630c0cf5905f6794e72d361e0c37deac7c011c73db505370"
+    ],
+    [
+     "20201104204922",
+     "42d3c844e7af008627ef126ddc4e20c14854a7872e2779c8d54be25e2c84b133"
+    ],
+    [
+     "20201104224808",
+     "1223e19b76a0dd4eabf0f91754859854a60f6b17d59233777c4e50c74736c715"
+    ],
+    [
+     "20201105024520",
+     "853e037e191a3194d0876493fa095e6ba4792027cacbae64aa126e1fccae9d29"
+    ],
+    [
+     "20201105085631",
+     "5382969da397df1add5a1838499f9463aa440e1111d1372b0d7a4a42e29f71ac"
+    ],
+    [
+     "20201105112414",
+     "abd115752c545e54846b931e62e0cac863ad9c64dbdf836c47cf0d7b0fd0cc41"
+    ],
+    [
+     "20201105121832",
+     "77b9aabc2cceb72b912f107a08c381b9ce449394cb9726e40263eb573a4ffdd1"
+    ],
+    [
+     "20201105141746",
+     "2b5ac54db2f251f0b065a14d223d513dc43ff3e394c66697fc9ce87f0f9aaf04"
+    ],
+    [
+     "20201105150503",
+     "a9dfb93731ead3e3102dddb0c663ee30277f7127bf31fac4379768518e1a4705"
+    ],
+    [
+     "20201105154650",
+     "bf6f2e079d57e394ef0d06e8a41f99d6ddfb9275b1c8005ff2a48f0dea6b5b97"
+    ],
+    [
+     "20201105173813",
+     "6b63dafff4109fabf51c7be926c6a22e025d1d2e62fbb9df2add7292914ece6c"
+    ],
+    [
+     "20201105221751",
+     "e96da0ebbaf9f75fc28c29136a87209d60bf9ddfe52d883a90feab8ada686fdd"
+    ],
+    [
+     "20201105230530",
+     "e1369699338b268775971d8440d83343a4508ec16e47b69e52a75d2a110c275f"
+    ],
+    [
+     "20201106001207",
+     "5b76b20f1b325351634d24b7973c07fbbe6994aba0b6100c0fdd04d9b9436d5c"
+    ],
+    [
+     "20201106011809",
+     "e949da693ff98e8acc924e60d5615da35e2027137c7cbc5d0a281d3b9061b2cb"
+    ],
+    [
+     "20201106021046",
+     "882a8da45439ec29a860f956b9da8ca8a36c6f882e0c1662e5256a73d493a28f"
+    ],
+    [
+     "20201106101857",
+     "91a2c00baef08af25ea6650aee54cd93a7bc844dfc09a5a28fb12c94264e0fec"
+    ],
+    [
+     "20201106212655",
+     "f3ecd49b858ada6c48dd851a10e62d76bb048d5a13b2fdffdb045b1a6cc51bfc"
+    ],
+    [
+     "20201107114307",
+     "e072b011aba23ccee1ce6169e317b970246740243c26eda61ed264c303f1a294"
+    ],
+    [
+     "20201108115618",
+     "f3b80914d0133820327fd1ae02a62134fb4500b5c1005f72901b2f9e12d79fca"
+    ],
+    [
+     "20201108174211",
+     "007a6a916d4d95014f74402aac3d3aed5f132a432c6929cf34f1958b58ea3572"
+    ],
+    [
+     "20201109054058",
+     "818bf8ec84f67b7c01ef74a2da9d26510189aa815e37b8157dde88d14ea1c7b0"
+    ],
+    [
+     "20201113190943",
+     "d3075c841f160ea4c3e3de6db5c4a957cc58c838c64906b3066c5f3ca167d7c6"
+    ],
+    [
+     "20201114212523",
+     "f13fc4f9b478651e375224950ebcf90d316abf1a3c96bc67f4e781caae608e96"
+    ],
+    [
+     "20201115114337",
+     "5dd8c3626e747154ae346e9238adf1af6677235c4dd2bb77bc19ed06e55889f6"
+    ],
+    [
+     "20201115155601",
+     "61b6598afc143856bec65e73273f1580a36269b2fd304f4c399828c3e4fe9cd1"
+    ],
+    [
+     "20201115210853",
+     "18afea4b0feb6523f7041f621bca07e58762b8f3c2e53a1c68c21ce29bec7a80"
+    ],
+    [
+     "20201116232811",
+     "c03fbe5595979217021e9775d4ee43fec9e8533dff36a274dfde7cdf209a5d5b"
+    ],
+    [
+     "20201117185834",
+     "ddef65f39792d7bbaa00623d710468810c02741afb7e2b93d6af4e19a0ac93e9"
+    ]
+   ]
+  },
+  "2020-wv-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/west-virginia/president.json",
+   "year": 2020,
+   "state": "wv",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053501",
+     "9c6023ccd741c51354c9b353c74413a9328b6d33802951e019952a62705f9b2f"
+    ],
+    [
+     "20201105024718",
+     "a5746384e77578b10b2f1ef601182d3880df12f2af52666f641a4cc0213c2175"
+    ],
+    [
+     "20201105081551",
+     "00583f6088082f7a1688c5e1d7f46bcf8a0ec401079d9d3600f3b41a86fd4a2a"
+    ],
+    [
+     "20201105085740",
+     "4bbf9443fc729d94e7c1d90f519b4f8830378577c205c86b4bde433b15fa6a29"
+    ],
+    [
+     "20201105141352",
+     "578c9f53aa583d883235b76cf0cf9ad743bcc01801c78755aa2e0f7a42aad82a"
+    ],
+    [
+     "20201106000919",
+     "9419bb940e49d6a71361ee843a965cffe1efb99469b1d99f943dd071a5439269"
+    ],
+    [
+     "20201106101802",
+     "f098498e3e44b5f8467a9c9b543309e0a1b47d3d617ebfcd944dd9d14336dbc7"
+    ],
+    [
+     "20201106234105",
+     "2b775bd8792aeea4f03dc3247ad21622acb101ef6d48358c0f4ead13d44ac18e"
+    ],
+    [
+     "20201107113952",
+     "8745c01ea01f77282998ceb1bc7990602fb92e5f04806dab656d067282e9b53a"
+    ],
+    [
+     "20201108020351",
+     "02208f9fa407db619703bed4eaedd62a53a8250766984af08a314dd4f641443e"
+    ],
+    [
+     "20201108115329",
+     "dc06f64aad1d2369ddaa462145385fe5e34818424130d4fa4669eb7b9d119af6"
+    ],
+    [
+     "20201109054111",
+     "4deb6b8fb509a0ac5553ff6ef9503f5928a178455b27979bcea51439cb7adf54"
+    ],
+    [
+     "20201114004325",
+     "4d96d58a5956dc278d97aff5779b743aec2377ab70e20e7067499ab1d2a4e352"
+    ],
+    [
+     "20201115004954",
+     "e98d340bf65ccfd5bff9f0116c5473aaca4c0d97f6f7bea582930c3f363c6935"
+    ],
+    [
+     "20201116013835",
+     "105c0a8d7700f9062b81b158f3667785106361c2c86689163c92922105723f25"
+    ],
+    [
+     "20201116215433",
+     "160c00c3870d41308609fcadf77442897d13b9b06840f98e8220d19def6366fa"
+    ],
+    [
+     "20201117211525",
+     "75a13f912e186f193a8832a5f23401ba0b88734667cc05030dcf743f2d61d53b"
+    ]
+   ]
+  },
+  "2020-wy-president": {
+   "url": "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/race-page/wyoming/president.json",
+   "year": 2020,
+   "state": "wy",
+   "seat": "president",
+   "captures": [
+    [
+     "20201104053504",
+     "6d5baefd933f2c9e0e641e1edb182440e385d4bbd31ca2b00955758579353ac0"
+    ],
+    [
+     "20201105024856",
+     "f91aa371facba6f753fffe8edab4396d954cb5225cbc1add7144b81a221c4807"
+    ],
+    [
+     "20201105081549",
+     "da5e1ab938eb5c5c3392e8da44cbf94135b808da5cac65f76d871620f18a526c"
+    ],
+    [
+     "20201105085810",
+     "1fc9c621f18d0bd2feb76d0e482ef9a4d07e416fd7b1dd7485c6e75b025790ce"
+    ],
+    [
+     "20201105141348",
+     "34f02bcd1ac0b47462824cff718af4c5d29bfaa9f7dfc4123ec2b770b96ccb9b"
+    ],
+    [
+     "20201105173806",
+     "cb213cfaa50656cd14dd7727502e21dc630047d48d814d3cfd092aa0be6fc8a1"
+    ],
+    [
+     "20201106000822",
+     "042aa95d6a5118e6c293327279a369ff84c489858373bf136081d26a8c59faed"
+    ],
+    [
+     "20201106012139",
+     "4cd85f211958c256e907443265f9274cc9da400f1ac4d36892d5e0ae9a678e8c"
+    ],
+    [
+     "20201106020633",
+     "3bc8f97d4b23d045f9a9712cc7b5be8596ad8fe778a6124f5c2e2ab9c68f57f6"
+    ],
+    [
+     "20201106101802",
+     "de0fb6bf1eb5c65bc882389a65661a1f3fa97acc5d5515bcac62b35888282978"
+    ],
+    [
+     "20201106234100",
+     "0190927687b349276cfa4c155eea6d4e850e521902e44cc305889008e7dc5c3e"
+    ],
+    [
+     "20201107113912",
+     "288529f2bad90df7b359859417fab9acdf15038bbcb7b7108e41f5b75de35f71"
+    ],
+    [
+     "20201108115253",
+     "4e15641008522a07e685228b5eee3950637ebfe61952359d74eef67252e0fbbf"
+    ],
+    [
+     "20201109054126",
+     "1eed2b205ba64a9d0ff603399f12a356e4c460e084a7fd9ef59a96d5084e39a4"
+    ],
+    [
+     "20201114005403",
+     "6a81199ab452f53aa5054e71c1bdb4a78344e8c6584752b6e20617936ff66a8e"
+    ],
+    [
+     "20201115005706",
+     "ec0f0b20cb1af547116915363c41f0657d02d036ea152c830f837e86a5bf125a"
+    ],
+    [
+     "20201116014142",
+     "90b1015489db1eb38208a7efbc877c392c4d5d6533036a733ec6573a66248032"
+    ],
+    [
+     "20201116174535",
+     "12cb6e9ded0f0dbaafb748fd94e5a0ecfcf0845384e3f088d118a2b1f55c7168"
+    ],
+    [
+     "20201116215803",
+     "0c7ad44ad6352757083ab75bc0babdec2e07c9677298a894161ccd616b59e14b"
+    ],
+    [
+     "20201117211758",
+     "348e9fba15df81bda650cc8270b3653075e63ce238cb8bb1a9b3ebae7667b4c8"
+    ]
+   ]
+  },
+  "2022-co-governor": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-colorado-governor.json",
+   "year": 2022,
+   "state": "co",
+   "seat": "governor",
+   "captures": [
+    [
+     "20221109043646",
+     "2b0c023f0b170bba3802ca7ac8f081a73c09cba4fd24ada2cce432e69c856080"
+    ],
+    [
+     "20221109151405",
+     "1bd5268b03b8f38aff0574f9fc90ce057fcba88d133a5ced214de8aaaa91ad4a"
+    ],
+    [
+     "20221109154052",
+     "c8b1b191a8bffb94e633cecaf9ad467961e2a65fc9670cc4b0c2d562ed64f0ea"
+    ],
+    [
+     "20221110004435",
+     "31ebce6a65c742bdaa851b7106f3c72a5cd96d9482c87da59ee5d0269b4e27cd"
+    ],
+    [
+     "20221111154400",
+     "c63dfd2fec9aba670512331664782cd7dffce917a55d22715943bdee3e9d7bb3"
+    ],
+    [
+     "20221111164229",
+     "04ead7f8489cf09c0f27c0d20cd9f5f1bcbc9c41336aa10dda51aecec44a50f6"
+    ],
+    [
+     "20221118165547",
+     "1c2e2c17c2f69eec084e9f9693347f56391e2f86b527884fbfa17b115d3ecc3e"
+    ],
+    [
+     "20221118232647",
+     "91f9c1eef38304cb6bb6c126604f77defba801a17f3365247e35fced8c941240"
+    ],
+    [
+     "20221120030216",
+     "003f5294a43b5baaac799ced94fd3c9a0b09ce1e8dfd42762fa2caa9a639e826"
+    ],
+    [
+     "20221120211317",
+     "7c9ecffb54eaabe2905f90bb1fe1d4c94320e93590b0ef2b929485f26363f0e8"
+    ]
+   ]
+  },
+  "2022-co-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-colorado-us-senate.json",
+   "year": 2022,
+   "state": "co",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221108235817",
+     "84aaef44512715c20e5b7f4a081306b8a0bfc671ab112f292273b9c54ab82cc0"
+    ],
+    [
+     "20221109074151",
+     "bf18dbd9b34476f056b841d0c1d798604d328bc30b81e9b8a8a30493c5eadc92"
+    ],
+    [
+     "20221109091622",
+     "b6ad9a11fa268c5bdb5a999a5f612ec0fd2c0f3097876586c096322bc82064f3"
+    ],
+    [
+     "20221109102119",
+     "966c9ac1b25da4c84ab1903ece621361fc2b8c2ae26d2ce4c0ee2be36a673b43"
+    ],
+    [
+     "20221109144208",
+     "39359dd70b3ed33d92667d93b8df844d4bd6896bc42f589fb234b4009cac856d"
+    ],
+    [
+     "20221109183923",
+     "36199a48109c456e49fee3309f4320c7a79ca2ff1af7c232454d8976d165df5f"
+    ],
+    [
+     "20221110083936",
+     "b62ab2411d5cd9553ace5417176da4acec7a12e5d7382ac2b0485c0b4ce59f4b"
+    ],
+    [
+     "20221110101329",
+     "5a5c94d34e003220b7e39038840c171b70d460574b14b891226d92ea033da5eb"
+    ],
+    [
+     "20221111085741",
+     "9ba561a966a941d9a7c0b6fa5d127d0b7ee5f0286c74e582abcc37cd23b16ec8"
+    ],
+    [
+     "20221111092825",
+     "27a50fc69de52b32d48b5d61383fede56833569364fc7d15aed52c4ccf2f4354"
+    ],
+    [
+     "20221111132911",
+     "690531f870cf91a54fd56f4e060603c995691a70abc1e0945d8b2e50f8bbd862"
+    ],
+    [
+     "20221113103418",
+     "7b452f916a1a5647e0991a8ec0f6b9e975016109f80dace2d1031ae3ac5cc24e"
+    ],
+    [
+     "20221113113321",
+     "55a35ce95ee8a8080048b1984a02c5cec4f8f37bd2bf09b015b754b6351de1cd"
+    ]
+   ]
+  },
+  "2022-ct-governor": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-connecticut-governor.json",
+   "year": 2022,
+   "state": "ct",
+   "seat": "governor",
+   "captures": [
+    [
+     "20221109040436",
+     "5521ce4550e0b9fca112d30b3a136d8848e6dbac46facd479008b06005999d6b"
+    ],
+    [
+     "20221109154052",
+     "45ab06a621012ca6596c434d55228ef869473df5e56627fc453559e866d22f8c"
+    ],
+    [
+     "20221110055445",
+     "e3d21d9c425ba6c3f89b18df669a922304094fa0f95dd40a176ac78ad1b9e7c5"
+    ]
+   ]
+  },
+  "2022-ct-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-connecticut-us-senate.json",
+   "year": 2022,
+   "state": "ct",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109033401",
+     "76b6bcfcbd717aa045b0115067ee1fe7e7f633da26e3d0d475276ffb44550f88"
+    ],
+    [
+     "20221109144056",
+     "da302400dbc1d3b2200e1643540e5769b5d1fff9711a754bc469c421007a07aa"
+    ],
+    [
+     "20221109144208",
+     "da302400dbc1d3b2200e1643540e5769b5d1fff9711a754bc469c421007a07aa"
+    ],
+    [
+     "20221109191110",
+     "eec1f02290ebe7aa916202120f353bc117aa4bdeeae3e59b6dc1cc41fb781f7c"
+    ]
+   ]
+  },
+  "2022-fl-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-florida-us-senate.json",
+   "year": 2022,
+   "state": "fl",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109021733",
+     "14c671e415edb561557a84c30b77ae4799c86acf23f26712c2bdbb23a66c00ca"
+    ],
+    [
+     "20221109120123",
+     "c9e7f56271121999783b7f1eda1ddbd2122b29dcfcf677f6576c891074d85a2e"
+    ],
+    [
+     "20221109154049",
+     "649be7a6299af94b61d9b3339d660e0fd3fe1db7068514ae4c1c4da8fc67a00b"
+    ],
+    [
+     "20221109224308",
+     "2e87c3cf46e1fafd1be90155d10b79ac7ef2a4388926418c261c65e29b08ac10"
+    ]
+   ]
+  },
+  "2022-ia-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-iowa-us-senate.json",
+   "year": 2022,
+   "state": "ia",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109021235",
+     "a2de234c899333b7cb08998770f727f7c32cd1673dae300351409a9b8abcf676"
+    ],
+    [
+     "20221109144214",
+     "4e0208c25c31dd665da4c219e1f908dc03eba8d9198ccc5104f0e361856f0767"
+    ],
+    [
+     "20221109191715",
+     "b2b0c2ed8794eed2bcc418cc3223f440146d44014904a562e3ef22001dd11709"
+    ]
+   ]
+  },
+  "2022-il-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-illinois-us-senate.json",
+   "year": 2022,
+   "state": "il",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109144050",
+     "b82b86b2ffcd02e560fd0c3539b1c8f27679619ddb8b3bbaf5ef13164f74f9b8"
+    ],
+    [
+     "20221109144222",
+     "b82b86b2ffcd02e560fd0c3539b1c8f27679619ddb8b3bbaf5ef13164f74f9b8"
+    ],
+    [
+     "20221109191805",
+     "16be98355a7abc6be93a047cbc94aa29626a4f243eda19325b0461c9e4e2dc42"
+    ],
+    [
+     "20221109233846",
+     "8d7e083c600fad997d48346de3b5db42c5ccfa1a9beddd6dc982b0cf94083af4"
+    ]
+   ]
+  },
+  "2022-ky-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-kentucky-us-senate.json",
+   "year": 2022,
+   "state": "ky",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109012250",
+     "632421151dfe4e0e94dee315782c0e8ade11c1cf3ed98269a1d0431a43ed27ce"
+    ],
+    [
+     "20221109144208",
+     "77746e251f06b713d8e06be4d52e8a0a07ea5aaab11d8ed86e7b6b55029feeed"
+    ],
+    [
+     "20221109182854",
+     "345f36ba5551d2e1e40a5389a628b08cb479098c2a13c2e583d7e2b0a18f382d"
+    ],
+    [
+     "20221110030434",
+     "ac43476440f8578dcb9993b46dbc835b5147343d786d5b56c1332f5bcc99c742"
+    ],
+    [
+     "20221116051058",
+     "5547c37e0cb4e3d10203d01d64d4132589e5fd0a2cf10feedf27ac6acf96139f"
+    ]
+   ]
+  },
+  "2022-la-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-louisiana-us-senate.json",
+   "year": 2022,
+   "state": "la",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109015406",
+     "d320ab5aed21d63aeca58ec623b8a43594f14e938b72b9e19c4250abad738d88"
+    ],
+    [
+     "20221109144237",
+     "ac24e919e26ac21e8e7fb071aaa5e38677159378b66d91935f4fab212d2cdde6"
+    ],
+    [
+     "20221109185510",
+     "70a402001795a2eb377edc8911fd6d43f9f6440b442800863458337f5bd0feda"
+    ],
+    [
+     "20221111073537",
+     "bf5da05f880007466f7dd57c4944e81888f9c8903519041126a77391aad9b9ba"
+    ]
+   ]
+  },
+  "2022-ma-governor": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-massachusetts-governor.json",
+   "year": 2022,
+   "state": "ma",
+   "seat": "governor",
+   "captures": [
+    [
+     "20221109013600",
+     "4b0e0c426971868bbe24cc4e87540a7e3278d560f08a5defbf5c6b7a7e1746fe"
+    ],
+    [
+     "20221109112143",
+     "60a360c537594e72114acb24c61d126984545f5a3c8e9c6ab58882150c91c14b"
+    ],
+    [
+     "20221109151415",
+     "39187e18cbc02a349a1638cfd8fe64981cf026a6c18fc2744c842cd58e0f5ab1"
+    ],
+    [
+     "20221109154050",
+     "a645ab6bf113b24c06f3ba0cce7e8a119a88f53c405f37e114f320297995a743"
+    ],
+    [
+     "20221109195048",
+     "26fe94f93dab15a25c169442641d40379d5d798c0fb71e6d46f5f3cacc2855a0"
+    ],
+    [
+     "20221109224308",
+     "2b4da523f6cadf99d4576d7a7f63dcea3ab8f1934ec15a8a3ec6bf03acd002e2"
+    ],
+    [
+     "20221112044227",
+     "558bf69419b5f831497f178f54fe2fd6a492423b0168f39edfca79f38dbe743c"
+    ],
+    [
+     "20221115073708",
+     "043a4efd18d9ba7103232a5ea55f80cb70f7aca08818e6fab6b40bb72e52e065"
+    ],
+    [
+     "20221116081614",
+     "098b5a671fb9bf8dce6a316f097f9f5ecbb4e001d54d70498d1b66e4ef77cb41"
+    ],
+    [
+     "20221117104644",
+     "c936a5579a7c3b1d067eb573f99a45cdfeef6d404435c735508aacf9023abe76"
+    ],
+    [
+     "20221118123405",
+     "49c68099dfedf97ffd1ce101b43cd97559a4a15e8700ec87e9187b542a5c0556"
+    ]
+   ]
+  },
+  "2022-md-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-maryland-us-senate.json",
+   "year": 2022,
+   "state": "md",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109144246",
+     "0a2d455854c455faaca29279327d229c96d15682cc1e47b6161c09b1f364f3da"
+    ],
+    [
+     "20221109151337",
+     "ce149c470477b05ce6fc8e41b013708571d1c2f79f21312cc2ea0ebc14654b22"
+    ],
+    [
+     "20221109185704",
+     "cf939cef04c3cd5088e0562b8b6505e7e87ab32e4c8cd202340db121b55a20c7"
+    ],
+    [
+     "20221116051237",
+     "84682712cdab2541efeba5ead8e27325e15ab4559a63901213edea846cd72bb5"
+    ]
+   ]
+  },
+  "2022-mo-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-missouri-us-senate.json",
+   "year": 2022,
+   "state": "mo",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109151400",
+     "a23cdc3ddc2c217fc885c0c547ef7feb035cfe0c11fe0d8a4aae2c6c6de5e926"
+    ],
+    [
+     "20221109154054",
+     "0a900723001751afecad87f36cdc25f00f6835fc4a26f68b892da70efd072d2c"
+    ],
+    [
+     "20221110052157",
+     "a0b6bc7340efe743d30ec7ec3c4f5cf36684d777663c48e4244a8e228d7dfe0e"
+    ]
+   ]
+  },
+  "2022-nd-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-north-dakota-us-senate.json",
+   "year": 2022,
+   "state": "nd",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109154055",
+     "6c381835b1095ff10dc556156395ac8e7a53958527fce6dd619158b8bcab5737"
+    ],
+    [
+     "20221110082049",
+     "03eea557ba8f8e12a04e41aa88ba937e2ef96c77d975729b3129fe0d1432d3a1"
+    ],
+    [
+     "20221116051122",
+     "dc56b1b3fb996e7135e0798b1e42a5b0ef79d6f895fd52d58f9dac958fb85f8c"
+    ]
+   ]
+  },
+  "2022-nh-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-new-hampshire-us-senate.json",
+   "year": 2022,
+   "state": "nh",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221108235733",
+     "9acd4185242fa19863d6cd9f898cbefdb35bf8c96325619603f78ba01dbd5dbb"
+    ],
+    [
+     "20221109074217",
+     "35b499bf1fbc814298893a975cc1c849bb1f0f3c40fb352d93624314575ba46f"
+    ],
+    [
+     "20221109091604",
+     "3567c4c31fc1b3ac971129a0c317d6a2a613b895d0e00e3d1df48da6db6bb663"
+    ],
+    [
+     "20221109102144",
+     "9cd22b8de76957d32d54ca4054103015f320902644ae8906cb8d9c6e506a4882"
+    ],
+    [
+     "20221109144310",
+     "05fbb47a92a4f23442c94570f995bbf176d3cfe293d3afc1e89c67cdbc72665f"
+    ],
+    [
+     "20221109192406",
+     "8315a4d13075cb3fc5fa8bac9773ac60d667c80838d32543b3a58d3a8f38c8bb"
+    ],
+    [
+     "20221109210326",
+     "09f6ddad90a167fb82d1d46012e58e235ade916c031c5925b32249f3dfb18c56"
+    ],
+    [
+     "20221110064426",
+     "2a3a9dbcaa23f20acb2ed0b3ba3625ca1c5b41c14c479b42dd310e9380036aff"
+    ],
+    [
+     "20221110083958",
+     "eb78075784c466ed4aa094e75063262515d44fbae5875cfb4d8d9ed27e87849a"
+    ],
+    [
+     "20221110101356",
+     "77c989e6302c063d5c2ea1f928cfc9c51f5dddfcbf434cc5e37686ab9ddb3c45"
+    ],
+    [
+     "20221110224649",
+     "91d69d30d92a0ee57ad24fb389bac2b538a0aa8b780fd43da8369feba38aa291"
+    ],
+    [
+     "20221111073500",
+     "c5d2a40eaa3fbf5a5089c8b1b45c1138d98fadad64a92c49d206cbbd2fde8530"
+    ],
+    [
+     "20221111085808",
+     "09ac2a7d4b3552f0b0f0031ce9b4569f31e112b6b1204ed10bf65b64fe8d8062"
+    ],
+    [
+     "20221111092850",
+     "7d6cb917a0ce449d293b0aaa9c8583d79b14c107fa7fb014c0710c3f37f37f22"
+    ],
+    [
+     "20221111132921",
+     "712532c63d57544b03a0c376635a621d0e56688d25cf5df8e331ad1ad3ad22ab"
+    ],
+    [
+     "20221111220818",
+     "ab249ec7997ac3bb0b1bafae8c3d94f370261523d552bdf94604ea79255c9891"
+    ],
+    [
+     "20221112154623",
+     "791081e9e2734c59aca1a7ad1f95039caa5e1e3ae219b40b6f7aa8819cea315d"
+    ],
+    [
+     "20221113011020",
+     "96132c1601b9a72ac71c55473891655a71e44cc1fd682831e33ee196a936b129"
+    ],
+    [
+     "20221113103444",
+     "976fea3d6287470f49ee6b8044719ea380faf355075c811d9d1912c17af4abab"
+    ],
+    [
+     "20221113113346",
+     "4cff4fd7e061df82db0c1171d9fff7ca83f0968bb409abf785808a718d7e1d13"
+    ],
+    [
+     "20221116051024",
+     "72c0da95a949d47b535449420598f25cbaaaaec4370b6e4505878d6d12881f62"
+    ]
+   ]
+  },
+  "2022-ny-governor": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-new-york-governor.json",
+   "year": 2022,
+   "state": "ny",
+   "seat": "governor",
+   "captures": [
+    [
+     "20221108235038",
+     "5b8e3a4bc7e25aeea3e58d38f35d7317c2c05d3a0a258e0132976b61c2c25800"
+    ],
+    [
+     "20221109075037",
+     "24897ea0668a997c0f43d817b91f057deb448750df211e8f812486da22f01c42"
+    ],
+    [
+     "20221109090049",
+     "0b6dea088f1da8b297af552770a551cccc039c5c2c8e45285833c7774eeca90b"
+    ],
+    [
+     "20221109154048",
+     "fc991911e44ff92bc853f25612529696f0dc3e37113a7243a9f59d53cdaf3942"
+    ],
+    [
+     "20221109182400",
+     "faabe9687b7a09b3deaeca7383307e4e0d0567edcd257c6a794bd69970d70227"
+    ],
+    [
+     "20221109224307",
+     "f99388befed1d59ab00c7c2fa0a254be6a56889cc7b004db520f2ef8c1c340b0"
+    ],
+    [
+     "20221110030924",
+     "a1427ba5310f331ec453aa3e8f12f9c70dda6b929437bf681cae6bba66fea88c"
+    ],
+    [
+     "20221110122240",
+     "c3833653e77d216629575d959c7583f30cdb3770e065e3206841a14e2d329d38"
+    ],
+    [
+     "20221111014044",
+     "f090fba97a034b5e6f53f308b29227242d64de5a24cd2872b2ce98f8d56fead9"
+    ],
+    [
+     "20221111140505",
+     "82a15a54ef8ea999cf5ad57121bc2db9e144e06c7c4ebf978c45a48c14f401ec"
+    ],
+    [
+     "20221112195203",
+     "bfded46a265c5cb50deb8dd468bd78e04f19bc70d9a07a2765c8e22bd188518b"
+    ],
+    [
+     "20221119015413",
+     "fcdc95043472ea4c4f64d7fb02d5ed229ddc2a41d0da18b2498e1785213340ed"
+    ],
+    [
+     "20221119183403",
+     "41b939f3adbadeb7717019f90f27ebe14ccb84ffc290ff60ad4fcca8f1f81aec"
+    ],
+    [
+     "20221120074630",
+     "c23e7cc9b60b3c0f8e9a37e82a5d6277347a48a63b9e9c8c9527c3adf15c0944"
+    ]
+   ]
+  },
+  "2022-ny-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-new-york-us-senate.json",
+   "year": 2022,
+   "state": "ny",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109024540",
+     "0fe8c244f7c9f72989a0fec608476efb1bdd00d5fcf0aec2a52c824d733067ae"
+    ],
+    [
+     "20221109151421",
+     "14e9453ebfac10115ef7734b997036c72bca0aff3e1a3030b8474eb634f26b3a"
+    ],
+    [
+     "20221109154056",
+     "f7404e8b6a295b9b45cc8c1ff98cdbbd5b84381b95f15bdee966099748d4834c"
+    ],
+    [
+     "20221110083717",
+     "b5232acba7a20430739ae498faf77f4cdbb1f37ecc36001008410aa1b6ffbda8"
+    ]
+   ]
+  },
+  "2022-sc-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-south-carolina-us-senate.json",
+   "year": 2022,
+   "state": "sc",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221109144333",
+     "65a9554395f78a4e8b9b29ce890f051352c6f41566bb5b236563fa8293fd6c9d"
+    ],
+    [
+     "20221109193632",
+     "ae53765184f80192f9758eb858b53b448226ad825300519162d0b1acefef1ec8"
+    ],
+    [
+     "20221111073534",
+     "b6b691d2ffb6f59dbb0236bbd7b44bfa3791be8b9484bb4d8d7fd0157a1c5539"
+    ]
+   ]
+  },
+  "2022-sd-senate": {
+   "url": "https://static01.nyt.com/elections-assets/2022/data/2022-11-08/results-south-dakota-us-senate.json",
+   "year": 2022,
+   "state": "sd",
+   "seat": "senate",
+   "captures": [
+    [
+     "20221108184445",
+     "37d1ba28be06098dff72754d0763062567be21f209f131c589bbaf037b5bfe7f"
+    ],
+    [
+     "20221109154122",
+     "6d5953b8df8663a0239782b8aa1e8866c77265cea460aedfdd70eaf05ca80697"
+    ],
+    [
+     "20221110101504",
+     "d4dc8b462aea7c51ea6140ba9559b63981ec78259a545c44fdd3020e9f4c56ad"
+    ]
+   ]
+  },
+  "2024-az-president": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-arizona-president.json",
+   "year": 2024,
+   "state": "az",
+   "seat": "president",
+   "captures": [
+    [
+     "20241105235747",
+     "e3a6e2e302484e0a3c3f7213c8862a34532df0b2918ad2a7a8f017dc85fad75c"
+    ],
+    [
+     "20241106182244",
+     "0fa57e6ea220452e1578de40972169cb7fe323b55cb3c8b3bc187033a6aa944e"
+    ],
+    [
+     "20241108161211",
+     "3355324fc13ac4651584f6f25fb0534fe52133edccfa9bf5683946d0af448fa7"
+    ]
+   ]
+  },
+  "2024-az-senate": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-arizona-us-senate.json",
+   "year": 2024,
+   "state": "az",
+   "seat": "senate",
+   "captures": [
+    [
+     "20241106051235",
+     "06e580272ad288f59108be1992acd77816d5356bb273e20edebbea82851e3131"
+    ],
+    [
+     "20241107063318",
+     "513ffc9cc9fdf7bef30dbe3e421e27e6ded47d93ee29615dfbe1f2f5f318b338"
+    ],
+    [
+     "20241108175638",
+     "9c4ac6abafa13d0687b299a9b53bfdfe537b575c9d566ec540ecace930af88b0"
+    ],
+    [
+     "20241110222900",
+     "a8ade32ac98b539a1e93dc0f396b9546d118c78e0ede432c45d2934af7702723"
+    ]
+   ]
+  },
+  "2024-ca-president": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-california-president.json",
+   "year": 2024,
+   "state": "ca",
+   "seat": "president",
+   "captures": [
+    [
+     "20241106040104",
+     "e4d0bf1d794117b94407e113343a1af0af7c2e153e847e909b8ea54ae0c39dde"
+    ],
+    [
+     "20241107013517",
+     "c70251b3b875f061055bb2c2aee0589b1185f2a6450df2fab93e5f7a4ba10fbb"
+    ],
+    [
+     "20241107174445",
+     "7b416a0a747fa4a8aae1dc8aa3f006844e04aaeccb6aa62405edfbd86c87badc"
+    ],
+    [
+     "20241111171955",
+     "403b8f8844e63876e447c6c985b834775b0a59d86f02ea5c51a835585ab13226"
+    ],
+    [
+     "20241112160959",
+     "65355fcf80fecad73146d32a1d890adfc1752a8f7ed31db7a309df322b270e18"
+    ]
+   ]
+  },
+  "2024-fl-president": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-florida-president.json",
+   "year": 2024,
+   "state": "fl",
+   "seat": "president",
+   "captures": [
+    [
+     "20241106000546",
+     "3690721f0d02be282b4458cb1d82e2b8ab83296fb4a0ad02a0992e1ec99a5b9f"
+    ],
+    [
+     "20241107052356",
+     "bc8406eb8cd14d6a75ed8da19d17af603a6627b9acc664825c4437ad93ca441f"
+    ],
+    [
+     "20241107174333",
+     "68259fdacfb6c4cf8ba799252eefd12f38660e6e1708c44c47f2e48044d2f379"
+    ]
+   ]
+  },
+  "2024-ga-president": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-georgia-president.json",
+   "year": 2024,
+   "state": "ga",
+   "seat": "president",
+   "captures": [
+    [
+     "20241105222921",
+     "593f27c9ee3b2905364e6390111e5d5eb1d1c479a3bc38fdd729957736c4a10f"
+    ],
+    [
+     "20241106000717",
+     "3b52204d9d39dac128bcbfcff1356d69ef0a4ac1230385899548cac4846cf5ba"
+    ],
+    [
+     "20241106003242",
+     "17a184bb0a295cf16c75710ebc3ec5f9cab279b19ac584d52643311808a122b4"
+    ],
+    [
+     "20241106003303",
+     "b7b57fd3be59a704f742209a573aedeeb8aa259c6740e5863ef5c20bc4619d85"
+    ],
+    [
+     "20241107174424",
+     "12ef309ae9a965e2f154a682f2c797832333dd8b00918eea6d311f0a182db175"
+    ]
+   ]
+  },
+  "2024-mi-president": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-michigan-president.json",
+   "year": 2024,
+   "state": "mi",
+   "seat": "president",
+   "captures": [
+    [
+     "20241106015138",
+     "8319c93b662d9e0bacc1ff26a2a594a11e03d7e1576ac0c846f89251404a582a"
+    ],
+    [
+     "20241107103657",
+     "c05017c7cfef1143e795e942b14a51f7088278839c6ce6ff0a9778d551b9795d"
+    ],
+    [
+     "20241115014208",
+     "4f12643b722e409a444b590368ce3a557bff915027939a01a1bfa74090a9349b"
+    ]
+   ]
+  },
+  "2024-mi-senate": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-michigan-us-senate.json",
+   "year": 2024,
+   "state": "mi",
+   "seat": "senate",
+   "captures": [
+    [
+     "20241106061534",
+     "68b022a56530da9cf37f8b2a6e3c258bd6974b36e5e8de5d2ded7014d99507f3"
+    ],
+    [
+     "20241108160856",
+     "86c7b37dbd7165f9fce9b0c9e7a6aa622c4172489f0e5b6684ee2cdaf0414a0d"
+    ],
+    [
+     "20241110174459",
+     "7a85602cf1ec023397453717bbf785dc13c431ddf033e712b667a7566ac28fac"
+    ]
+   ]
+  },
+  "2024-nj-president": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-new-jersey-president.json",
+   "year": 2024,
+   "state": "nj",
+   "seat": "president",
+   "captures": [
+    [
+     "20241106013419",
+     "c797026e35d330dc734dbea15998c8fbf33e5e46d8316a40de1dc04ac9b77817"
+    ],
+    [
+     "20241106180922",
+     "11bfbec31c9068b20ade760d4666143d31fb2ac65314dd8429be5560e8e884bb"
+    ],
+    [
+     "20241107174332",
+     "01cbf2727aaaf057fcb08001de8260510e50a3a9f12d8ed0a768406d522608ce"
+    ]
+   ]
+  },
+  "2024-nv-president": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-nevada-president.json",
+   "year": 2024,
+   "state": "nv",
+   "seat": "president",
+   "captures": [
+    [
+     "20241106005728",
+     "139fb4813677473ec18f522046b504f25240928f1e5148762ee213ea29432f8f"
+    ],
+    [
+     "20241107084505",
+     "f3672f2703116a2aa47c8fca0affe051be70532932d57d5885dd5638d977aefa"
+    ],
+    [
+     "20241108204724",
+     "b40a8277800c1fab47a1b2382858e736f25b054b6c35dcddf47ffb970ae788ce"
+    ]
+   ]
+  },
+  "2024-ny-president": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-new-york-president.json",
+   "year": 2024,
+   "state": "ny",
+   "seat": "president",
+   "captures": [
+    [
+     "20241106000117",
+     "ce87ee0030acd8b8bd21f84b7f2814719ff1ee5117006dc0a3a8364cd4286445"
+    ],
+    [
+     "20241106194747",
+     "e3dce26d0418f7e7d3613a7b0a3f253df3b860328379f52167024ca32c5b6bb5"
+    ],
+    [
+     "20241107174327",
+     "db20324543ca98762915b10e99f5e1d3abdc9b6ecebb9be024f8f2dbf4483412"
+    ],
+    [
+     "20241112005312",
+     "d14b031ac003bc34a8ee0bbb9f0943dbaed52a7d4adac728f0a46e07a44f8d51"
+    ],
+    [
+     "20241112152934",
+     "8c0aedb30e5528eb5ec5fe353e8cada7efbb9e59b591aa5e469eaa0625087b7d"
+    ]
+   ]
+  },
+  "2024-pa-senate": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-pennsylvania-us-senate.json",
+   "year": 2024,
+   "state": "pa",
+   "seat": "senate",
+   "captures": [
+    [
+     "20241108203905",
+     "e32eaef754210e6959ff021f2b91744dc47819345aa87cec9fcac3ea04be0112"
+    ],
+    [
+     "20241109194602",
+     "6b26d3afc655d96aa6d248470f9fda2f321cc100d399a7cd890fe35daa05bdd2"
+    ],
+    [
+     "20241110060028",
+     "5a7ae44fdea1ebdd849ef83dc8386f564b63b06943b66e22bdfefaf788cc9e39"
+    ],
+    [
+     "20241111203611",
+     "ba73bf8041f3607cb41e1c6c617fdf6f1680295f12821729710887f787eb20e4"
+    ],
+    [
+     "20241112134937",
+     "65eecf6704c141803d5f59a992059f51767a42c669ba8f9e00d58c4fd92cdee0"
+    ],
+    [
+     "20241113165123",
+     "8ff8e05d993ec9ca8440e33dbe757a293f2a01a4a7deab9dd6815ff68b0060d1"
+    ],
+    [
+     "20241115014034",
+     "21bebb1087d869177d01e230fa0508030bcd57227efec9c016d5c279c6c59123"
+    ],
+    [
+     "20241115120741",
+     "b51f249fef6482eb1fd5523d1980b1a68970e79dd30aa8c4704e2868106f0335"
+    ],
+    [
+     "20241116211704",
+     "cc2ec4b0e43d6c8ee75912361468374cd1daf8f2409e8474e6daf47a3690f458"
+    ],
+    [
+     "20241117085912",
+     "57068c7cb409236b9a69bf6c5de4d54ff01b8ca5adace67409786a5790f28579"
+    ],
+    [
+     "20241119043023",
+     "f3614215a1e8d8ae0af9366c64fcdbebd1678797d0400353c3f6b946ddb78603"
+    ]
+   ]
+  },
+  "2024-tx-senate": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-texas-us-senate.json",
+   "year": 2024,
+   "state": "tx",
+   "seat": "senate",
+   "captures": [
+    [
+     "20241106014750",
+     "5b0eeac8744d03ddcf92d1f1ec5492e0b96515ff81b2ed7d14b125331cfa0e30"
+    ],
+    [
+     "20241106182556",
+     "928a8a9a1dbaa864807d0fb977dc31e29bb5f93c295068803f55d425d1f615d8"
+    ],
+    [
+     "20241108024716",
+     "20a0b4408275f5119a9edcd16ddb7dbadc750a3186eb3fdec0062074d11c2a60"
+    ],
+    [
+     "20241112153126",
+     "f7e7c61c1c2044933ccd1d171d3a1243dce43c10e2e64a11e2afd0ef79c8b77e"
+    ]
+   ]
+  },
+  "2024-wi-president": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-wisconsin-president.json",
+   "year": 2024,
+   "state": "wi",
+   "seat": "president",
+   "captures": [
+    [
+     "20241107103618",
+     "3a32183e5e85d14585caee9aaedbeb068bd13eb82494a28d70828533564c6ce0"
+    ],
+    [
+     "20241115014610",
+     "7354b0eaf82f4e5f2ecc9c17237b42cb3db820082a2d420c988bc6e64ac130e5"
+    ],
+    [
+     "20241118004455",
+     "076ddc7d9ed6ca05900e62203ffa8b1268fd7060cd975957088ddf9bc3d1ca42"
+    ]
+   ]
+  },
+  "2024-wi-senate": {
+   "url": "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-wisconsin-us-senate.json",
+   "year": 2024,
+   "state": "wi",
+   "seat": "senate",
+   "captures": [
+    [
+     "20241106030924",
+     "b02ecc6af3dc5c7fbb64cee65863003e6028c9440d7c032d0ab0f8ab9b06db9f"
+    ],
+    [
+     "20241106201022",
+     "0f0f85574176c9a754c4956bb5457765da1ae86d09322829f76b7e182c94c93d"
+    ],
+    [
+     "20241107174437",
+     "c2ca260bb3b602f3243d872d3a1108e8a76abce02be0ee57329d198f95b03ee7"
+    ]
+   ]
+  }
  }
 }

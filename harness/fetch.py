@@ -18,7 +18,7 @@ def get(url: str) -> bytes | None:
             return gzip.decompress(body) if body[:2] == b"\x1f\x8b" else body
         except Exception as error:
             print("retry", url, error, file=sys.stderr, flush=True)
-            time.sleep(5 * (attempt + 1))
+            time.sleep(120 * 2**attempt)
     return None
 
 
@@ -39,6 +39,6 @@ if __name__ == "__main__":
                     bad += 1
                     continue
                 target.write_bytes(body)
-                time.sleep(2)
+                time.sleep(4.5)
             print(year, key, len(entry["captures"]), "captures", flush=True)
     sys.exit(1 if bad else 0)

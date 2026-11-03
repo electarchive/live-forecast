@@ -25,6 +25,7 @@ GROUPS = {
     "holdout2020": lambda row: row["race"].startswith("holdout/2020-"),
     "holdout2022": lambda row: row["race"].startswith("holdout/2022-"),
     "holdout2024": lambda row: row["race"].startswith("holdout/2024-"),
+    "holdoutClose": lambda row: row["set"] == "holdout" and abs(row["truth"]) < 0.1,
 }
 
 
