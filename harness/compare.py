@@ -13,8 +13,10 @@ from score import (
     GROUPS,
     ROOT,
     SEED,
+    TIERED,
     calls,
     metrics,
+    ready,
     reliability,
     terms,
 )
@@ -63,22 +65,21 @@ def summary(rows: list[dict]) -> dict:
     return metrics(rows) | calls(rows) | {"ece": sum(count * abs(p - o) for p, o, count in table) / max(n, 1)}
 
 
-def first(rows: list[dict]) -> dict[str, tuple[float, bool]]:
+def first(rows: list[dict], rule: tuple[tuple[float, float], ...] = ((CHANCE, COUNTED),)) -> dict[str, tuple[float, bool]]:
     races: dict[str, list[dict]] = defaultdict(list)
     for row in rows:
         races[row["race"]].append(row)
     out = {}
     for race, found in races.items():
         for row in sorted(found, key=lambda row: (row["share"], row["at"])):
-            p = row["pD"]
-            if min(row["sin"], 1) >= COUNTED and max(p, 1 - p) >= CHANCE:
-                out[race] = (row["share"], (p >= 0.5) == (row["truth"] > 0))
+            if ready(row, rule):
+                out[race] = (row["share"], (row["pD"] >= 0.5) == (row["truth"] > 0))
                 break
     return out
 
 
-def speed(model: list[dict], baseline: list[dict]) -> dict:
-    ours, theirs = first(model), first(baseline)
+def speed(model: list[dict], baseline: list[dict], rule: tuple[tuple[float, float], ...] = ((CHANCE, COUNTED),)) -> dict:
+    ours, theirs = first(model, rule), first(baseline, rule)
     both = [race for race in ours if race in theirs and ours[race][1] and theirs[race][1]]
     return {
         "races": len(both),
@@ -107,6 +108,7 @@ def compare(model: dict[tuple[str, str, float], dict], path: Path) -> dict:
                 "gap": paired(ours, theirs),
                 "strict": strict(theirs),
                 "speed": speed(ours, theirs),
+                "speedTiered": speed(ours, theirs, TIERED),
             }
     return results
 

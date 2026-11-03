@@ -122,6 +122,13 @@
    "baseline": 0.8435100847685968,
    "modelFirst": 0,
    "baselineFirst": 1
+  },
+  "speedTiered": {
+   "races": 2,
+   "model": 0.9902570426964168,
+   "baseline": 0.8435100847685968,
+   "modelFirst": 0,
+   "baselineFirst": 1
   }
  },
  "2022": {
@@ -245,6 +252,13 @@
    "races": 4,
    "model": 0.9756141159146011,
    "baseline": 0.9752966555164837,
+   "modelFirst": 0,
+   "baselineFirst": 1
+  },
+  "speedTiered": {
+   "races": 3,
+   "model": 0.9715949637870646,
+   "baseline": 0.9711716832562414,
    "modelFirst": 0,
    "baselineFirst": 1
   }
@@ -372,6 +386,13 @@
    "baseline": 0.9313677986005214,
    "modelFirst": 0,
    "baselineFirst": 2
+  },
+  "speedTiered": {
+   "races": 5,
+   "model": 0.9790597953508055,
+   "baseline": 0.9201070438611836,
+   "modelFirst": 0,
+   "baselineFirst": 2
   }
  },
  "midterm": {
@@ -497,6 +518,13 @@
    "baseline": 0.5217741935483872,
    "modelFirst": 38,
    "baselineFirst": 56
+  },
+  "speedTiered": {
+   "races": 121,
+   "model": 0.3628099173553719,
+   "baseline": 0.2450413223140496,
+   "modelFirst": 11,
+   "baselineFirst": 58
   }
  },
  "presidential": {
@@ -622,6 +650,13 @@
    "baseline": 0.5108247422680413,
    "modelFirst": 36,
    "baselineFirst": 110
+  },
+  "speedTiered": {
+   "races": 285,
+   "model": 0.36017543859649126,
+   "baseline": 0.23087719298245613,
+   "modelFirst": 13,
+   "baselineFirst": 181
   }
  },
  "simulated": {
@@ -747,6 +782,13 @@
    "baseline": 0.5140963855421686,
    "modelFirst": 74,
    "baselineFirst": 166
+  },
+  "speedTiered": {
+   "races": 406,
+   "model": 0.36096059113300494,
+   "baseline": 0.2350985221674877,
+   "modelFirst": 24,
+   "baselineFirst": 239
   }
  },
  "close": {
@@ -872,6 +914,13 @@
    "baseline": 0.5057894736842106,
    "modelFirst": 12,
    "baselineFirst": 58
+  },
+  "speedTiered": {
+   "races": 92,
+   "model": 0.6097826086956522,
+   "baseline": 0.2717391304347826,
+   "modelFirst": 2,
+   "baselineFirst": 88
   }
  },
  "holdout": {
@@ -997,6 +1046,13 @@
    "baseline": 0.8378538046266772,
    "modelFirst": 0,
    "baselineFirst": 8
+  },
+  "speedTiered": {
+   "races": 61,
+   "model": 0.8238641725800112,
+   "baseline": 0.7613487654654298,
+   "modelFirst": 0,
+   "baselineFirst": 10
   }
  },
  "holdout2020": {
@@ -1122,6 +1178,13 @@
    "baseline": 0.8255689101066382,
    "modelFirst": 0,
    "baselineFirst": 6
+  },
+  "speedTiered": {
+   "races": 45,
+   "model": 0.8205241906074359,
+   "baseline": 0.76835873061315,
+   "modelFirst": 0,
+   "baselineFirst": 7
   }
  },
  "holdout2022": {
@@ -1245,6 +1308,13 @@
    "races": 10,
    "model": 0.8861276225073252,
    "baseline": 0.8861276225073252,
+   "modelFirst": 0,
+   "baselineFirst": 0
+  },
+  "speedTiered": {
+   "races": 10,
+   "model": 0.8231594885732069,
+   "baseline": 0.8231594885732069,
    "modelFirst": 0,
    "baselineFirst": 0
   }
@@ -1372,6 +1442,13 @@
    "baseline": 0.8495341503925563,
    "modelFirst": 0,
    "baselineFirst": 2
+  },
+  "speedTiered": {
+   "races": 6,
+   "model": 0.8500885107190004,
+   "baseline": 0.6057561550112336,
+   "modelFirst": 0,
+   "baselineFirst": 3
   }
  },
  "holdoutClose": {
@@ -1497,6 +1574,13 @@
    "baseline": 0.8519355071460979,
    "modelFirst": 0,
    "baselineFirst": 4
+  },
+  "speedTiered": {
+   "races": 16,
+   "model": 0.8719621525994259,
+   "baseline": 0.7764192899803228,
+   "modelFirst": 0,
+   "baselineFirst": 6
   }
  }
 }

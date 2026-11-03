@@ -10,6 +10,7 @@ ALPHA = 0.2
 EPS = 1e-3
 CHANCE = 0.995
 COUNTED = 0.5
+TIERED = ((CHANCE, COUNTED), (0.99999, 0.2))
 STAGES = ((0, 0.5), (0.5, 0.8), (0.8, 0.95), (0.95, 9))
 DRAWS = 2000
 SEED = 20261103
@@ -26,6 +27,8 @@ GROUPS = {
     "holdout2022": lambda row: row["race"].startswith("holdout/2022-"),
     "holdout2024": lambda row: row["race"].startswith("holdout/2024-"),
     "holdoutClose": lambda row: row["set"] == "holdout" and abs(row["truth"]) < 0.1,
+    "2026": lambda row: row["set"] == "2026",
+    "2026late": lambda row: row["set"] == "2026" and row["minutes"] >= 1440,
 }
 
 
@@ -90,7 +93,12 @@ def intervals(rows: list[dict]) -> dict[str, list[float]]:
     return out
 
 
-def calls(rows: list[dict], chance: float = CHANCE) -> dict:
+def ready(row: dict, rule: tuple[tuple[float, float], ...]) -> bool:
+    p = row["pD"]
+    return any(min(row["sin"], 1) >= counted and max(p, 1 - p) >= chance for chance, counted in rule)
+
+
+def calls(rows: list[dict], chance: float = CHANCE, rule: tuple[tuple[float, float], ...] | None = None) -> dict:
     races: dict[str, list[dict]] = defaultdict(list)
     for row in rows:
         races[row["race"]].append(row)
@@ -107,7 +115,7 @@ def calls(rows: list[dict], chance: float = CHANCE) -> dict:
             side = leads
         for row in race:
             p = row["pD"]
-            if min(row["sin"], 1) >= COUNTED and max(p, 1 - p) >= chance:
+            if ready(row, rule or ((chance, COUNTED),)):
                 called += 1
                 shares.append(row["share"])
                 if (p >= 0.5) != won:
@@ -148,6 +156,7 @@ def report(rows: list[dict]) -> dict:
         | {
             "ece": sum(count * abs(p - o) for p, o, count in table) / max(n, 1),
             "calls99": calls(rows, 0.99),
+            "tiered": calls(rows, rule=TIERED),
             "intervals": intervals(rows),
             "reliability": table,
             "stages": {
@@ -177,6 +186,6 @@ def show(results: dict[str, dict]) -> None:
 if __name__ == "__main__":
     source = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "outputs/estimates.jsonl"
     rows = load(source)
-    results = {name: report([row for row in rows if keep(row)]) for name, keep in GROUPS.items()}
+    results = {name: report(found) for name, keep in GROUPS.items() if (found := [row for row in rows if keep(row)])}
     show(results)
     source.with_name("scores.json").write_text(json.dumps(results, indent=1) + "\n")

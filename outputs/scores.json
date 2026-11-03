@@ -22,6 +22,13 @@
    "callShare": 0.9754322604959484,
    "flips": 0.75
   },
+  "tiered": {
+   "races": 4,
+   "called": 3,
+   "falseCalls": 0,
+   "callShare": 0.9784770141717319,
+   "flips": 0.75
+  },
   "intervals": {
    "brier": [
     0.004982156430636289,
@@ -143,6 +150,13 @@
   "flips": 0.5,
   "ece": 0.16284479158916904,
   "calls99": {
+   "races": 8,
+   "called": 4,
+   "falseCalls": 0,
+   "callShare": 0.9756141159146011,
+   "flips": 0.5
+  },
+  "tiered": {
    "races": 8,
    "called": 4,
    "falseCalls": 0,
@@ -291,6 +305,13 @@
    "callShare": 0.9755361778780357,
    "flips": 0.5833333333333334
   },
+  "tiered": {
+   "races": 12,
+   "called": 7,
+   "falseCalls": 0,
+   "callShare": 0.9768410723105143,
+   "flips": 0.5833333333333334
+  },
   "intervals": {
    "brier": [
     0.04535205867071454,
@@ -431,6 +452,13 @@
    "called": 135,
    "falseCalls": 0,
    "callShare": 0.562962962962963,
+   "flips": 0.125
+  },
+  "tiered": {
+   "races": 144,
+   "called": 134,
+   "falseCalls": 0,
+   "callShare": 0.3914179104477612,
    "flips": 0.125
   },
   "intervals": {
@@ -575,6 +603,13 @@
    "callShare": 0.5549180327868852,
    "flips": 0.2132132132132132
   },
+  "tiered": {
+   "races": 333,
+   "called": 302,
+   "falseCalls": 0,
+   "callShare": 0.3745033112582781,
+   "flips": 0.2132132132132132
+  },
   "intervals": {
    "brier": [
     0.016063510665025874,
@@ -715,6 +750,13 @@
    "called": 440,
    "falseCalls": 0,
    "callShare": 0.5573863636363636,
+   "flips": 0.18658280922431866
+  },
+  "tiered": {
+   "races": 477,
+   "called": 436,
+   "falseCalls": 0,
+   "callShare": 0.37970183486238535,
    "flips": 0.18658280922431866
   },
   "intervals": {
@@ -859,6 +901,13 @@
    "callShare": 0.6291666666666667,
    "flips": 0.5816993464052288
   },
+  "tiered": {
+   "races": 153,
+   "called": 116,
+   "falseCalls": 0,
+   "callShare": 0.6224137931034484,
+   "flips": 0.5816993464052288
+  },
   "intervals": {
    "brier": [
     0.04932942233570408,
@@ -999,6 +1048,13 @@
    "called": 67,
    "falseCalls": 0,
    "callShare": 0.8655817004418204,
+   "flips": 0.0547945205479452
+  },
+  "tiered": {
+   "races": 73,
+   "called": 66,
+   "falseCalls": 0,
+   "callShare": 0.8303352736310202,
    "flips": 0.0547945205479452
   },
   "intervals": {
@@ -1143,6 +1199,13 @@
    "callShare": 0.860579250523117,
    "flips": 0.057692307692307696
   },
+  "tiered": {
+   "races": 52,
+   "called": 50,
+   "falseCalls": 0,
+   "callShare": 0.8294000421920253,
+   "flips": 0.057692307692307696
+  },
   "intervals": {
    "brier": [
     0.0021226403026334516,
@@ -1280,6 +1343,13 @@
    "callShare": 0.8861276225073252,
    "flips": 0.0
   },
+  "tiered": {
+   "races": 10,
+   "called": 10,
+   "falseCalls": 0,
+   "callShare": 0.8231594885732069,
+   "flips": 0.0
+  },
   "intervals": {
    "brier": [
     4.171701728788353e-25,
@@ -1390,6 +1460,13 @@
    "called": 7,
    "falseCalls": 0,
    "callShare": 0.8719621683389797,
+   "flips": 0.09090909090909091
+  },
+  "tiered": {
+   "races": 11,
+   "called": 6,
+   "falseCalls": 0,
+   "callShare": 0.8500885107190004,
    "flips": 0.09090909090909091
   },
   "intervals": {
@@ -1522,6 +1599,13 @@
    "called": 21,
    "falseCalls": 0,
    "callShare": 0.888115228163383,
+   "flips": 0.14814814814814814
+  },
+  "tiered": {
+   "races": 27,
+   "called": 20,
+   "falseCalls": 0,
+   "callShare": 0.894363844666073,
    "flips": 0.14814814814814814
   },
   "intervals": {

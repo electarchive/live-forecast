@@ -11,6 +11,7 @@ This repository holds the paper, outputs, and code behind the backtest of the li
 | Path | Contents |
 |---|---|
 | `paper.md` | The paper |
+| `preregistration-2026.md` | How we will score the count of the November 3, 2026 elections, fixed before the polls closed |
 | `outputs/estimates.jsonl` | The model's estimate at every checkpoint of every replayed race (9,603 rows) |
 | `outputs/scores.json` | The scores in the paper, written by `harness/score.py` |
 | `outputs/ablations.json` | The ablation results in section 6 of the paper |
@@ -117,7 +118,7 @@ We ran the ablations in section 6 of the paper with a research copy of the model
 
 ## November 3, 2026
 
-We are recording the count of the November 3, 2026 elections and the model's estimates at every update. Once the results are final, we will add them here with the model's scores. They will be the first test on races held after the model was built.
+We are recording the count of the November 3, 2026 elections and the model's estimates at every update. Once the results are final, we will add them here with the model's scores. They will be the first test on races held after the model was built. Before the polls closed, we committed [preregistration-2026.md](preregistration-2026.md), which sets out which races we will score, how we will score them, what counts as a success, and what we already knew.
 
 ## License
 
