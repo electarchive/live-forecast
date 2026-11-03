@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='560' height='312' viewBox='0 0 560 312'>
+<rect width='560' height='312' fill='#ffffff'/>
+<text x='16.0' y='24.0' font-size='15' text-anchor='start' fill='#1f2328' font-weight='600' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>Log loss as the count goes on</text>
+<text x='110.0' y='68.0' font-size='12' text-anchor='end' fill='#1f2328' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>Under 50%</text>
+<rect x='120' y='52' width='320.0' height='14' fill='#0969da'/>
+<text x='446.0' y='63.0' font-size='11' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>2.054 (2 checkpoints)</text>
+<rect x='120' y='70' width='14.6' height='14' fill='#8c959f'/>
+<text x='140.6' y='81.0' font-size='11' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>0.094 (3,075 checkpoints)</text>
+<text x='110.0' y='120.0' font-size='12' text-anchor='end' fill='#1f2328' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>50 to 80%</text>
+<rect x='120' y='104' width='129.9' height='14' fill='#0969da'/>
+<text x='255.9' y='115.0' font-size='11' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>0.834 (23 checkpoints)</text>
+<rect x='120' y='122' width='9.3' height='14' fill='#8c959f'/>
+<text x='135.3' y='133.0' font-size='11' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>0.059 (2,855 checkpoints)</text>
+<text x='110.0' y='172.0' font-size='12' text-anchor='end' fill='#1f2328' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>80 to 95%</text>
+<rect x='120' y='156' width='103.2' height='14' fill='#0969da'/>
+<text x='229.2' y='167.0' font-size='11' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>0.663 (41 checkpoints)</text>
+<rect x='120' y='174' width='5.0' height='14' fill='#8c959f'/>
+<text x='131.0' y='185.0' font-size='11' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>0.032 (1,331 checkpoints)</text>
+<text x='110.0' y='224.0' font-size='12' text-anchor='end' fill='#1f2328' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>95% or more</text>
+<rect x='120' y='208' width='11.0' height='14' fill='#0969da'/>
+<text x='137.0' y='219.0' font-size='11' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>0.071 (189 checkpoints)</text>
+<rect x='120' y='226' width='2.4' height='14' fill='#8c959f'/>
+<text x='128.4' y='237.0' font-size='11' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>0.016 (362 checkpoints)</text>
+<rect x='120' y='266' width='12' height='12' fill='#0969da'/>
+<text x='138.0' y='276.0' font-size='12' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>Real nights, 2020 and 2022</text>
+<rect x='320' y='266' width='12' height='12' fill='#8c959f'/>
+<text x='338.0' y='276.0' font-size='12' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>Simulated nights</text>
+<text x='16.0' y='300.0' font-size='11' text-anchor='start' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>Log loss by share of the final vote counted; lower is better</text>
+</svg>

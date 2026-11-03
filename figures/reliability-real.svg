@@ -1,0 +1,37 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='440' height='472' viewBox='0 0 440 472'>
+<rect width='440' height='472' fill='#ffffff'/>
+<text x='56.0' y='24.0' font-size='15' text-anchor='start' fill='#1f2328' font-weight='600' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>Real nights: 2020 and 2022</text>
+<line x1='56.0' y1='48' x2='56.0' y2='408' stroke='#d0d7de'/>
+<line x1='56' y1='408.0' x2='416' y2='408.0' stroke='#d0d7de'/>
+<text x='56.0' y='426.0' font-size='11' text-anchor='middle' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>0%</text>
+<text x='48.0' y='412.0' font-size='11' text-anchor='end' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>0%</text>
+<line x1='146.0' y1='48' x2='146.0' y2='408' stroke='#d0d7de'/>
+<line x1='56' y1='318.0' x2='416' y2='318.0' stroke='#d0d7de'/>
+<text x='146.0' y='426.0' font-size='11' text-anchor='middle' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>25%</text>
+<text x='48.0' y='322.0' font-size='11' text-anchor='end' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>25%</text>
+<line x1='236.0' y1='48' x2='236.0' y2='408' stroke='#d0d7de'/>
+<line x1='56' y1='228.0' x2='416' y2='228.0' stroke='#d0d7de'/>
+<text x='236.0' y='426.0' font-size='11' text-anchor='middle' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>50%</text>
+<text x='48.0' y='232.0' font-size='11' text-anchor='end' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>50%</text>
+<line x1='326.0' y1='48' x2='326.0' y2='408' stroke='#d0d7de'/>
+<line x1='56' y1='138.0' x2='416' y2='138.0' stroke='#d0d7de'/>
+<text x='326.0' y='426.0' font-size='11' text-anchor='middle' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>75%</text>
+<text x='48.0' y='142.0' font-size='11' text-anchor='end' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>75%</text>
+<line x1='416.0' y1='48' x2='416.0' y2='408' stroke='#d0d7de'/>
+<line x1='56' y1='48.0' x2='416' y2='48.0' stroke='#d0d7de'/>
+<text x='416.0' y='426.0' font-size='11' text-anchor='middle' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>100%</text>
+<text x='48.0' y='52.0' font-size='11' text-anchor='end' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>100%</text>
+<line x1='56' y1='408' x2='416' y2='48' stroke='#656d76' stroke-dasharray='4 4'/>
+<polyline points='56.0,408.0 73.1,336.0 110.2,198.0 172.3,70.5 286.3,48.0 350.1,48.0 392.9,48.0 415.7,52.6' fill='none' stroke='#0969da' stroke-width='1.5'/>
+<circle cx='56.0' cy='408.0' r='10.8' fill='#0969da' fill-opacity='0.85' stroke='#0969da' stroke-width='1.5'/>
+<circle cx='73.1' cy='336.0' r='6.2' fill='#0969da' fill-opacity='0.85' stroke='#0969da' stroke-width='1.5'/>
+<circle cx='110.2' cy='198.0' r='6.5' fill='#0969da' fill-opacity='0.85' stroke='#0969da' stroke-width='1.5'/>
+<circle cx='172.3' cy='70.5' r='7.1' fill='#0969da' fill-opacity='0.85' stroke='#0969da' stroke-width='1.5'/>
+<circle cx='286.3' cy='48.0' r='8.7' fill='#0969da' fill-opacity='0.85' stroke='#0969da' stroke-width='1.5'/>
+<circle cx='350.1' cy='48.0' r='7.9' fill='#0969da' fill-opacity='0.85' stroke='#0969da' stroke-width='1.5'/>
+<circle cx='392.9' cy='48.0' r='8.0' fill='#0969da' fill-opacity='0.85' stroke='#0969da' stroke-width='1.5'/>
+<circle cx='415.7' cy='52.6' r='12.0' fill='#0969da' fill-opacity='0.85' stroke='#0969da' stroke-width='1.5'/>
+<text x='236.0' y='446.0' font-size='12' text-anchor='middle' fill='#1f2328' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>Stated chance that the Democrat wins</text>
+<g transform='translate(16 228.0) rotate(-90)'><text x='0.0' y='0.0' font-size='12' text-anchor='middle' fill='#1f2328' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>Share of checkpoints the Democrat won</text></g>
+<text x='416.0' y='464.0' font-size='11' text-anchor='end' fill='#656d76' font-weight='normal' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif'>Circle area shows checkpoints</text>
+</svg>

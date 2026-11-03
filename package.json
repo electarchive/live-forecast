@@ -1,0 +1,6 @@
+{
+  "name": "live-forecast",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" }
+}

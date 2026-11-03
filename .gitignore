@@ -1,0 +1,7 @@
+frames/raw/
+frames/2020.json
+frames/2022.json
+inputs/counties.json
+outputs/*.*.jsonl
+__pycache__/
+inputs/sources/

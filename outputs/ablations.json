@@ -1,0 +1,201 @@
+{
+ "sample": "The 12 real races from 2020 and 2022, and a fixed half of the simulated races (240 of 477), with the same simulated counting orders and random draws for every variant.",
+ "variants": [
+  {
+   "variant": "final",
+   "label": "The model as it runs",
+   "real": {
+    "checkpoints": 255,
+    "races": 12,
+    "brier": 0.0801,
+    "log": 0.2503,
+    "wis": 0.7525,
+    "cover80": 0.698,
+    "mae": 1.1744,
+    "wrong95": 2,
+    "falseCalls": 0,
+    "flips": 0.5833
+   },
+   "simulated": {
+    "checkpoints": 3819,
+    "races": 240,
+    "brier": 0.0194,
+    "log": 0.0601,
+    "wis": 1.0711,
+    "cover80": 0.8675,
+    "mae": 1.5483,
+    "wrong95": 0,
+    "falseCalls": 0,
+    "flips": 0.1875
+   }
+  },
+  {
+   "variant": "a2_novol",
+   "label": "Without the vote-mode term",
+   "real": {
+    "checkpoints": 255,
+    "races": 12,
+    "brier": 0.0939,
+    "log": 0.3911,
+    "wis": 0.878,
+    "cover80": 0.5059,
+    "mae": 1.1981,
+    "wrong95": 11,
+    "falseCalls": 1,
+    "flips": 0.5833
+   },
+   "simulated": {
+    "checkpoints": 3819,
+    "races": 240,
+    "brier": 0.0186,
+    "log": 0.0569,
+    "wis": 1.0303,
+    "cover80": 0.8539,
+    "mae": 1.5438,
+    "wrong95": 0,
+    "falseCalls": 0,
+    "flips": 0.1875
+   }
+  },
+  {
+   "variant": "a2_mc",
+   "label": "Chance from the share of simulations won, not averaged",
+   "real": {
+    "checkpoints": 255,
+    "races": 12,
+    "brier": 0.0821,
+    "log": 0.2569,
+    "wis": 0.7525,
+    "cover80": 0.698,
+    "mae": 1.1744,
+    "wrong95": 1,
+    "falseCalls": 0,
+    "flips": 0.75
+   },
+   "simulated": {
+    "checkpoints": 3819,
+    "races": 240,
+    "brier": 0.0194,
+    "log": 0.0601,
+    "wis": 1.0711,
+    "cover80": 0.8675,
+    "mae": 1.5483,
+    "wrong95": 0,
+    "falseCalls": 0,
+    "flips": 0.2
+   }
+  },
+  {
+   "variant": "a2_fixed",
+   "label": "Vote-mode term fixed at 0.1 for every county",
+   "real": {
+    "checkpoints": 255,
+    "races": 12,
+    "brier": 0.0905,
+    "log": 0.3132,
+    "wis": 0.8246,
+    "cover80": 0.5725,
+    "mae": 1.1908,
+    "wrong95": 7,
+    "falseCalls": 1,
+    "flips": 0.5833
+   },
+   "simulated": {
+    "checkpoints": 3819,
+    "races": 240,
+    "brier": 0.0231,
+    "log": 0.0818,
+    "wis": 1.3682,
+    "cover80": 0.9623,
+    "mae": 1.5563,
+    "wrong95": 0,
+    "falseCalls": 0,
+    "flips": 0.1875
+   }
+  },
+  {
+   "variant": "a2_nocalm",
+   "label": "Vote-mode term without the calm threshold",
+   "real": {
+    "checkpoints": 255,
+    "races": 12,
+    "brier": 0.0793,
+    "log": 0.2419,
+    "wis": 0.7531,
+    "cover80": 0.7412,
+    "mae": 1.1712,
+    "wrong95": 0,
+    "falseCalls": 0,
+    "flips": 0.5833
+   },
+   "simulated": {
+    "checkpoints": 3819,
+    "races": 240,
+    "brier": 0.0229,
+    "log": 0.0798,
+    "wis": 1.3827,
+    "cover80": 0.9573,
+    "mae": 1.5606,
+    "wrong95": 0,
+    "falseCalls": 0,
+    "flips": 0.1875
+   }
+  },
+  {
+   "variant": "a2_s06",
+   "label": "Vote-mode term scaled by 0.6",
+   "real": {
+    "checkpoints": 255,
+    "races": 12,
+    "brier": 0.0828,
+    "log": 0.2586,
+    "wis": 0.7625,
+    "cover80": 0.651,
+    "mae": 1.1822,
+    "wrong95": 3,
+    "falseCalls": 0,
+    "flips": 0.5833
+   },
+   "simulated": {
+    "checkpoints": 3819,
+    "races": 240,
+    "brier": 0.0191,
+    "log": 0.0587,
+    "wis": 1.0494,
+    "cover80": 0.8651,
+    "mae": 1.5463,
+    "wrong95": 0,
+    "falseCalls": 0,
+    "flips": 0.1875
+   }
+  },
+  {
+   "variant": "a2_s12",
+   "label": "Vote-mode term scaled by 1.2",
+   "real": {
+    "checkpoints": 255,
+    "races": 12,
+    "brier": 0.0798,
+    "log": 0.2511,
+    "wis": 0.7597,
+    "cover80": 0.7765,
+    "mae": 1.1691,
+    "wrong95": 1,
+    "falseCalls": 0,
+    "flips": 0.5833
+   },
+   "simulated": {
+    "checkpoints": 3819,
+    "races": 240,
+    "brier": 0.0198,
+    "log": 0.0615,
+    "wis": 1.0947,
+    "cover80": 0.8699,
+    "mae": 1.5496,
+    "wrong95": 0,
+    "falseCalls": 0,
+    "flips": 0.1875
+   }
+  }
+ ]
+}
