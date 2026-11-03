@@ -14,10 +14,12 @@ This repository holds the paper, outputs, and code behind the backtest of the li
 | `outputs/estimates.jsonl` | The model's estimate at every checkpoint of every replayed race (8,620 rows) |
 | `outputs/scores.json` | The scores in the paper, written by `harness/score.py` |
 | `outputs/ablations.json` | The ablation results in section 6 of the paper |
+| `outputs/baseline-narrow.jsonl`, `outputs/baseline-wide.jsonl` | The estimates of the two versions of the regression nowcast in section 7 of the paper, in the same format as `outputs/estimates.jsonl` (8,502 rows each) |
+| `outputs/comparison-narrow.json`, `outputs/comparison-wide.json` | The comparison in section 7 of the paper, written by `harness/compare.py` |
 | `figures/` | The paper's figures, drawn by `harness/figures.py` |
 | `frames/manifest.json` | Every Internet Archive capture of The New York Times results pages used for the real nights, with its address and SHA-256 checksum |
 | `inputs/covariates.json` | County demographic shares, built from public Census Bureau and USDA Economic Research Service files |
-| `harness/` | The scripts that download the captures, rebuild the counts, replay the races through the model, and score them |
+| `harness/` | The scripts that download the captures, rebuild the counts, replay the races, and score them, along with `baseline.ts`, the regression nowcast from section 7 of the paper |
 
 Each line of `outputs/estimates.jsonl` is one checkpoint:
 
@@ -46,7 +48,11 @@ python3 harness/score.py
 python3 harness/figures.py
 ```
 
-`score.py` reads `outputs/estimates.jsonl`, prints the scores, and writes `outputs/scores.json`. `figures.py` redraws the figures in `figures/` from `outputs/scores.json`.
+```bash
+python3 harness/compare.py
+```
+
+`score.py` reads `outputs/estimates.jsonl`, prints the scores, and writes `outputs/scores.json`. `figures.py` redraws the figures in `figures/` from `outputs/scores.json`. `compare.py` scores the model and both versions of the regression nowcast on the checkpoints where both the model and the nowcast gave an estimate, prints the scores, and writes `outputs/comparison-narrow.json` and `outputs/comparison-wide.json`.
 
 ## Replaying the races
 
@@ -81,12 +87,25 @@ Replaying the races needs Node.js 24 or later, the main repository at the pinned
    node harness/replay.ts
    ```
 
+6. Replay every race through both versions of the regression nowcast. This writes `outputs/baseline-narrow.jsonl` and `outputs/baseline-wide.jsonl`.
+
+   ```bash
+   MODEL=harness/baseline.ts node harness/replay.ts name=baseline-narrow
+   ```
+
+   ```bash
+   MODEL=harness/baseline.ts BASELINE=wide node harness/replay.ts name=baseline-wide
+   ```
+
 `replay.ts` takes these options:
 
 - `MAIN=<path>` (an environment variable) points to the main repository, if it is not at `../electionsarchive`.
 - `sets=2020,2022,simulated` picks which nights to replay.
 - `part=k/n` replays every nth race, starting at race k, and writes `outputs/estimates.k.jsonl`, so you can run n parts at once and join them with `cat`.
 - `out=<folder>` writes the output somewhere other than `outputs/`.
+- `name=<name>` names the output file `<name>.jsonl`, or `<name>.k.jsonl` with `part`, instead of `estimates`.
+- `MODEL=<path>` (an environment variable) replays a different model file that exports the same `estimate` function, such as `harness/baseline.ts`.
+- `BASELINE=wide` (an environment variable) switches `harness/baseline.ts` to its wide version.
 
 To rebuild `inputs/covariates.json`, put these files in `inputs/sources/` and run `python3 harness/covariates.py`:
 

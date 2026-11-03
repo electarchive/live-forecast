@@ -33,11 +33,12 @@ type Live = { estimate: (input: { race: Race; at: string | null }) => Estimate }
 
 const root = resolve(import.meta.dirname, "..");
 const main = resolve(process.env.MAIN ?? resolve(root, "../electionsarchive"));
-const live = (await import(resolve(main, "packages/analytics/src/live.ts"))) as Live;
+const live = (await import(resolve(process.env.MODEL ?? resolve(main, "packages/analytics/src/live.ts")))) as Live;
 const args = new Map(process.argv.slice(2).map((arg) => arg.split("=") as [string, string]));
 const sets = (args.get("sets") ?? "2020,2022,simulated").split(",");
 const [part, parts] = (args.get("part") ?? "0/1").split("/").map(Number) as [number, number];
 const out = resolve(args.get("out") ?? resolve(root, "outputs"));
+const name = args.get("name") ?? "estimates";
 const LATE: Record<string, number> = {
   ak: 0.4,
   az: 0.3,
@@ -437,4 +438,4 @@ for (const set of sets) {
   if (set === "simulated") simulated();
 }
 mkdirSync(out, { recursive: true });
-writeFileSync(resolve(out, parts > 1 ? `estimates.${part}.jsonl` : "estimates.jsonl"), rows.length > 0 ? `${rows.join("\n")}\n` : "");
+writeFileSync(resolve(out, parts > 1 ? `${name}.${part}.jsonl` : `${name}.jsonl`), rows.length > 0 ? `${rows.join("\n")}\n` : "");

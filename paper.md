@@ -17,6 +17,8 @@ The real nights are the 2020 presidential count in Florida, Georgia, North Carol
 
 Ablations show that the vote-mode term does most of the work on real nights. Without it, real-night log loss rises from 0.250 to 0.391, and the number of checkpoints that gave the eventual loser 95% or more rises from 2 to 11.
 
+We also compared the model with a regression nowcast of the kind the academic literature on election-night forecasting describes, replayed on the same nights (section 7). On real nights, its middle estimates are about as accurate as the model's, but its ranges are far too narrow. It gave the eventual loser 95% or more at 61 or 62 of the 255 real checkpoints, against the model's 2, and it called the 2020 presidential race in Georgia and in Pennsylvania for the candidate who lost. Its real-night log loss is 1.64 to 1.68, against the model's 0.25. On the 2022 races alone, its Brier score is slightly better than the model's.
+
 We tuned the model's settings on these same nights, so these scores are in-sample. The count of the November 3, 2026 elections is the first out-of-sample test. We will add it here once the results are final.
 
 ## 1. The model
@@ -89,6 +91,8 @@ This has the same expectation as the share of simulations that candidate A wins,
 ### 4.1 Simulated nights
 
 The simulated nights start from every certified statewide race for president, Senate, and governor from 2012 to 2024 in which both major parties won at least 20% of the vote, in a state with at least 3 counties. Alaska, the District of Columbia, and Puerto Rico are left out. That leaves 477 races. A generator splits each county's final result into Election Day, early in-person, and mail votes, with shares and margin gaps drawn by year (larger gaps in 2020, smaller before). It releases those votes in county batches in one of three orders (mail first, Election Day first, or mixed), and holds back a late count sized by state. The generator is in `harness/replay.ts`. Checkpoints fall at 3%, 10%, 20%, and every 5 points from 25% to 95% of the final vote: 7,623 in all, counting only checkpoints where the model gave an estimate.
+
+Four of these races don't replay correctly: Connecticut's 2022 races for governor and Senate, and its 2024 races for president and Senate. Their results are by the planning regions that replaced Connecticut's counties in 2022, while their baseline, the 2020 presidential race, is by county, and the replay can't match the two. In those races, the model expects both the old counties and the new regions to vote, so it projects about twice the real turnout and calls none of them. We left them in the scores in section 5. Without them, the simulated turnout error is 4.4% instead of 5.2%, the model called 436 of 473 races, and the Brier score, log loss, and 80% range coverage barely change. The live forecast uses the 2024 presidential results as the baseline for Connecticut, and those are by planning region, so it doesn't have this problem.
 
 The simulated nights test the model against the generator's assumptions, not against real counting.
 
@@ -186,20 +190,83 @@ What the ablations show:
 
 We also tried, and dropped, Student-t shared shocks with 4 degrees of freedom, a stretch of the 80% range, smoothing the chance across checkpoints, and a fixed floor on the vote-mode shock. None improved on the model in replays.
 
-## 7. Limitations
+## 7. Comparison with a regression nowcast
 
-- **The scores are in-sample.** We chose the vote-mode settings (the scale, the calm level, the prior, and its weight) by searching over these same real and simulated nights. The November 3, 2026 count is the first test on data the settings never saw.
+The usual approach in the academic literature on election-night forecasting is regression: fit the swing in the areas that have reported against their results in an earlier election, and use the fit to project the areas still out. Brown and Payne (1975) describe the forecast they built this way for the BBC's coverage of the 1974 British general elections. We wrote a version of this approach for county counts, `harness/baseline.ts`, and replayed it through the same harness on the same nights.
+
+### 7.1 The regression nowcast
+
+At each checkpoint, the regression nowcast fits a line by weighted least squares through the counties that have reported any votes. The outcome is each county's counted margin, the predictor is its margin in the earlier election, and the weights are the counted votes. When the reporting counties' earlier margins are too alike to fit a slope, it applies the average swing instead (a slope of 1). Counties with no votes yet get the fitted margin. In counties that have partly reported, the votes still out get the county's counted margin.
+
+The forecast of the final margin is normally distributed. Its variance adds three parts: the scatter of counties around the line, for counties with no votes yet; the uncertainty in the fitted line itself; and a term for the votes still out in partly reported counties. We ran two versions that differ only in that last term:
+
+- **Narrow:** the votes still out are treated as a random sample of the county's voters, so the term is binomial sampling variance.
+- **Wide:** the votes still out get the same scatter as a county with no votes yet.
+
+The two versions give the same middle estimate and the same turnout forecast.
+
+The chance of winning is the normal probability that the final margin is above zero. Neither version shows an estimate until 3 counties have reported. The turnout forecast is the expected total, with no range, so we don't compare turnout coverage.
+
+Brown and Payne used a modified ridge regression and split constituencies into types. Ours is plain weighted least squares on counties.
+
+### 7.2 Results
+
+We score both versions and the model on the checkpoints where both the model and the regression nowcast gave an estimate: 7,559 checkpoints in 473 simulated races, and all 255 real checkpoints. The regression nowcast gives no estimate in the four Connecticut races described in section 4.1, so the model's simulated scores here differ from section 5. `harness/compare.py` computes the scores and puts 90% intervals on the paired differences by resampling races, as in section 4.3. It writes `outputs/comparison-narrow.json` and `outputs/comparison-wide.json`.
+
+| Measure | Simulated: model | Simulated: regression, narrow | Simulated: regression, wide | Real: model | Real: regression, narrow | Real: regression, wide |
+|---|---|---|---|---|---|---|
+| Brier score | 0.021 | 0.072 | 0.065 | 0.080 | 0.243 | 0.242 |
+| Log loss | 0.067 | 0.470 | 0.343 | 0.250 | 1.680 | 1.637 |
+| Interval score | 1.02 | 3.26 | 2.81 | 0.75 | 1.21 | 1.10 |
+| 80% range coverage | 87% | 10% | 31% | 70% | 0.4% | 6% |
+| Error of the middle estimate | 1.47 | 3.50 | 3.50 | 1.17 | 1.22 | 1.22 |
+| Turnout error | 4.4% | 8.0% | 8.0% | 3.8% | 5.9% | 5.9% |
+| Confident misses | 1 | 511 | 353 | 2 | 62 | 61 |
+| Races called | 436 | 473 | 463 | 7 | 12 | 12 |
+| Wrong calls | 0 | 43 | 22 | 0 | 2 | 3 |
+| Mean share counted at call | 56% | 51% | 53% | 98% | 81% | 87% |
+| Expected calibration error | 0.012 | 0.070 | 0.059 | 0.136 | 0.243 | 0.246 |
+
+The differences below are the regression nowcast's score minus the model's, with 90% intervals. A positive difference means the model scored better.
+
+| Difference | Simulated, narrow | Simulated, wide | Real, narrow | Real, wide |
+|---|---|---|---|---|
+| Brier score | +0.051 (+0.037 to +0.065) | +0.044 (+0.031 to +0.057) | +0.163 (−0.020 to +0.268) | +0.162 (−0.021 to +0.268) |
+| Log loss | +0.40 (+0.30 to +0.51) | +0.28 (+0.20 to +0.36) | +1.43 (+0.13 to +2.21) | +1.39 (+0.06 to +2.17) |
+| Interval score | +2.24 (+2.05 to +2.44) | +1.79 (+1.61 to +1.97) | +0.46 (+0.14 to +0.66) | +0.34 (−0.02 to +0.56) |
+| Error of the middle estimate | +2.02 (+1.83 to +2.23) | +2.02 (+1.83 to +2.23) | +0.04 (−0.19 to +0.23) | +0.04 (−0.19 to +0.23) |
+
+On the simulated nights, the model scores better than both versions on every measure, and no interval on a difference includes zero.
+
+On the real nights, the middle estimates are about equally accurate: 1.17 points of error for the model and 1.22 for the regression nowcast, and the interval on the difference includes zero. The two differ in how much uncertainty they report. The regression nowcast's 80% range held the final margin at 0.4% (narrow) and 6% (wide) of real checkpoints, and it gave the eventual loser 95% or more at 62 and 61 of the 255. Its real-night log loss is more than six times the model's, and the intervals on both log loss differences exclude zero. The intervals on the Brier score differences include zero, but only just.
+
+Under the site's call rule, both versions called all 12 real races, and both called the 2020 presidential race in Pennsylvania and in Georgia for Trump: Pennsylvania at 66% of the vote counted and Georgia at 81%, each time giving Biden a chance under 0.1%. Biden won both. The wide version also called the 2022 Nevada Senate race for the Republican at 82% counted, and the Democrat won it. The model called 7 of the 12 real races, later in the count, and none wrong.
+
+A stricter threshold doesn't remove the regression nowcast's wrong calls, because it gave those calls near-certain chances. Raising its call threshold from 99.5% to 99.99999% still leaves 37 (narrow) or 16 (wide) wrong calls on the simulated nights and 2 on the real nights. At that threshold, the wide version calls 458 simulated races at a mean of 56% of the vote counted, 16 of them wrong. The model calls 436 at the same mean share counted, none wrong.
+
+The regression nowcast did better on the 2022 races. Its Brier score there is 0.089 (narrow) and 0.086 (wide), against the model's 0.113, though the intervals on those differences include zero. The narrow version called all 8 races correctly at a mean of 81% counted, while the model called 4, at 98%. In 2022, the votes counted late leaned one way less sharply than in 2020, so confident calls were right more often. On nights like that, the model gives up some speed to avoid errors like those of 2020.
+
+The regression nowcast fails in 2020 for the reason section 2 describes. It assumes that the votes still out in a county look like the votes already counted there, and that counties' departures from the fitted line are independent. When counties count Election Day votes first and mail votes later, both assumptions fail at once, in the same direction, everywhere. The model's vote-mode term measures that shared shift from the count itself.
+
+## 8. Limitations
+
+- **The scores are in-sample.** We chose the vote-mode settings (the scale, the calm level, the prior, and its weight) by searching over these same real and simulated nights. The November 3, 2026 count is the first test on data the settings never saw. The regression nowcast in section 7 has no settings to tune, so the comparison favors the model to whatever extent the tuning helped it.
 - **Twelve real races.** The intervals on real-night scores are wide. Most of the real-night signal comes from 2020, when the gap between mail and Election Day votes was unusually wide.
 - **Irregular captures.** The Internet Archive captured the results pages at irregular times, so the replays miss some updates and see others late.
 - **The simulated nights come from our own generator.** They test the model against assumptions we wrote, and a model that matches those assumptions scores well on them.
 - **Turnout.** The 80% range for turnout holds the final total far too rarely on real nights (32% in 2020 and 23% in 2022). It is the model's weakest part.
 - **Late counts.** In states that count many ballots after election night, the late-count allowance relies on each state's history.
 - **Vote types.** Most county feeds report only totals, so the model infers how late votes lean from the way counts move, not from batches labeled as mail or Election Day votes.
+- **One comparison model.** The regression nowcast in section 7 is our own version of one approach from the academic literature, adapted to US counties. Published systems add refinements, such as the ridge regression in Brown and Payne (1975), that we did not reproduce.
 
-## 8. Out-of-sample test
+## 9. Out-of-sample test
 
 We are recording the count of the November 3, 2026 elections as it comes in, along with the model's estimates at every update. Once the results are final, we will add those snapshots, the model's calls, and its scores here and on the [methodology page](https://electionsarchive.com/live/methodology).
 
 ## Reproducing these results
 
-See the [README](README.md). The scores in section 5 come from `outputs/estimates.jsonl` through `harness/score.py`, and the figures through `harness/figures.py`.
+See the [README](README.md). The scores in section 5 come from `outputs/estimates.jsonl` through `harness/score.py`, and the figures through `harness/figures.py`. The comparison in section 7 comes from `outputs/baseline-narrow.jsonl` and `outputs/baseline-wide.jsonl` through `harness/compare.py`.
+
+## References
+
+Brown, Philip J., and Clive D. Payne. 1975. "Election Night Forecasting." *Journal of the Royal Statistical Society, Series A* 138 (4): 463–483. https://doi.org/10.2307/2345211
